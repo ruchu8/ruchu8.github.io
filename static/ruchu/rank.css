@@ -1,0 +1,41 @@
+.commonTitle { line-height: 60px; }
+.commonTitle span { display: inline-block; width: 4px; height: 22px; background: #da0000; vertical-align: -5px; }
+.commonTitle div { display: inline-block; margin-left: 10px; font-size: 16px; font-weight: bold; }
+.commonContent { border-top: 2px solid #da0000; margin-top: 20px; background: #fff url(familyBg.jpg) no-repeat center bottom; -webkit-box-sizing: border-box; box-sizing: border-box; padding: 0 16px 30px; }
+.filterNew { background: #fff; padding: 28px 20px 14px; font-size: 0; margin-top: 20px; }
+.filterNew > * { float: left; }
+.filterNew > span { font-size: 20px; font-weight: bold; margin-right: 20px; }
+.filterNew > div { width: 1100px; }
+.filterNew > div a { padding: 0 24px; line-height: 30px; border-radius: 4px; font-size: 16px; color: #808080; display: inline-block; margin-right: 20px; margin-bottom: 14px; background: #F5F5F5; }
+.filterNew > div a.active { color: #fff;background: #ff5837; cursor: pointer; }
+.filterNew > div a:hover { color: #fff; background: #ff5837; cursor: pointer; }
+.filterNew .advpk { height: 120px; margin-top: -34px; }
+
+.listContainer > div { display: none; }
+.listContainer > div:first-child { display: block; }
+.advRankList { margin-bottom: 20px; }
+.advRankList .title { line-height:50px;font-size: 16px;background:#0558ad; color: #fff; padding-left:15px}
+.advRankList .advListTable { background: #fff; }
+.advRankList .advListTable .table3 .th { font-weight:bold;#FFFF00;}
+.advRankList .advListTable .table3 .td { font-size: 15px; color: #333;}
+.advRankList .advListTable .table3 .td.yellow { background:#ffffcf;}
+.advRankList .advListTable .table3 .td.yellow:hover { background:#FFF;}
+.advRankList .advListTable .table3 .td.purple { background: #fdbfff; }
+.advRankList .advListTable .table3 td { text-align: center; border: 1px solid #dddddd; border-top: none; border-left: none; line-height: normal; height: 40px; }
+.advRankList .advListTable .table3 td:first-child { width: 100px; }
+.advRankList .advListTable .table3 td:first-child .first { line-height: 28px; display: inline-block; width: 26px; height: 28px; background: url(rankBg1-1.png) no-repeat center center; }
+.advRankList .advListTable .table3 td:first-child .second { line-height: 28px; display: inline-block; width: 26px; height: 28px; background: url(rankBg2-1.png) no-repeat center center; }
+.advRankList .advListTable .table3 td:first-child .third { line-height: 28px; display: inline-block; width: 26px; height: 28px; background: url(rankBg3-1.png) no-repeat center center; }
+.advRankList .advListTable .table3 td:first-child .four { line-height: 28px; display: inline-block; width: 26px; height: 28px; background: url(rankBg4.png) no-repeat center center; }
+.advRankList .advListTable .table3 td:nth-child(2), .advRankList .advListTable .table3 td:nth-child(3) { width: 160px; }
+.advRankList .advListTable .table3 td:nth-child(4) { width: 140px; }
+.advRankList .advListTable .table3 td:nth-child(5) { }
+.advRankList .advListTable .table3 td:nth-child(6) { width: 132px; }
+.advRankList .advListTable .table3 td:nth-child(7) { width: 100px; }
+.advRankList .advListTable .table3 td:last-child { width: 102px; }
+
+.siterankbox{ width:1300px; overflow:hidden; margin-bottom:10px; }
+
+.siterankbox li{ list-style:none; width:150px; float:left;  margin-left:41.6px; text-align:center; line-height:150%; padding:10px 0; background-color:#007aff; color:#FFFFFF; font-size:16px; font-family:"яе╨з";  }
+.siterankbox li:first-child{ margin-left:200px; }
+.siterankbox li.chked{ background-color:#FF5837; color:#FFFF00; border-radius:10px; }
