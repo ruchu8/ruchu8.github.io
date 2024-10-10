@@ -1,0 +1,1553 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>传奇封魔谷地图_封魔谷怎么走图解_176传奇地图大全_盛大传奇封魔谷地图</title>
+<meta name="keywords" content="传奇封魔谷地图，封魔谷怎么走图解，176传奇地图大全，盛大传奇封魔谷地图" />
+<meta name="description" content="传奇封魔谷地图，封魔谷怎么走图解，176传奇地图大全，盛大传奇封魔谷地图" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<link rel="stylesheet" href="https://cdn.bootcdn.net/ajax/libs/twitter-bootstrap/4.5.2/css/bootstrap.min.css"> 
+<link rel="stylesheet" href="https://wcq.us.kg/static/ruchu/mir.css">
+<style>
+  .dropdown-submenu .dropdown-menu {
+    top: 0;
+    left: 100%; /* 使子菜单向右弹出 */
+    margin-top: -6px; /* 微调位置 */
+  }
+</style>
+</head>
+<body>
+	<nav id="fpb-c28" class="navbar navbar-expand-md sticky-top"><a id="fpb-c28" class="navbar-brand" href="http://ruchu888.ysepan.com/">传奇补丁</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown">系统</a>
+                <ul class="dropdown-menu">
+                    <li class="dropdown-submenu">
+                        <a class="dropdown-item dropdown-toggle" href="#">属性表</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="content_6.htm">战士属性表</a></li>
+                            <li><a class="dropdown-item" href="content_7.htm">法师属性表</a></li>
+                            <li><a class="dropdown-item" href="content_8.htm">道士属性表</a></li>
+                        </ul>
+                    </li>
+                    <li><a class="dropdown-item" href="content.htm">界面</a></li>
+                    <li><a class="dropdown-item" href="content_2.htm">热键</a></li>
+                    <li><a class="dropdown-item" href="content_3.htm">命令</a></li>
+                    <li><a class="dropdown-item" href="content_5.htm">属性中英对照</a></li>
+                    <li><a class="dropdown-item" href="content_4.htm">经验列表</a></li>
+                </ul>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown">地图</a>
+                <ul class="dropdown-menu">
+                    <li class="dropdown-submenu">
+                        <a class="dropdown-item dropdown-toggle" href="#">比奇地区</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="Map.htm">比奇省</a></li>
+                            <li><a class="dropdown-item" href="MapList.htm">兽人古墓</a></li>
+                            <li><a class="dropdown-item" href="MapList_2.htm">天然洞穴</a></li>
+                            <li><a class="dropdown-item" href="MapList_3.htm">比奇矿区</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown-submenu">
+                        <a class="dropdown-item dropdown-toggle" href="#">沃玛地区</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="Map_2.htm">沃玛森林</a></li>
+                            <li><a class="dropdown-item" href="MapList_4.htm">沃玛自然洞穴</a></li>
+                            <li><a class="dropdown-item" href="MapList_5.htm">沃玛寺庙</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown-submenu">
+                        <a class="dropdown-item dropdown-toggle" href="#">毒蛇地区</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="Map_3.htm">毒蛇山谷</a></li>
+                            <li><a class="dropdown-item" href="MapList_6.htm">毒蛇矿区</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown-submenu">
+                        <a class="dropdown-item dropdown-toggle" href="#">盟重地区</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="Map_4.htm">盟重省</a></li>
+                            <li><a class="dropdown-item" href="MapList_7.htm">蜈蚣洞</a></li>
+                            <li><a class="dropdown-item" href="MapList_8.htm">未知暗殿</a></li>
+                            <li><a class="dropdown-item" href="MapList_9.htm">石墓</a></li>
+                            <li><a class="dropdown-item" href="MapList_10.htm">香石古墓</a></li>
+                            <li><a class="dropdown-item" href="MapList_11.htm">祖玛寺庙</a></li>
+                            <li><a class="dropdown-item" href="Map_5.htm">沙巴克密道</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown-submenu">
+                        <a class="dropdown-item dropdown-toggle" href="#">白日门区</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="Map_6.htm">白日门</a></li>
+                            <li><a class="dropdown-item" href="Map_7.htm">丛林迷宫</a></li>
+                            <li><a class="dropdown-item" href="MapList_12.htm">赤月峡谷</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown-submenu">
+                        <a class="dropdown-item dropdown-toggle" href="#">封魔谷区</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="Map_9.htm">封魔谷</a></li>
+                            <li><a class="dropdown-item" href="MapList_13.htm">封魔殿</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown-submenu">
+                        <a class="dropdown-item dropdown-toggle" href="#">苍月地区</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="Map_8.htm">苍月岛</a></li>
+                            <li><a class="dropdown-item" href="MapList_14.htm">尸魔洞</a></li>
+                            <li><a class="dropdown-item" href="MapList_15.htm">骨魔洞</a></li>
+                            <li><a class="dropdown-item" href="MapList_16.htm">牛魔寺庙</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown-submenu">
+                        <a class="dropdown-item dropdown-toggle" href="#">其他地区</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="MapList_17.htm">六件新衣</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown">怪物</a>
+                <ul class="dropdown-menu">
+                    <li class="dropdown-submenu">
+                        <a class="dropdown-item dropdown-toggle" href="#">比奇地区</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="Monster.htm">比奇省</a></li>
+                            <li><a class="dropdown-item" href="Monster_2.htm">兽人古墓</a></li>
+                            <li><a class="dropdown-item" href="Monster_4.htm">天然洞穴</a></li>
+                            <li><a class="dropdown-item" href="Monster_3.htm">比奇矿区</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown-submenu">
+                        <a class="dropdown-item dropdown-toggle" href="#">沃玛地区</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="Monster_5.htm">沃玛森林</a></li>
+                            <li><a class="dropdown-item" href="Monster_6.htm">沃玛自然洞穴</a></li>
+                            <li><a class="dropdown-item" href="Monster_7.htm">沃玛寺庙</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown-submenu">
+                        <a class="dropdown-item dropdown-toggle" href="#">毒蛇地区</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="Monster_8.htm">毒蛇山谷</a></li>
+                            <li><a class="dropdown-item" href="Monster_9.htm">毒蛇矿区</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown-submenu">
+                        <a class="dropdown-item dropdown-toggle" href="#">盟重地区</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="Monster_12.htm">盟重省</a></li>
+                            <li><a class="dropdown-item" href="Monster_10.htm">蜈蚣洞</a></li>
+                            <li><a class="dropdown-item" href="Monster_11.htm">未知暗殿</a></li>
+                            <li><a class="dropdown-item" href="Monster_13.htm">石墓</a></li>
+                            <li><a class="dropdown-item" href="Monster_14.htm">香石古墓</a></li>
+                            <li><a class="dropdown-item" href="Monster_15.htm">祖玛寺庙</a></li>
+                            <li><a class="dropdown-item" href="Monster_16.htm">沙巴克密道</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown-submenu">
+                        <a class="dropdown-item dropdown-toggle" href="#">白日门区</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="Monster_17.htm">白日门</a></li>
+                            <li><a class="dropdown-item" href="Monster_18.htm">丛林迷宫</a></li>
+                            <li><a class="dropdown-item" href="Monster_19.htm">赤月峡谷</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown-submenu">
+                        <a class="dropdown-item dropdown-toggle" href="#">封魔地区</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="Monster_20.htm">封魔谷</a></li>
+                            <li><a class="dropdown-item" href="Monster_21.htm">封魔殿</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown-submenu">
+                        <a class="dropdown-item dropdown-toggle" href="#">苍月地区</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="Monster_22.htm">苍月岛</a></li>
+                            <li><a class="dropdown-item" href="Monster_23.htm">尸魔洞</a></li>
+                            <li><a class="dropdown-item" href="Monster_24.htm">骨魔洞</a></li>
+                            <li><a class="dropdown-item" href="Monster_25.htm">牛魔寺庙</a></li>
+                        </ul>
+                    </li>
+                    <li><a class="dropdown-item" href="Monster_26.htm">BOSS</a></li>
+                    <li><a class="dropdown-item" href="Monster_27.htm">生物系</a></li>
+                    <li><a class="dropdown-item" href="Monster_28.htm">不死系</a></li>
+                </ul>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown">物品</a>
+                <ul class="dropdown-menu">
+                    <li class="dropdown-submenu">
+                        <a class="dropdown-item dropdown-toggle" href="#">武器</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="Item.htm">通用</a></li>
+                            <li><a class="dropdown-item" href="Item_2.htm">战士</a></li>
+                            <li><a class="dropdown-item" href="Item_3.htm">法师</a></li>
+                            <li><a class="dropdown-item" href="Item_4.htm">道士</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown-submenu">
+                        <a class="dropdown-item dropdown-toggle" href="#">盔甲</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="Item_5.htm">通用</a></li>
+                            <li><a class="dropdown-item" href="Item_6.htm">战士</a></li>
+                            <li><a class="dropdown-item" href="Item_7.htm">法师</a></li>
+                            <li><a class="dropdown-item" href="Item_8.htm">道士</a></li>
+                        </ul>
+                    </li>
+                    <li><a class="dropdown-item" href="Item_9.htm">头盔</a></li>
+                    <li class="dropdown-submenu">
+                        <a class="dropdown-item dropdown-toggle" href="#">项链</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="Item_10.htm">通用</a></li>
+                            <li><a class="dropdown-item" href="Item_11.htm">战士</a></li>
+                            <li><a class="dropdown-item" href="Item_12.htm">法师</a></li>
+                            <li><a class="dropdown-item" href="Item_13.htm">道士</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown-submenu">
+                        <a class="dropdown-item dropdown-toggle" href="#">手镯</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="Item_14.htm">通用</a></li>
+                            <li><a class="dropdown-item" href="Item_15.htm">战士</a></li>
+                            <li><a class="dropdown-item" href="Item_16.htm">法师</a></li>
+                            <li><a class="dropdown-item" href="Item_17.htm">道士</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown-submenu">
+                        <a class="dropdown-item dropdown-toggle" href="#">戒指</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="Item_18.htm">通用</a></li>
+                            <li><a class="dropdown-item" href="Item_19.htm">战士</a></li>
+                            <li><a class="dropdown-item" href="Item_20.htm">法师</a></li>
+                            <li><a class="dropdown-item" href="Item_21.htm">道士</a></li>
+                        </ul>
+                    </li>
+                    <li><a class="dropdown-item" href="Suit.htm">套装</a></li>
+                    <li class="dropdown-submenu">
+                        <a class="dropdown-item dropdown-toggle" href="#">消耗品</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="Item_22.htm">恢复消耗品</a></li>
+                            <li><a class="dropdown-item" href="Item_24.htm">增强消耗品</a></li>
+                            <li><a class="dropdown-item" href="Item_23.htm">特殊消耗品</a></li>
+                            <li><a class="dropdown-item" href="Item_25.htm">矿石</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown-submenu">
+                        <a class="dropdown-item dropdown-toggle" href="#">技能书</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="Item_26.htm">战士</a></li>
+                            <li><a class="dropdown-item" href="Item_27.htm">法师</a></li>
+                            <li><a class="dropdown-item" href="Item_28.htm">道士</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown">合成</a>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="Merge.htm">材料&amp;消耗品</a></li>
+                </ul>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown">技能</a>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="Magic.htm">战士技能</a></li>
+                    <li><a class="dropdown-item" href="Magic_2.htm">法师技能</a></li>
+                    <li><a class="dropdown-item" href="Magic_3.htm">道士技能</a></li>
+                </ul>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown">任务</a>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="content_9.htm">祈福项链任务</a></li>
+                    <li><a class="dropdown-item" href="content_10.htm">初级装备任务</a></li>
+                    <li><a class="dropdown-item" href="content_11.htm">传说中的罗刹任务</a></li>
+                    <li><a class="dropdown-item" href="content_12.htm">技巧项链任务</a></li>
+                    <li><a class="dropdown-item" href="content_13.htm">特殊戒指与手套</a></li>
+                    <li><a class="dropdown-item" href="content_14.htm">神秘商店任务</a></li>
+                    <li><a class="dropdown-item" href="content_15.htm">攻击神水金砖</a></li>
+                    <li><a class="dropdown-item" href="content_16.htm">命运之刃任务</a></li>
+                    <li><a class="dropdown-item" href="content_17.htm">破馆珍剑任务</a></li>
+                </ul>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown">爆率</a>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="stditem.html">物品查询</a></li>
+                    <li><a class="dropdown-item" href="guaiwu.html">怪物查询</a></li>
+                    <li><a class="dropdown-item" href="map.html">地图查询</a></li>
+                    <li><a class="dropdown-item" href="npc.html">NPC查询</a></li>
+                </ul>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown">资料</a>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="content_18.htm">蜈蚣洞走法传送图</a></li>
+                    <li><a class="dropdown-item" href="content_19.htm">祖玛阁怎么走图解</a></li>
+                    <li><a class="dropdown-item" href="content_20.htm">石墓阵走法图解</a></li>
+                    <li><a class="dropdown-item" href="content_21.htm">幻境迷宫走法图解</a></li>
+                    <li><a class="dropdown-item" href="content_22.htm">圣域走法图解</a></li>
+                    <li><a class="dropdown-item" href="content_23.htm">赤月走法传送图</a></li>
+                    <li><a class="dropdown-item" href="content_25.htm">沙巴克秘密通道走法</a></li>
+                    <li><a class="dropdown-item" href="content_24.htm">道士3、4级毒伤害</a></li>
+                    <li><a class="dropdown-item" href="content_26.htm">技能等级对照表</a></li>
+                    <li><a class="dropdown-item" href="content_27.htm">法师宝宝属性表</a></li>
+                    <li><a class="dropdown-item" href="content_28.htm">道士骷髅神兽属性</a></li>
+                    <li><a class="dropdown-item" href="content_29.htm">传奇怪物属性表</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+<div id=fpb-c60 class="container-fluid">
+  <div id=fpb-c60 class="row flex-nowra pt-2"> <div id=fpb-c60 class="col-lg-2 col-xl-1 d-none d-lg-block text-nowrap left" style="border: 2px solid #decdcd;border-radius: 10px;background-color: rgb(255 246 250);" style="border: 2px solid #decdcd;border-radius: 10px;background-color: rgb(255 246 250);" style="border: 2px solid #decdcd;border-radius: 10px;background-color: rgb(255 246 250);">
+  <div id=fpb-c30 class="container text-center text-nowrap p-0">
+    <div id=fpb-c30 class="row">
+      <div id=fpb-c30 class="col-lg-12">武器</div>
+    </div>
+    <div id=fpb-c30 class="row">
+      <div id=fpb-c30 class="col-lg-6"><a id=fpb-c30 href="Item.htm">通用</a></div>
+      <div id=fpb-c30 class="col-lg-6"><span id=fpb-c30 class="text-warrior"><a id=fpb-c30 href="Item_2.htm">战士</a></span></div>
+    </div>
+    <div id=fpb-c30 class="row border-bottom">
+      <div id=fpb-c30 class="col-lg-6"><span id=fpb-c30 class="text-wizard"><a id=fpb-c30 href="Item_3.htm">法师</a></span></div>
+      <div id=fpb-c30 class="col-lg-6"><span id=fpb-c30 class="text-taoist"><a id=fpb-c30 href="Item_4.htm">道士</a></span></div>
+    </div>
+    <div id=fpb-c30 class="row">
+      <div id=fpb-c30 class="col-lg-12"><span id=fpb-c30>盔甲</span></div>
+    </div>
+    <div id=fpb-c30 class="row">
+      <div id=fpb-c30 class="col-lg-6"><a id=fpb-c30 href="Item_5.htm">通用</a></div>
+      <div id=fpb-c30 class="col-lg-6"><span id=fpb-c30 class="text-warrior"><a id=fpb-c30 href="Item_6.htm">战士</a></span></div>
+    </div>
+    <div id=fpb-c30 class="row border-bottom">
+      <div id=fpb-c30 class="col-lg-6"><span id=fpb-c30 class="text-wizard"><a id=fpb-c30 href="Item_7.htm">法师</a></span></div>
+      <div id=fpb-c30 class="col-lg-6"><span id=fpb-c30 class="text-taoist"><a id=fpb-c30 href="Item_8.htm">道士</a></span></div>
+    </div>
+    <div id=fpb-c30 class="row">
+      <div id=fpb-c30 class="col-lg-12"><span id=fpb-c30>项链</span></div>
+    </div>
+    <div id=fpb-c30 class="row">
+      <div id=fpb-c30 class="col-lg-6"><a id=fpb-c30 href="Item_10.htm">通用</a></div>
+      <div id=fpb-c30 class="col-lg-6"><span id=fpb-c30 class="text-warrior"><a id=fpb-c30 href="Item_11.htm">战士</a></span></div>
+    </div>
+    <div id=fpb-c30 class="row border-bottom">
+      <div id=fpb-c30 class="col-lg-6"><span id=fpb-c30 class="text-wizard"><a id=fpb-c30 href="Item_12.htm">法师</a></span></div>
+      <div id=fpb-c30 class="col-lg-6"><span id=fpb-c30 class="text-taoist"><a id=fpb-c30 href="Item_13.htm">道士</a></span></div>
+    </div>
+    <div id=fpb-c30 class="row">
+      <div id=fpb-c30 class="col-lg-12"><span id=fpb-c30>手镯&amp;手套</span></div>
+    </div>
+    <div id=fpb-c30 class="row">
+      <div id=fpb-c30 class="col-lg-6"><a id=fpb-c30 href="Item_14.htm">通用</a></div>
+      <div id=fpb-c30 class="col-lg-6"><span id=fpb-c30 class="text-warrior"><a id=fpb-c30 href="Item_15.htm">战士</a></span></div>
+    </div>
+    <div id=fpb-c30 class="row border-bottom">
+      <div id=fpb-c30 class="col-lg-6"><span id=fpb-c30 class="text-wizard"><a id=fpb-c30 href="Item_16.htm">法师</a></span></div>
+      <div id=fpb-c30 class="col-lg-6"><span id=fpb-c30 class="text-taoist"><a id=fpb-c30 href="Item_17.htm">道士</a></span></div>
+    </div>
+    <div id=fpb-c30 class="row">
+      <div id=fpb-c30 class="col-lg-12"><span id=fpb-c30>戒指</span></div>
+    </div>
+    <div id=fpb-c30 class="row">
+      <div id=fpb-c30 class="col-lg-6"><a id=fpb-c30 href="Item_18.htm">通用</a></div>
+      <div id=fpb-c30 class="col-lg-6"><span id=fpb-c30 class="text-warrior"><a id=fpb-c30 href="Item_19.htm">战士</a></span></div>
+    </div>
+    <div id=fpb-c30 class="row border-bottom">
+      <div id=fpb-c30 class="col-lg-6"><span id=fpb-c30 class="text-wizard"><a id=fpb-c30 href="Item_20.htm">法师</a></span></div>
+      <div id=fpb-c30 class="col-lg-6"><span id=fpb-c30 class="text-taoist"><a id=fpb-c30 href="Item_21.htm">道士</a></span></div>
+    </div>
+    <div id=fpb-c30 class="row">
+      <div id=fpb-c30 class="col-lg-12"><span id=fpb-c30>其他</span></div>
+    </div>
+    <div id=fpb-c30 class="row">
+      <div id=fpb-c30 class="col-lg-6"><a id=fpb-c30 href="Item_9.htm">头盔</a></div>
+      <div id=fpb-c30 class="col-lg-6"><a id=fpb-c30 href="Item_29.htm">勋章</a></div>
+    </div>
+    <div id=fpb-c30 class="row">
+      <div id=fpb-c30 class="col-lg-6"><a id=fpb-c30 href="Item_30.htm">毒符</a></div>
+      <div id=fpb-c30 class="col-lg-6"><a id=fpb-c30 href="Item_31.htm">书籍</a></div>
+    </div>
+    <div id=fpb-c30 class="row">
+      <div id=fpb-c30 class="col-lg-6"><a id=fpb-c30 href="Item_32.htm">消耗品</a></div>
+      <div id=fpb-c30 class="col-lg-6"><a id=fpb-c30 href="Item_22.htm">矿石</a></div>
+    </div>
+    <div id=fpb-c30 class="row border-bottom">
+      <div id=fpb-c30 class="col-lg-6"><a id=fpb-c30 href="Item_33.htm">制药</a></div>
+      <div id=fpb-c30 class="col-lg-6"><a id=fpb-c30 href="Item_34.htm">杂物</a></div>
+    </div>
+    <div id=fpb-c30 class="row">
+      <div id=fpb-c30 class="col-lg-12"><span id=fpb-c30>技能</span></div>
+    </div>
+    <div id=fpb-c30 class="row">
+      <div id=fpb-c30 class="col-lg-6"><span id=fpb-c30 class="text-warrior"><a id=fpb-c30 href="Magic.htm">战士</a></span></div>
+      <div id=fpb-c30 class="col-lg-6"><span id=fpb-c30 class="text-wizard"><a id=fpb-c30 href="Magic_2.htm">法师</a></span></div>
+    </div>
+    <div id=fpb-c30 class="row">
+      <div id=fpb-c30 class="col-lg-6"><span id=fpb-c30 class="text-taoist"><a id=fpb-c30 href="Magic_3.htm">道士</a></span></div>
+      <div id=fpb-c30 class="col-lg-6"><span id=fpb-c30><a id=fpb-c30 href="Item_31.htm">书籍</a></span></div>
+    </div>
+  </div>
+</div>
+    <div class="col-12 col-lg-10 col-xl-9 bg-grey main">
+      <div class="container"><img class="img-thumbnail" alt="封魔谷" src="https://wcq.us.kg/files/map/4.gif"><br>
+        <div class="selectable">封魔谷</div>
+        标识： 4<br>
+      </div>
+      <div class="tab-container">
+        <ul class="nav nav-tabs mt-3">
+          <li class="nav-item nav-link active"><strong>进出 封魔谷 坐标</strong></li>
+        </ul>
+        <table class="table table-striped table-hover">
+          <thead>
+            <tr>
+              <th scope="col">地图</th>
+              <th scope="col">进门点</th>
+              <th scope="col">出门点</th>
+            </tr>
+          </thead>
+          <tbody>
+          
+          <tr>
+            <td>封魔谷</td>
+            <td>封魔谷 (445,193)</td>
+            <td>沃玛森林 (47,170)</td>
+          </tr>
+          
+          <tr>
+            <td>封魔谷</td>
+            <td>封魔谷 (446,192)</td>
+            <td>沃玛森林 (47,169)</td>
+          </tr>
+          
+          <tr>
+            <td>封魔谷</td>
+            <td>封魔谷 (447,191)</td>
+            <td>沃玛森林 (48,168)</td>
+          </tr>
+          
+          <tr>
+            <td>封魔谷</td>
+            <td>封魔谷 (448,190)</td>
+            <td>沃玛森林 (49,167)</td>
+          </tr>
+          
+          <tr>
+            <td>封魔谷</td>
+            <td>封魔谷 (449,189)</td>
+            <td>沃玛森林 (50,166)</td>
+          </tr>
+          
+          <tr>
+            <td>封魔谷</td>
+            <td>封魔谷 (450,188)</td>
+            <td>沃玛森林 (51,165)</td>
+          </tr>
+          
+          <tr>
+            <td>沃玛森林</td>
+            <td>沃玛森林 (47,170)</td>
+            <td>封魔谷 (445,193)</td>
+          </tr>
+          
+          <tr>
+            <td>沃玛森林</td>
+            <td>沃玛森林 (47,169)</td>
+            <td>封魔谷 (446,192)</td>
+          </tr>
+          
+          <tr>
+            <td>沃玛森林</td>
+            <td>沃玛森林 (48,168)</td>
+            <td>封魔谷 (447,191)</td>
+          </tr>
+          
+          <tr>
+            <td>沃玛森林</td>
+            <td>沃玛森林 (49,167)</td>
+            <td>封魔谷 (448,190)</td>
+          </tr>
+          
+          <tr>
+            <td>沃玛森林</td>
+            <td>沃玛森林 (50,166)</td>
+            <td>封魔谷 (449,189)</td>
+          </tr>
+          
+          <tr>
+            <td>沃玛森林</td>
+            <td>沃玛森林 (51,165)</td>
+            <td>封魔谷 (450,188)</td>
+          </tr>
+          
+          <tr>
+            <td>封魔堡</td>
+            <td>封魔堡 (25,31)</td>
+            <td>封魔谷 (218,197)</td>
+          </tr>
+          
+          <tr>
+            <td>封魔堡</td>
+            <td>封魔堡 (26,30)</td>
+            <td>封魔谷 (219,196)</td>
+          </tr>
+          
+          <tr>
+            <td>封魔谷</td>
+            <td>封魔谷 (212,192)</td>
+            <td>封魔堡 (11,29)</td>
+          </tr>
+          
+          <tr>
+            <td>封魔谷</td>
+            <td>封魔谷 (213,192)</td>
+            <td>封魔堡 (11,29)</td>
+          </tr>
+          
+          <tr>
+            <td>封魔谷</td>
+            <td>封魔谷 (213,191)</td>
+            <td>封魔堡 (11,29)</td>
+          </tr>
+          
+          <tr>
+            <td>封魔谷</td>
+            <td>封魔谷 (218,197)</td>
+            <td>封魔堡 (25,31)</td>
+          </tr>
+          
+          <tr>
+            <td>封魔谷</td>
+            <td>封魔谷 (219,196)</td>
+            <td>封魔堡 (26,30)</td>
+          </tr>
+          
+          <tr>
+            <td>封魔谷</td>
+            <td>封魔谷 (236,181)</td>
+            <td>恶魔钱庄 (14,15)</td>
+          </tr>
+          
+          <tr>
+            <td>封魔谷</td>
+            <td>封魔谷 (217,238)</td>
+            <td>恶魔铁匠铺 (10,21)</td>
+          </tr>
+          
+          <tr>
+            <td>封魔谷</td>
+            <td>封魔谷 (221,234)</td>
+            <td>恶魔铁匠铺 (18,13)</td>
+          </tr>
+          
+          <tr>
+            <td>封魔谷</td>
+            <td>封魔谷 (226,252)</td>
+            <td>恶魔药书铺 (10,21)</td>
+          </tr>
+          
+          <tr>
+            <td>封魔谷</td>
+            <td>封魔谷 (233,250)</td>
+            <td>恶魔药书铺 (18,13)</td>
+          </tr>
+          
+          <tr>
+            <td>封魔谷</td>
+            <td>封魔谷 (233,234)</td>
+            <td>恶魔首饰店 (6,11)</td>
+          </tr>
+          
+          <tr>
+            <td>封魔谷</td>
+            <td>封魔谷 (238,238)</td>
+            <td>恶魔首饰店 (13,18)</td>
+          </tr>
+          
+          <tr>
+            <td>封魔谷</td>
+            <td>封魔谷 (251,199)</td>
+            <td>恶魔服装店 (6,11)</td>
+          </tr>
+          
+          <tr>
+            <td>封魔谷</td>
+            <td>封魔谷 (258,204)</td>
+            <td>恶魔服装店 (13,18)</td>
+          </tr>
+          
+          <tr>
+            <td>封魔谷</td>
+            <td>封魔谷 (192,218)</td>
+            <td>恶魔监牢 (5,18)</td>
+          </tr>
+          
+          <tr>
+            <td>恶魔药书铺</td>
+            <td>恶魔药书铺 (10,21)</td>
+            <td>封魔谷 (227,253)</td>
+          </tr>
+          
+          <tr>
+            <td>恶魔药书铺</td>
+            <td>恶魔药书铺 (18,13)</td>
+            <td>封魔谷 (233,251)</td>
+          </tr>
+          
+          <tr>
+            <td>恶魔铁匠铺</td>
+            <td>恶魔铁匠铺 (10,21)</td>
+            <td>封魔谷 (218,239)</td>
+          </tr>
+          
+          <tr>
+            <td>恶魔铁匠铺</td>
+            <td>恶魔铁匠铺 (18,13)</td>
+            <td>封魔谷 (221,234)</td>
+          </tr>
+          
+          <tr>
+            <td>恶魔首饰店</td>
+            <td>恶魔首饰店 (6,11)</td>
+            <td>封魔谷 (233,235)</td>
+          </tr>
+          
+          <tr>
+            <td>恶魔首饰店</td>
+            <td>恶魔首饰店 (13,18)</td>
+            <td>封魔谷 (238,239)</td>
+          </tr>
+          
+          <tr>
+            <td>恶魔首饰店</td>
+            <td>恶魔首饰店 (14,18)</td>
+            <td>封魔谷 (238,239)</td>
+          </tr>
+          
+          <tr>
+            <td>恶魔服装店</td>
+            <td>恶魔服装店 (6,11)</td>
+            <td>封魔谷 (251,200)</td>
+          </tr>
+          
+          <tr>
+            <td>恶魔服装店</td>
+            <td>恶魔服装店 (5,11)</td>
+            <td>封魔谷 (251,200)</td>
+          </tr>
+          
+          <tr>
+            <td>恶魔服装店</td>
+            <td>恶魔服装店 (13,19)</td>
+            <td>封魔谷 (258,205)</td>
+          </tr>
+          
+          <tr>
+            <td>恶魔服装店</td>
+            <td>恶魔服装店 (13,18)</td>
+            <td>封魔谷 (258,205)</td>
+          </tr>
+          
+          <tr>
+            <td>恶魔监牢</td>
+            <td>恶魔监牢 (5,18)</td>
+            <td>封魔谷 (192,219)</td>
+          </tr>
+          
+          <tr>
+            <td>恶魔钱庄</td>
+            <td>恶魔钱庄 (14,15)</td>
+            <td>封魔谷 (236,182)</td>
+          </tr>
+          
+          <tr>
+            <td>封魔谷</td>
+            <td>封魔谷 (140,67)</td>
+            <td>封魔矿区 (24,181)</td>
+          </tr>
+          
+          <tr>
+            <td>封魔矿区</td>
+            <td>封魔矿区 (24,182)</td>
+            <td>封魔谷 (139,68)</td>
+          </tr>
+          
+          <tr>
+            <td>封魔谷</td>
+            <td>封魔谷 (56,66)</td>
+            <td>封魔矿区 (179,108)</td>
+          </tr>
+          
+          <tr>
+            <td>封魔矿区</td>
+            <td>封魔矿区 (179,109)</td>
+            <td>封魔谷 (57,67)</td>
+          </tr>
+          
+          <tr>
+            <td>封魔谷</td>
+            <td>封魔谷 (205,218)</td>
+            <td>封魔谷 (14,16)</td>
+          </tr>
+          
+            </tbody>
+          
+        </table>
+        <ul class="nav nav-tabs mt-3">
+          <li class="nav-item nav-link active"><strong>封魔谷 刷新怪物</strong></li>
+        </ul>
+        <table class="table table-striped table-hover">
+          <thead>
+            <tr>
+              <th class="align-middle text-nowrap" scope="col">怪物</th>
+              <th class="align-middle text-nowrap" scope="col">刷新点</th>
+              <th class="align-middle text-nowrap" scope="col">数量</th>
+              <th class="align-middle text-nowrap" scope="col">时间</th>
+            </tr>
+          </thead>
+          <tbody>
+          
+          <tr>
+            <td><a href="Mob_11.htm" title="半兽战士" target="_blank">半兽战士</a></td>
+            <td>封魔谷（322,334）</td>
+            <td> 40</td>
+            <td>5分钟</td>
+          </tr>
+          
+          <tr>
+            <td><a href="Mob_34.htm" title="半兽勇士9" target="_blank">半兽勇士9</a></td>
+            <td>封魔谷（322,334）</td>
+            <td> 20</td>
+            <td>7分钟</td>
+          </tr>
+          
+          <tr>
+            <td><a href="Mob_52.htm" title="半兽勇士1" target="_blank">半兽勇士1</a></td>
+            <td>封魔谷（322,334）</td>
+            <td> 10</td>
+            <td>7分钟</td>
+          </tr>
+          
+          <tr>
+            <td><a href="Mob_53.htm" title="骷髅" target="_blank">骷髅</a></td>
+            <td>封魔谷（322,334）</td>
+            <td> 20</td>
+            <td>5分钟</td>
+          </tr>
+          
+          <tr>
+            <td><a href="Mob_54.htm" title="骷髅战士" target="_blank">骷髅战士</a></td>
+            <td>封魔谷（322,334）</td>
+            <td> 20</td>
+            <td>5分钟</td>
+          </tr>
+          
+          <tr>
+            <td><a href="Mob_55.htm" title="骷髅战将" target="_blank">骷髅战将</a></td>
+            <td>封魔谷（322,334）</td>
+            <td> 20</td>
+            <td>5分钟</td>
+          </tr>
+          
+          <tr>
+            <td><a href="Mob_56.htm" title="掷斧骷髅" target="_blank">掷斧骷髅</a></td>
+            <td>封魔谷（322,334）</td>
+            <td> 20</td>
+            <td>5分钟</td>
+          </tr>
+          
+          <tr>
+            <td><a href="Mob_11.htm" title="半兽战士" target="_blank">半兽战士</a></td>
+            <td>封魔谷（348,190）</td>
+            <td> 40</td>
+            <td>5分钟</td>
+          </tr>
+          
+          <tr>
+            <td><a href="Mob_34.htm" title="半兽勇士9" target="_blank">半兽勇士9</a></td>
+            <td>封魔谷（348,190）</td>
+            <td> 20</td>
+            <td>7分钟</td>
+          </tr>
+          
+          <tr>
+            <td><a href="Mob_52.htm" title="半兽勇士1" target="_blank">半兽勇士1</a></td>
+            <td>封魔谷（348,190）</td>
+            <td> 10</td>
+            <td>7分钟</td>
+          </tr>
+          
+          <tr>
+            <td><a href="Mob_53.htm" title="骷髅" target="_blank">骷髅</a></td>
+            <td>封魔谷（348,190）</td>
+            <td> 20</td>
+            <td>5分钟</td>
+          </tr>
+          
+          <tr>
+            <td><a href="Mob_54.htm" title="骷髅战士" target="_blank">骷髅战士</a></td>
+            <td>封魔谷（348,190）</td>
+            <td> 20</td>
+            <td>5分钟</td>
+          </tr>
+          
+          <tr>
+            <td><a href="Mob_55.htm" title="骷髅战将" target="_blank">骷髅战将</a></td>
+            <td>封魔谷（348,190）</td>
+            <td> 20</td>
+            <td>5分钟</td>
+          </tr>
+          
+          <tr>
+            <td><a href="Mob_56.htm" title="掷斧骷髅" target="_blank">掷斧骷髅</a></td>
+            <td>封魔谷（348,190）</td>
+            <td> 20</td>
+            <td>5分钟</td>
+          </tr>
+          
+          <tr>
+            <td><a href="Mob_11.htm" title="半兽战士" target="_blank">半兽战士</a></td>
+            <td>封魔谷（107,138）</td>
+            <td> 40</td>
+            <td>5分钟</td>
+          </tr>
+          
+          <tr>
+            <td><a href="Mob_34.htm" title="半兽勇士9" target="_blank">半兽勇士9</a></td>
+            <td>封魔谷（107,138）</td>
+            <td> 20</td>
+            <td>7分钟</td>
+          </tr>
+          
+          <tr>
+            <td><a href="Mob_52.htm" title="半兽勇士1" target="_blank">半兽勇士1</a></td>
+            <td>封魔谷（107,138）</td>
+            <td> 10</td>
+            <td>7分钟</td>
+          </tr>
+          
+          <tr>
+            <td><a href="Mob_53.htm" title="骷髅" target="_blank">骷髅</a></td>
+            <td>封魔谷（107,138）</td>
+            <td> 20</td>
+            <td>5分钟</td>
+          </tr>
+          
+          <tr>
+            <td><a href="Mob_54.htm" title="骷髅战士" target="_blank">骷髅战士</a></td>
+            <td>封魔谷（107,138）</td>
+            <td> 20</td>
+            <td>5分钟</td>
+          </tr>
+          
+          <tr>
+            <td><a href="Mob_55.htm" title="骷髅战将" target="_blank">骷髅战将</a></td>
+            <td>封魔谷（107,138）</td>
+            <td> 20</td>
+            <td>5分钟</td>
+          </tr>
+          
+          <tr>
+            <td><a href="Mob_56.htm" title="掷斧骷髅" target="_blank">掷斧骷髅</a></td>
+            <td>封魔谷（107,138）</td>
+            <td> 20</td>
+            <td>5分钟</td>
+          </tr>
+          
+          <tr>
+            <td><a href="Mob_11.htm" title="半兽战士" target="_blank">半兽战士</a></td>
+            <td>封魔谷（126,311）</td>
+            <td> 40</td>
+            <td>5分钟</td>
+          </tr>
+          
+          <tr>
+            <td><a href="Mob_34.htm" title="半兽勇士9" target="_blank">半兽勇士9</a></td>
+            <td>封魔谷（126,311）</td>
+            <td> 20</td>
+            <td>7分钟</td>
+          </tr>
+          
+          <tr>
+            <td><a href="Mob_52.htm" title="半兽勇士1" target="_blank">半兽勇士1</a></td>
+            <td>封魔谷（126,311）</td>
+            <td> 10</td>
+            <td>7分钟</td>
+          </tr>
+          
+          <tr>
+            <td><a href="Mob_53.htm" title="骷髅" target="_blank">骷髅</a></td>
+            <td>封魔谷（126,311）</td>
+            <td> 20</td>
+            <td>5分钟</td>
+          </tr>
+          
+          <tr>
+            <td><a href="Mob_54.htm" title="骷髅战士" target="_blank">骷髅战士</a></td>
+            <td>封魔谷（126,311）</td>
+            <td> 20</td>
+            <td>5分钟</td>
+          </tr>
+          
+          <tr>
+            <td><a href="Mob_55.htm" title="骷髅战将" target="_blank">骷髅战将</a></td>
+            <td>封魔谷（126,311）</td>
+            <td> 20</td>
+            <td>5分钟</td>
+          </tr>
+          
+          <tr>
+            <td><a href="Mob_56.htm" title="掷斧骷髅" target="_blank">掷斧骷髅</a></td>
+            <td>封魔谷（126,311）</td>
+            <td> 20</td>
+            <td>5分钟</td>
+          </tr>
+          
+          <tr>
+            <td><a href="Mob_53.htm" title="骷髅" target="_blank">骷髅</a></td>
+            <td>封魔谷（199,99）</td>
+            <td> 20</td>
+            <td>6分钟</td>
+          </tr>
+          
+          <tr>
+            <td><a href="Mob_54.htm" title="骷髅战士" target="_blank">骷髅战士</a></td>
+            <td>封魔谷（199,99）</td>
+            <td> 20</td>
+            <td>6分钟</td>
+          </tr>
+          
+          <tr>
+            <td><a href="Mob_55.htm" title="骷髅战将" target="_blank">骷髅战将</a></td>
+            <td>封魔谷（199,99）</td>
+            <td> 20</td>
+            <td>6分钟</td>
+          </tr>
+          
+          <tr>
+            <td><a href="Mob_56.htm" title="掷斧骷髅" target="_blank">掷斧骷髅</a></td>
+            <td>封魔谷（199,99）</td>
+            <td> 20</td>
+            <td>6分钟</td>
+          </tr>
+          
+          <tr>
+            <td><a href="Mob_53.htm" title="骷髅" target="_blank">骷髅</a></td>
+            <td>封魔谷（274,259）</td>
+            <td> 4</td>
+            <td>6分钟</td>
+          </tr>
+          
+          <tr>
+            <td><a href="Mob_54.htm" title="骷髅战士" target="_blank">骷髅战士</a></td>
+            <td>封魔谷（274,259）</td>
+            <td> 4</td>
+            <td>6分钟</td>
+          </tr>
+          
+          <tr>
+            <td><a href="Mob_55.htm" title="骷髅战将" target="_blank">骷髅战将</a></td>
+            <td>封魔谷（274,259）</td>
+            <td> 4</td>
+            <td>6分钟</td>
+          </tr>
+          
+          <tr>
+            <td><a href="Mob_56.htm" title="掷斧骷髅" target="_blank">掷斧骷髅</a></td>
+            <td>封魔谷（274,259）</td>
+            <td> 4</td>
+            <td>6分钟</td>
+          </tr>
+          
+          <tr>
+            <td><a href="Mob_58.htm" title="僵尸2" target="_blank">僵尸2</a></td>
+            <td>封魔谷（274,259）</td>
+            <td> 4</td>
+            <td>6分钟</td>
+          </tr>
+          
+          <tr>
+            <td><a href="Mob_53.htm" title="骷髅" target="_blank">骷髅</a></td>
+            <td>封魔谷（170,267）</td>
+            <td> 4</td>
+            <td>6分钟</td>
+          </tr>
+          
+          <tr>
+            <td><a href="Mob_54.htm" title="骷髅战士" target="_blank">骷髅战士</a></td>
+            <td>封魔谷（170,267）</td>
+            <td> 4</td>
+            <td>6分钟</td>
+          </tr>
+          
+          <tr>
+            <td><a href="Mob_55.htm" title="骷髅战将" target="_blank">骷髅战将</a></td>
+            <td>封魔谷（170,267）</td>
+            <td> 4</td>
+            <td>6分钟</td>
+          </tr>
+          
+          <tr>
+            <td><a href="Mob_56.htm" title="掷斧骷髅" target="_blank">掷斧骷髅</a></td>
+            <td>封魔谷（170,267）</td>
+            <td> 4</td>
+            <td>6分钟</td>
+          </tr>
+          
+          <tr>
+            <td><a href="Mob_58.htm" title="僵尸2" target="_blank">僵尸2</a></td>
+            <td>封魔谷（170,267）</td>
+            <td> 4</td>
+            <td>6分钟</td>
+          </tr>
+          
+          <tr>
+            <td><a href="Mob_53.htm" title="骷髅" target="_blank">骷髅</a></td>
+            <td>封魔谷（289,154）</td>
+            <td> 4</td>
+            <td>6分钟</td>
+          </tr>
+          
+          <tr>
+            <td><a href="Mob_54.htm" title="骷髅战士" target="_blank">骷髅战士</a></td>
+            <td>封魔谷（289,154）</td>
+            <td> 4</td>
+            <td>6分钟</td>
+          </tr>
+          
+          <tr>
+            <td><a href="Mob_55.htm" title="骷髅战将" target="_blank">骷髅战将</a></td>
+            <td>封魔谷（289,154）</td>
+            <td> 4</td>
+            <td>6分钟</td>
+          </tr>
+          
+          <tr>
+            <td><a href="Mob_56.htm" title="掷斧骷髅" target="_blank">掷斧骷髅</a></td>
+            <td>封魔谷（289,154）</td>
+            <td> 4</td>
+            <td>6分钟</td>
+          </tr>
+          
+          <tr>
+            <td><a href="Mob_58.htm" title="僵尸2" target="_blank">僵尸2</a></td>
+            <td>封魔谷（289,154）</td>
+            <td> 4</td>
+            <td>6分钟</td>
+          </tr>
+          
+          <tr>
+            <td><a href="Mob_34.htm" title="半兽勇士9" target="_blank">半兽勇士9</a></td>
+            <td>封魔谷（443,192）</td>
+            <td> 5</td>
+            <td>7分钟</td>
+          </tr>
+          
+          <tr>
+            <td><a href="Mob_11.htm" title="半兽战士" target="_blank">半兽战士</a></td>
+            <td>封魔谷（443,192）</td>
+            <td> 10</td>
+            <td>7分钟</td>
+          </tr>
+          
+          <tr>
+            <td><a href="Mob_54.htm" title="骷髅战士" target="_blank">骷髅战士</a></td>
+            <td>封魔谷（443,192）</td>
+            <td> 5</td>
+            <td>7分钟</td>
+          </tr>
+          
+          <tr>
+            <td><a href="Mob_53.htm" title="骷髅" target="_blank">骷髅</a></td>
+            <td>封魔谷（443,192）</td>
+            <td> 5</td>
+            <td>7分钟</td>
+          </tr>
+          
+          <tr>
+            <td><a href="Mob_56.htm" title="掷斧骷髅" target="_blank">掷斧骷髅</a></td>
+            <td>封魔谷（443,192）</td>
+            <td> 5</td>
+            <td>7分钟</td>
+          </tr>
+          
+          <tr>
+            <td><a href="Mob_34.htm" title="半兽勇士9" target="_blank">半兽勇士9</a></td>
+            <td>封魔谷（73,85）</td>
+            <td> 10</td>
+            <td>7分钟</td>
+          </tr>
+          
+          <tr>
+            <td><a href="Mob_52.htm" title="半兽勇士1" target="_blank">半兽勇士1</a></td>
+            <td>封魔谷（73,85）</td>
+            <td> 5</td>
+            <td>7分钟</td>
+          </tr>
+          
+          <tr>
+            <td><a href="Mob_55.htm" title="骷髅战将" target="_blank">骷髅战将</a></td>
+            <td>封魔谷（73,85）</td>
+            <td> 5</td>
+            <td>7分钟</td>
+          </tr>
+          
+          <tr>
+            <td><a href="Mob_59.htm" title="僵尸1" target="_blank">僵尸1</a></td>
+            <td>封魔谷（73,85）</td>
+            <td> 5</td>
+            <td>7分钟</td>
+          </tr>
+          
+          <tr>
+            <td><a href="Mob_58.htm" title="僵尸2" target="_blank">僵尸2</a></td>
+            <td>封魔谷（73,85）</td>
+            <td> 5</td>
+            <td>7分钟</td>
+          </tr>
+          
+          <tr>
+            <td><a href="Mob_15.htm" title="半兽战士0" target="_blank">半兽战士0</a></td>
+            <td>封魔谷（322,334）</td>
+            <td> 4</td>
+            <td>15分钟</td>
+          </tr>
+          
+          <tr>
+            <td><a href="Mob_12.htm" title="半兽勇士" target="_blank">半兽勇士</a></td>
+            <td>封魔谷（348,190）</td>
+            <td> 2</td>
+            <td>25分钟</td>
+          </tr>
+          
+          <tr>
+            <td><a href="Mob_60.htm" title="僵尸20" target="_blank">僵尸20</a></td>
+            <td>封魔谷（107,138）</td>
+            <td> 4</td>
+            <td>15分钟</td>
+          </tr>
+          
+          <tr>
+            <td><a href="Mob_61.htm" title="骷髅战士0" target="_blank">骷髅战士0</a></td>
+            <td>封魔谷（126,311）</td>
+            <td> 4</td>
+            <td>15分钟</td>
+          </tr>
+          
+          <tr>
+            <td><a href="Mob_62.htm" title="骷髅战将0" target="_blank">骷髅战将0</a></td>
+            <td>封魔谷（322,334）</td>
+            <td> 4</td>
+            <td>15分钟</td>
+          </tr>
+          
+          <tr>
+            <td><a href="Mob_63.htm" title="掷斧骷髅0" target="_blank">掷斧骷髅0</a></td>
+            <td>封魔谷（348,190）</td>
+            <td> 4</td>
+            <td>15分钟</td>
+          </tr>
+          
+          <tr>
+            <td><a href="Mob_64.htm" title="骷髅0" target="_blank">骷髅0</a></td>
+            <td>封魔谷（107,138）</td>
+            <td> 4</td>
+            <td>15分钟</td>
+          </tr>
+          
+          <tr>
+            <td><a href="Mob_61.htm" title="骷髅战士0" target="_blank">骷髅战士0</a></td>
+            <td>封魔谷（443,192）</td>
+            <td> 2</td>
+            <td>15分钟</td>
+          </tr>
+          
+          <tr>
+            <td><a href="Mob_65.htm" title="僵尸10" target="_blank">僵尸10</a></td>
+            <td>封魔谷（73,85）</td>
+            <td> 2</td>
+            <td>15分钟</td>
+          </tr>
+          
+          <tr>
+            <td><a href="Mob_66.htm" title="骷髅精灵" target="_blank">骷髅精灵</a></td>
+            <td>封魔谷（107,138）</td>
+            <td> 2</td>
+            <td>60分钟</td>
+          </tr>
+          
+          <tr>
+            <td><a href="Mob_35.htm" title="半兽统领" target="_blank">半兽统领</a></td>
+            <td>封魔谷（322,334）</td>
+            <td> 2</td>
+            <td>60分钟</td>
+          </tr>
+          
+          <tr>
+            <td><a href="Mob_67.htm" title="千年树妖" target="_blank">千年树妖</a></td>
+            <td>封魔谷（123,404）</td>
+            <td> 1</td>
+            <td>360分钟</td>
+          </tr>
+          
+            </tbody>
+          
+        </table>
+        <ul class="nav nav-tabs mt-3">
+          <li class="nav-item nav-link active"><strong>封魔谷 NPC</strong></li>
+        </ul>
+        <table class="table table-striped table-hover">
+          <thead>
+            <tr>
+              <th scope="col">NPC形象</th>
+              <th scope="col">NPC坐标</th>
+              <th scope="col">地图</th>
+            </tr>
+          </thead>
+          <tbody>
+          
+          <tr>
+            <td><a href="/map/1"><img src="https://wcq.us.kg/files/npc/33.jpg" alt="封魔谷/屠夫" class="rounded"></a></td>
+            <td class="align-middle">恶魔屠夫（243,187）</td>
+            <td class="align-middle">封魔谷/屠夫</td>
+          </tr>
+          
+          <tr>
+            <td><a href="/map/1"><img src="https://wcq.us.kg/files/npc/48.jpg" alt="封魔谷/恶魔守卫" class="rounded"></a></td>
+            <td class="align-middle">恶魔守卫（216,202）</td>
+            <td class="align-middle">封魔谷/恶魔守卫</td>
+          </tr>
+          
+          <tr>
+            <td><a href="/map/1"><img src="https://wcq.us.kg/files/npc/48.jpg" alt="封魔谷/恶魔守卫" class="rounded"></a></td>
+            <td class="align-middle">恶魔守卫（215,203）</td>
+            <td class="align-middle">封魔谷/恶魔守卫</td>
+          </tr>
+          
+          <tr>
+            <td><a href="/map/1"><img src="https://wcq.us.kg/files/npc/48.jpg" alt="封魔谷/恶魔守卫" class="rounded"></a></td>
+            <td class="align-middle">恶魔守卫（214,204）</td>
+            <td class="align-middle">封魔谷/恶魔守卫</td>
+          </tr>
+          
+          <tr>
+            <td><a href="/map/1"><img src="https://wcq.us.kg/files/npc/48.jpg" alt="封魔谷/恶魔守卫" class="rounded"></a></td>
+            <td class="align-middle">恶魔守卫（213,205）</td>
+            <td class="align-middle">封魔谷/恶魔守卫</td>
+          </tr>
+          
+          <tr>
+            <td><a href="/map/1"><img src="https://wcq.us.kg/files/npc/49.jpg" alt="封魔谷/恶魔守卫" class="rounded"></a></td>
+            <td class="align-middle">恶魔守卫（223,195）</td>
+            <td class="align-middle">封魔谷/恶魔守卫</td>
+          </tr>
+          
+          <tr>
+            <td><a href="/map/1"><img src="https://wcq.us.kg/files/npc/49.jpg" alt="封魔谷/恶魔守卫" class="rounded"></a></td>
+            <td class="align-middle">恶魔守卫（224,194）</td>
+            <td class="align-middle">封魔谷/恶魔守卫</td>
+          </tr>
+          
+          <tr>
+            <td><a href="/map/1"><img src="https://wcq.us.kg/files/npc/49.jpg" alt="封魔谷/恶魔守卫" class="rounded"></a></td>
+            <td class="align-middle">恶魔守卫（225,193）</td>
+            <td class="align-middle">封魔谷/恶魔守卫</td>
+          </tr>
+          
+          <tr>
+            <td><a href="/map/1"><img src="https://wcq.us.kg/files/npc/49.jpg" alt="封魔谷/恶魔守卫" class="rounded"></a></td>
+            <td class="align-middle">恶魔守卫（226,192）</td>
+            <td class="align-middle">封魔谷/恶魔守卫</td>
+          </tr>
+          
+          <tr>
+            <td><a href="/map/1"><img src="https://wcq.us.kg/files/npc/76.jpg" alt="封魔谷/恶魔树" class="rounded"></a></td>
+            <td class="align-middle">恶魔树（265,247）</td>
+            <td class="align-middle">封魔谷/恶魔树</td>
+          </tr>
+          
+          <tr>
+            <td><a href="/map/1"><img src="https://wcq.us.kg/files/npc/76.jpg" alt="封魔谷/恶魔树" class="rounded"></a></td>
+            <td class="align-middle">恶魔树（267,249）</td>
+            <td class="align-middle">封魔谷/恶魔树</td>
+          </tr>
+          
+          <tr>
+            <td><a href="/map/1"><img src="https://wcq.us.kg/files/npc/76.jpg" alt="封魔谷/恶魔树" class="rounded"></a></td>
+            <td class="align-middle">恶魔树（269,251）</td>
+            <td class="align-middle">封魔谷/恶魔树</td>
+          </tr>
+          
+          <tr>
+            <td><a href="/map/1"><img src="https://wcq.us.kg/files/npc/76.jpg" alt="封魔谷/恶魔树" class="rounded"></a></td>
+            <td class="align-middle">恶魔树（271,253）</td>
+            <td class="align-middle">封魔谷/恶魔树</td>
+          </tr>
+          
+          <tr>
+            <td><a href="/map/1"><img src="https://wcq.us.kg/files/npc/76.jpg" alt="封魔谷/恶魔树" class="rounded"></a></td>
+            <td class="align-middle">恶魔树（273,255）</td>
+            <td class="align-middle">封魔谷/恶魔树</td>
+          </tr>
+          
+          <tr>
+            <td><a href="/map/1"><img src="https://wcq.us.kg/files/npc/76.jpg" alt="封魔谷/恶魔树" class="rounded"></a></td>
+            <td class="align-middle">恶魔树（275,257）</td>
+            <td class="align-middle">封魔谷/恶魔树</td>
+          </tr>
+          
+          <tr>
+            <td><a href="/map/1"><img src="https://wcq.us.kg/files/npc/76.jpg" alt="封魔谷/恶魔树" class="rounded"></a></td>
+            <td class="align-middle">恶魔树（277,259）</td>
+            <td class="align-middle">封魔谷/恶魔树</td>
+          </tr>
+          
+          <tr>
+            <td><a href="/map/1"><img src="https://wcq.us.kg/files/npc/76.jpg" alt="封魔谷/恶魔树" class="rounded"></a></td>
+            <td class="align-middle">恶魔树（279,261）</td>
+            <td class="align-middle">封魔谷/恶魔树</td>
+          </tr>
+          
+          <tr>
+            <td><a href="/map/1"><img src="https://wcq.us.kg/files/npc/76.jpg" alt="封魔谷/恶魔树" class="rounded"></a></td>
+            <td class="align-middle">恶魔树（281,263）</td>
+            <td class="align-middle">封魔谷/恶魔树</td>
+          </tr>
+          
+          <tr>
+            <td><a href="/map/1"><img src="https://wcq.us.kg/files/npc/76.jpg" alt="封魔谷/恶魔树" class="rounded"></a></td>
+            <td class="align-middle">恶魔树（283,265）</td>
+            <td class="align-middle">封魔谷/恶魔树</td>
+          </tr>
+          
+          <tr>
+            <td><a href="/map/1"><img src="https://wcq.us.kg/files/npc/76.jpg" alt="封魔谷/恶魔树" class="rounded"></a></td>
+            <td class="align-middle">恶魔树（259,253）</td>
+            <td class="align-middle">封魔谷/恶魔树</td>
+          </tr>
+          
+          <tr>
+            <td><a href="/map/1"><img src="https://wcq.us.kg/files/npc/76.jpg" alt="封魔谷/恶魔树" class="rounded"></a></td>
+            <td class="align-middle">恶魔树（261,255）</td>
+            <td class="align-middle">封魔谷/恶魔树</td>
+          </tr>
+          
+          <tr>
+            <td><a href="/map/1"><img src="https://wcq.us.kg/files/npc/76.jpg" alt="封魔谷/恶魔树" class="rounded"></a></td>
+            <td class="align-middle">恶魔树（263,257）</td>
+            <td class="align-middle">封魔谷/恶魔树</td>
+          </tr>
+          
+          <tr>
+            <td><a href="/map/1"><img src="https://wcq.us.kg/files/npc/76.jpg" alt="封魔谷/恶魔树" class="rounded"></a></td>
+            <td class="align-middle">恶魔树（265,259）</td>
+            <td class="align-middle">封魔谷/恶魔树</td>
+          </tr>
+          
+          <tr>
+            <td><a href="/map/1"><img src="https://wcq.us.kg/files/npc/76.jpg" alt="封魔谷/恶魔树" class="rounded"></a></td>
+            <td class="align-middle">恶魔树（267,261）</td>
+            <td class="align-middle">封魔谷/恶魔树</td>
+          </tr>
+          
+          <tr>
+            <td><a href="/map/1"><img src="https://wcq.us.kg/files/npc/76.jpg" alt="封魔谷/恶魔树" class="rounded"></a></td>
+            <td class="align-middle">恶魔树（269,263）</td>
+            <td class="align-middle">封魔谷/恶魔树</td>
+          </tr>
+          
+          <tr>
+            <td><a href="/map/1"><img src="https://wcq.us.kg/files/npc/76.jpg" alt="封魔谷/恶魔树" class="rounded"></a></td>
+            <td class="align-middle">恶魔树（271,265）</td>
+            <td class="align-middle">封魔谷/恶魔树</td>
+          </tr>
+          
+          <tr>
+            <td><a href="/map/1"><img src="https://wcq.us.kg/files/npc/76.jpg" alt="封魔谷/恶魔树" class="rounded"></a></td>
+            <td class="align-middle">恶魔树（273,267）</td>
+            <td class="align-middle">封魔谷/恶魔树</td>
+          </tr>
+          
+          <tr>
+            <td><a href="/map/1"><img src="https://wcq.us.kg/files/npc/76.jpg" alt="封魔谷/恶魔树" class="rounded"></a></td>
+            <td class="align-middle">恶魔树（275,269）</td>
+            <td class="align-middle">封魔谷/恶魔树</td>
+          </tr>
+          
+          <tr>
+            <td><a href="/map/1"><img src="https://wcq.us.kg/files/npc/76.jpg" alt="封魔谷/恶魔树" class="rounded"></a></td>
+            <td class="align-middle">恶魔树（277,271）</td>
+            <td class="align-middle">封魔谷/恶魔树</td>
+          </tr>
+          
+          <tr>
+            <td><a href="/map/1"><img src="https://wcq.us.kg/files/npc/38.jpg" alt="封魔谷/掷斧骷髅1" class="rounded"></a></td>
+            <td class="align-middle">掷斧骷髅（207,225）</td>
+            <td class="align-middle">封魔谷/掷斧骷髅1</td>
+          </tr>
+          
+          <tr>
+            <td><a href="/map/1"><img src="https://wcq.us.kg/files/npc/38.jpg" alt="封魔谷/掷斧骷髅2" class="rounded"></a></td>
+            <td class="align-middle">掷斧骷髅（208,226）</td>
+            <td class="align-middle">封魔谷/掷斧骷髅2</td>
+          </tr>
+          
+          <tr>
+            <td><a href="/map/1"><img src="https://wcq.us.kg/files/npc/38.jpg" alt="封魔谷/掷斧骷髅3" class="rounded"></a></td>
+            <td class="align-middle">掷斧骷髅（210,228）</td>
+            <td class="align-middle">封魔谷/掷斧骷髅3</td>
+          </tr>
+          
+          <tr>
+            <td><a href="/map/1"><img src="https://wcq.us.kg/files/npc/38.jpg" alt="封魔谷/掷斧骷髅4" class="rounded"></a></td>
+            <td class="align-middle">掷斧骷髅（211,229）</td>
+            <td class="align-middle">封魔谷/掷斧骷髅4</td>
+          </tr>
+          
+          <tr>
+            <td><a href="/map/1"><img src="https://wcq.us.kg/files/npc/35.jpg" alt="封魔谷/杂货铺" class="rounded"></a></td>
+            <td class="align-middle">恶魔杂货匠（255,224）</td>
+            <td class="align-middle">封魔谷/杂货铺</td>
+          </tr>
+          
+          <tr>
+            <td><a href="/map/1"><img src="https://wcq.us.kg/files/npc/29.jpg" alt="封魔谷/武器店" class="rounded"></a></td>
+            <td class="align-middle">恶魔铁匠（227,223）</td>
+            <td class="align-middle">封魔谷/武器店</td>
+          </tr>
+          
+          <tr>
+            <td><a href="/map/1"><img src="https://wcq.us.kg/files/npc/32.jpg" alt="封魔谷/老人" class="rounded"></a></td>
+            <td class="align-middle">恶魔老人（262,245）</td>
+            <td class="align-middle">封魔谷/老人</td>
+          </tr>
+          
+          <tr>
+            <td><a href="/map/1"><img src="https://wcq.us.kg/files/npc/28.jpg" alt="封魔谷/老兵" class="rounded"></a></td>
+            <td class="align-middle">恶魔老兵（238,195）</td>
+            <td class="align-middle">封魔谷/老兵</td>
+          </tr>
+          
+          <tr>
+            <td><a href="/map/1"><img src="https://wcq.us.kg/files/npc/37.jpg" alt="封魔谷/骷髅1" class="rounded"></a></td>
+            <td class="align-middle">骷髅（209,231）</td>
+            <td class="align-middle">封魔谷/骷髅1</td>
+          </tr>
+          
+          <tr>
+            <td><a href="/map/1"><img src="https://wcq.us.kg/files/npc/37.jpg" alt="封魔谷/骷髅2" class="rounded"></a></td>
+            <td class="align-middle">骷髅（208,230）</td>
+            <td class="align-middle">封魔谷/骷髅2</td>
+          </tr>
+          
+          <tr>
+            <td><a href="/map/1"><img src="https://wcq.us.kg/files/npc/37.jpg" alt="封魔谷/骷髅3" class="rounded"></a></td>
+            <td class="align-middle">骷髅（206,228）</td>
+            <td class="align-middle">封魔谷/骷髅3</td>
+          </tr>
+          
+          <tr>
+            <td><a href="/map/1"><img src="https://wcq.us.kg/files/npc/37.jpg" alt="封魔谷/骷髅4" class="rounded"></a></td>
+            <td class="align-middle">骷髅（205,227）</td>
+            <td class="align-middle">封魔谷/骷髅4</td>
+          </tr>
+          
+          <tr>
+            <td><a href="/map/1"><img src="https://wcq.us.kg/files/npc/39.jpg" alt="封魔谷/骷髅战士1" class="rounded"></a></td>
+            <td class="align-middle">骷髅战士（213,227）</td>
+            <td class="align-middle">封魔谷/骷髅战士1</td>
+          </tr>
+          
+          <tr>
+            <td><a href="/map/1"><img src="https://wcq.us.kg/files/npc/39.jpg" alt="封魔谷/骷髅战士2" class="rounded"></a></td>
+            <td class="align-middle">骷髅战士（212,226）</td>
+            <td class="align-middle">封魔谷/骷髅战士2</td>
+          </tr>
+          
+          <tr>
+            <td><a href="/map/1"><img src="https://wcq.us.kg/files/npc/39.jpg" alt="封魔谷/骷髅战士3" class="rounded"></a></td>
+            <td class="align-middle">骷髅战士（210,224）</td>
+            <td class="align-middle">封魔谷/骷髅战士3</td>
+          </tr>
+          
+          <tr>
+            <td><a href="/map/1"><img src="https://wcq.us.kg/files/npc/39.jpg" alt="封魔谷/骷髅战士4" class="rounded"></a></td>
+            <td class="align-middle">骷髅战士（209,223）</td>
+            <td class="align-middle">封魔谷/骷髅战士4</td>
+          </tr>
+          
+          <tr>
+            <td><a href="/map/1"><img src="https://wcq.us.kg/files/npc/40.jpg" alt="封魔谷/骷髅战将1" class="rounded"></a></td>
+            <td class="align-middle">骷髅战将（211,221）</td>
+            <td class="align-middle">封魔谷/骷髅战将1</td>
+          </tr>
+          
+          <tr>
+            <td><a href="/map/1"><img src="https://wcq.us.kg/files/npc/40.jpg" alt="封魔谷/骷髅战将2" class="rounded"></a></td>
+            <td class="align-middle">骷髅战将（212,222）</td>
+            <td class="align-middle">封魔谷/骷髅战将2</td>
+          </tr>
+          
+          <tr>
+            <td><a href="/map/1"><img src="https://wcq.us.kg/files/npc/40.jpg" alt="封魔谷/骷髅战将3" class="rounded"></a></td>
+            <td class="align-middle">骷髅战将（214,224）</td>
+            <td class="align-middle">封魔谷/骷髅战将3</td>
+          </tr>
+          
+          <tr>
+            <td><a href="/map/1"><img src="https://wcq.us.kg/files/npc/40.jpg" alt="封魔谷/骷髅战将4" class="rounded"></a></td>
+            <td class="align-middle">骷髅战将（215,225）</td>
+            <td class="align-middle">封魔谷/骷髅战将4</td>
+          </tr>
+          
+          <tr>
+            <td><a href="/map/1"><img src="https://wcq.us.kg/files/npc/41.jpg" alt="封魔谷/骷髅精灵" class="rounded"></a></td>
+            <td class="align-middle">骷髅精灵（216,220）</td>
+            <td class="align-middle">封魔谷/骷髅精灵</td>
+          </tr>
+          
+            </tbody>
+          
+        </table>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="text-secondary font-weight-lighter text-center py-1 border-top"> 致力于追忆2003年1.76热血传奇 </div>
+<script charset="UTF-8" id="LA_COLLECT" src="//sdk.51.la/js-sdk-pro.min.js"></script>
+<script>LA.init({id:"3JsROvHYidvkpN9A",ck:"3JsROvHYidvkpN9A"})</script>
+<script src="https://cdn.bootcdn.net/ajax/libs/jquery/3.5.1/jquery.min.js"></script> <!-- BootCDN jQuery -->
+	<script src="https://cdn.bootcdn.net/ajax/libs/twitter-bootstrap/4.5.2/js/bootstrap.bundle.min.js"></script> <!-- BootCDN Bootstrap JS -->
+	<script>
+	$(document).ready(function () {
+		$('.dropdown-submenu a.dropdown-toggle').on("click", function(e) {
+			var $el = $(this);
+			var $submenu = $el.next(".dropdown-menu");
+
+			if (!$submenu.hasClass('show')) {
+				$submenu.parent().siblings().find(".dropdown-menu").removeClass("show");
+				$submenu.toggleClass('show');
+			}
+
+			e.preventDefault();
+			e.stopPropagation();
+		});
+
+		$(document).on("click", function() {
+			$('.dropdown-menu.show').removeClass("show");
+		});
+	});
+	</script>
+
+
+</body>
+</html>
