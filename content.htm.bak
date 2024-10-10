@@ -7,8 +7,9 @@
 <meta name="description" content="盛大传奇界面、热血传奇界面" />
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/css/bootstrap.min.css">
+
 <link rel="stylesheet" href="https://wcq.us.kg/static/ruchu/mir.css">
-<link rel="stylesheet" href="https://cdn.bootcdn.net/ajax/libs/twitter-bootstrap/4.5.2/css/bootstrap.min.css"> <!-- BootCDN Bootstrap CSS -->
 <style>
   .dropdown-submenu .dropdown-menu {
     top: 0;
