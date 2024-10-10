@@ -7,7 +7,8 @@
 <meta name="description" content="热血传奇全部怪物大全，怪物各属性介绍，传奇怪物属性一览表，176传奇怪物等级列表，传奇石墓怪物" />
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-<link rel="stylesheet" href="https://cdn.bootcdn.net/ajax/libs/twitter-bootstrap/4.5.2/css/bootstrap.min.css"> 
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/css/bootstrap.min.css">
+
 <link rel="stylesheet" href="https://wcq.us.kg/static/ruchu/mir.css">
 <style>
   .dropdown-submenu .dropdown-menu {
@@ -23,6 +24,9 @@
         <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarNav">
+   <div id=fpb-c28 class="pl-3">
+      <a id=fpb-c28 class="dropdown-item" href="/">首页</a>
+      </div>
         <ul class="navbar-nav mr-auto">
             <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown">系统</a>
@@ -307,6 +311,7 @@
         </ul>
     </div>
 </nav>
+
 
 <div id=fpb-c60 class="container-fluid">
   <div id=fpb-c60 class="row flex-nowra pt-2">

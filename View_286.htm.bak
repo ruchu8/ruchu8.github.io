@@ -7,7 +7,8 @@
 <meta name="description" content="传奇176资料库, 提供传奇地牢逃脱卷包怪物经验值、攻击力、等级_[page.Undead/]爆什么装备,以下为热血传奇（1.76版）地牢逃脱卷包 属性介绍。" />
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-<link rel="stylesheet" href="https://cdn.bootcdn.net/ajax/libs/twitter-bootstrap/4.5.2/css/bootstrap.min.css"> 
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/css/bootstrap.min.css">
+
 <link rel="stylesheet" href="https://wcq.us.kg/static/ruchu/mir.css">
 <style>
   .dropdown-submenu .dropdown-menu {
@@ -23,6 +24,9 @@
         <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarNav">
+   <div id=fpb-c28 class="pl-3">
+      <a id=fpb-c28 class="dropdown-item" href="/">首页</a>
+      </div>
         <ul class="navbar-nav mr-auto">
             <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown">系统</a>
@@ -307,6 +311,7 @@
         </ul>
     </div>
 </nav>
+
 
 <div id=fpb-c60 class="container-fluid">
   <div id=fpb-c60 class="row flex-nowra pt-2"><div id=fpb-c60 class="col-lg-2 col-xl-1 d-none d-lg-block text-nowrap left" style="border: 2px solid #decdcd;border-radius: 10px;background-color: rgb(255 246 250);" style="border: 2px solid #decdcd;border-radius: 10px;background-color: rgb(255 246 250);" style="border: 2px solid #decdcd;border-radius: 10px;background-color: rgb(255 246 250);">

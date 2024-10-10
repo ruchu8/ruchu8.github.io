@@ -7,8 +7,9 @@
     <meta name="keywords" content="176传奇物品，传奇物品查询，176原始传奇爆率查询" />
     <meta name="description" content="176传奇物品，传奇物品查询，176原始传奇爆率查询系统官网。" />
     <link href="layui.min.css" media="all" rel="stylesheet">
-    <link rel="stylesheet" href="https://wcq.us.kg/static/ruchu/mir.css">
-<link rel="stylesheet" href="https://cdn.bootcdn.net/ajax/libs/twitter-bootstrap/4.5.2/css/bootstrap.min.css"> <!-- BootCDN Bootstrap CSS -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/css/bootstrap.min.css">
+
+<link rel="stylesheet" href="https://wcq.us.kg/static/ruchu/mir.css">
 <style>
   .dropdown-submenu .dropdown-menu {
     top: 0;
