@@ -783,6 +783,29 @@
 <div class="text-secondary font-weight-lighter text-center py-1 border-top"> 致力于追忆2003年1.76热血传奇 </div>
 <script charset="UTF-8" id="LA_COLLECT" src="//sdk.51.la/js-sdk-pro.min.js"></script>
 <script>LA.init({id:"3JsROvHYidvkpN9A",ck:"3JsROvHYidvkpN9A"})</script>
+<script src="https://cdn.bootcdn.net/ajax/libs/jquery/3.5.1/jquery.min.js"></script> <!-- BootCDN jQuery -->
+	<script src="https://cdn.bootcdn.net/ajax/libs/twitter-bootstrap/4.5.2/js/bootstrap.bundle.min.js"></script> <!-- BootCDN Bootstrap JS -->
+	<script>
+	$(document).ready(function () {
+		$('.dropdown-submenu a.dropdown-toggle').on("click", function(e) {
+			var $el = $(this);
+			var $submenu = $el.next(".dropdown-menu");
+
+			if (!$submenu.hasClass('show')) {
+				$submenu.parent().siblings().find(".dropdown-menu").removeClass("show");
+				$submenu.toggleClass('show');
+			}
+
+			e.preventDefault();
+			e.stopPropagation();
+		});
+
+		$(document).on("click", function() {
+			$('.dropdown-menu.show').removeClass("show");
+		});
+	});
+	</script>
+
 
 </body>
 </html>

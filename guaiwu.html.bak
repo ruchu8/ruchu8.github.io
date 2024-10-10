@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>176传奇怪物爆率查询_传奇爆率查询系统_176原始传奇爆率查询</title>
+    <meta name="keywords" content="176传奇爆率查询系统，传奇怪物查询，176原始传奇爆率查询" />
+    <meta name="description" content="176传奇怪物，传奇爆率查询系统，176原始传奇爆率查询系统官网。" />
+    <link href="layui.min.css" media="all" rel="stylesheet">
+    <link rel="stylesheet" href="https://wcq.us.kg/static/ruchu/mir.css">
+<link rel="stylesheet" href="https://cdn.bootcdn.net/ajax/libs/twitter-bootstrap/4.5.2/css/bootstrap.min.css"> <!-- BootCDN Bootstrap CSS -->
+<style>
+  .dropdown-submenu .dropdown-menu {
+    top: 0;
+    left: 100%; /* 使子菜单向右弹出 */
+    margin-top: -6px; /* 微调位置 */
+  }
+</style>
+    <style>
+html, body { width: 100%; height: 100%; overflow: hidden; padding: 0px; margin: 0px; background: #FFF }
+.layui-bg-green, .layui-btn { background-color: #212529 !important }
+#menu { z-index: 999999; position: relative }
+#main { height: calc(100% - 60px); overflow: hidden; }
+.content { width: 100%; height: calc(100% - 80px); overflow: hidden; margin: 0 auto; margin-top: 10px; }
+.content > div { width: 22%; margin-left: 2.5%; height: 100%; float: left; }
+.content > div .layui-elem-field { height: calc(100% - 30px) !important; }
+.content > div legend { font-size: 14px; font-weight: bolder; color: #212529; }
+.content > div .layui-elem-field .layui-field-box { height: calc(100% - 30px); overflow: auto; }
+.content > div .layui-elem-field .layui-field-box > div > div { cursor: pointer; }
+.hove:hover { color: #212529; }
+.select { color: red; }
+.mapTransfer h3 { display: none; }
+.logo { font-size: 24px; }
+.logo img { max-width: 95px; width: 100%; height: 100%; }
+.footer { line-height: 0; text-align: center; color: #666; font-weight: 300; }
+.layui-card.npclink { display: none; }
+.layui-card.dingshi { display: none; }
+</style>
+    </head>
+    <body>
+<nav id=fpb-c28 class="navbar navbar-expand-md sticky-top"><a id=fpb-c28 class="navbar-brand" href="http://ruchu888.ysepan.com/">传奇补丁</a>
+      <button id=fpb-c28 type="button" class="navbar-toggler navbar-dark"><span id=fpb-c28 class="navbar-toggler-icon"></span></button>
+      <div class="navbar-collapse collapse"> 
+    <!--    <div id=fpb-c28 class="pl-3">
+      <a id=fpb-c28 class="dropdown-item" href="/">首页</a>
+      </div>-->
+    <ul class="navbar-nav mr-auto">
+          <li id=fpb-c28 class="nav-item dropdown"><a id=fpb-c28 class="nav-link dropdown-toggle">系统</a>
+        <ul id=fpb-c28 class="dropdown-menu">
+              <li><a id=fpb-c28 class="dropdown-item" href="content.htm">界面</a></li>
+              <li><a id=fpb-c28 class="dropdown-item" href="content_2.htm">热键</a></li>
+              <li><a id=fpb-c28 class="dropdown-item" href="content_3.htm">命令</a></li>
+              <li><a id=fpb-c28 class="dropdown-item" href="content_5.htm">属性中英对照</a></li>
+              <li><a id=fpb-c28 class="dropdown-item" href="content_4.htm">经验列表</a></li>
+              <li id=fpb-c28 class="dropright dropdown-submenu"><a id=fpb-c28 class="dropdown-item dropdown-toggle">属性表</a>
+            <ul id=fpb-c28 class="dropdown-menu">
+                  <li><a id=fpb-c28 class="dropdown-item" href="content_6.htm">战士属性表</a></li>
+                  <li><a id=fpb-c28 class="dropdown-item" href="content_7.htm">法师属性表</a></li>
+                  <li><a id=fpb-c28 class="dropdown-item" href="content_8.htm">道士属性表</a></li>
+                </ul>
+          </li>
+            </ul>
+      </li>
+          <li id=fpb-c28 class="nav-item dropdown"><a id=fpb-c28 class="nav-link dropdown-toggle">地图</a>
+        <ul id=fpb-c28 class="dropdown-menu">
+              <li id=fpb-c28 class="dropright dropdown-submenu"><a id=fpb-c28 class="dropdown-item dropdown-toggle">比奇地区</a>
+            <ul id=fpb-c28 class="dropdown-menu">
+                  <li><a id=fpb-c28 class="dropdown-item" href="Map.htm">比奇省</a></li>
+                  <li><a id=fpb-c28 class="dropdown-item" href="MapList.htm">兽人古墓</a></li>
+                  <li><a id=fpb-c28 class="dropdown-item" href="MapList_2.htm">天然洞穴</a></li>
+                  <li><a id=fpb-c28 class="dropdown-item" href="MapList_3.htm">比奇矿区</a></li>
+                </ul>
+          </li>
+              <li id=fpb-c28 class="dropright dropdown-submenu"><a id=fpb-c28 class="dropdown-item dropdown-toggle">沃玛地区</a>
+            <ul id=fpb-c28 class="dropdown-menu">
+                  <li><a id=fpb-c28 class="dropdown-item" href="Map_2.htm">沃玛森林</a></li>
+                  <li><a id=fpb-c28 class="dropdown-item" href="MapList_4.htm">沃玛自然洞穴</a></li>
+                  <li><a id=fpb-c28 class="dropdown-item" href="MapList_5.htm">沃玛寺庙</a></li>
+                </ul>
+          </li>
+              <li id=fpb-c28 class="dropright dropdown-submenu"><a id=fpb-c28 class="dropdown-item dropdown-toggle">毒蛇地区</a>
+            <ul id=fpb-c28 class="dropdown-menu">
+                  <li><a id=fpb-c28 class="dropdown-item" href="Map_3.htm">毒蛇山谷</a></li>
+                  <li><a id=fpb-c28 class="dropdown-item" href="MapList_6.htm">毒蛇矿区</a></li>
+                </ul>
+          </li>
+              <li id=fpb-c28 class="dropright dropdown-submenu"><a id=fpb-c28 class="dropdown-item dropdown-toggle">盟重地区</a>
+            <ul id=fpb-c28 class="dropdown-menu">
+                  <li><a id=fpb-c28 class="dropdown-item" href="Map_4.htm">盟重省</a></li>
+                  <li><a id=fpb-c28 class="dropdown-item" href="MapList_7.htm">蜈蚣洞</a></li>
+                  <li><a id=fpb-c28 class="dropdown-item" href="MapList_8.htm">未知暗殿</a></li>
+                  <li><a id=fpb-c28 class="dropdown-item" href="MapList_9.htm">石墓</a></li>
+                  <li><a id=fpb-c28 class="dropdown-item" href="MapList_10.htm">香石古墓</a></li>
+                  <li><a id=fpb-c28 class="dropdown-item" href="MapList_11.htm">祖玛寺庙</a></li>
+                  <li><a id=fpb-c28 class="dropdown-item" href="Map_5.htm">沙巴克密道</a></li>
+                </ul>
+          </li>
+              <li id=fpb-c28 class="dropright dropdown-submenu"><a id=fpb-c28 class="dropdown-item dropdown-toggle">白日门区</a>
+            <ul id=fpb-c28 class="dropdown-menu">
+                  <li><a id=fpb-c28 class="dropdown-item" href="Map_6.htm">白日门</a></li>
+                  <li><a id=fpb-c28 class="dropdown-item" href="Map_7.htm">丛林迷宫</a></li>
+                  <li><a id=fpb-c28 class="dropdown-item" href="MapList_12.htm">赤月峡谷</a></li>
+                </ul>
+          </li>
+              <li id=fpb-c28 class="dropright dropdown-submenu"><a id=fpb-c28 class="dropdown-item dropdown-toggle">封魔谷区</a>
+            <ul id=fpb-c28 class="dropdown-menu">
+                  <li><a id=fpb-c28 class="dropdown-item" href="Map_9.htm">封魔谷</a></li>
+                  <li><a id=fpb-c28 class="dropdown-item" href="MapList_13.htm">封魔殿</a></li>
+                </ul>
+          </li>
+              <li id=fpb-c28 class="dropright dropdown-submenu"><a id=fpb-c28 class="dropdown-item dropdown-toggle">苍月地区</a>
+            <ul id=fpb-c28 class="dropdown-menu">
+                  <li><a id=fpb-c28 class="dropdown-item" href="Map_8.htm">苍月岛</a></li>
+                  <li><a id=fpb-c28 class="dropdown-item" href="MapList_14.htm">尸魔洞</a></li>
+                  <li><a id=fpb-c28 class="dropdown-item" href="MapList_15.htm">骨魔洞</a></li>
+                  <li><a id=fpb-c28 class="dropdown-item" href="MapList_16.htm">牛魔寺庙</a></li>
+                </ul>
+          </li>
+              <li id=fpb-c28 class="dropright dropdown-submenu"><a id=fpb-c28 class="dropdown-item dropdown-toggle">其他地区</a>
+            <ul id=fpb-c28 class="dropdown-menu">
+                  <li><a id=fpb-c28 class="dropdown-item" href="MapList_17.htm">六件新衣</a></li>
+                </ul>
+          </li>
+            </ul>
+      </li>
+          <li id=fpb-c28 class="nav-item dropdown"><a id=fpb-c28 class="nav-link dropdown-toggle">怪物</a>
+        <ul id=fpb-c28 class="dropdown-menu">
+              <li id=fpb-c28 class="dropright dropdown-submenu"><a id=fpb-c28 class="dropdown-item dropdown-toggle">比奇地区</a>
+            <ul id=fpb-c28 class="dropdown-menu">
+                  <li><a id=fpb-c28 class="dropdown-item" href="Monster.htm">比奇省</a></li>
+                  <li><a id=fpb-c28 class="dropdown-item" href="Monster_2.htm">兽人古墓</a></li>
+                  <li><a id=fpb-c28 class="dropdown-item" href="Monster_4.htm">天然洞穴</a></li>
+                  <li><a id=fpb-c28 class="dropdown-item" href="Monster_3.htm">比奇矿区</a></li>
+                </ul>
+          </li>
+              <li id=fpb-c28 class="dropright dropdown-submenu"><a id=fpb-c28 class="dropdown-item dropdown-toggle">沃玛地区</a>
+            <ul id=fpb-c28 class="dropdown-menu">
+                  <li><a id=fpb-c28 class="dropdown-item" href="Monster_5.htm">沃玛森林</a></li>
+                  <li><a id=fpb-c28 class="dropdown-item" href="Monster_6.htm">沃玛自然洞穴</a></li>
+                  <li><a id=fpb-c28 class="dropdown-item" href="Monster_7.htm">沃玛寺庙</a></li>
+                </ul>
+          </li>
+              <li id=fpb-c28 class="dropright dropdown-submenu"><a id=fpb-c28 class="dropdown-item dropdown-toggle">毒蛇地区</a>
+            <ul id=fpb-c28 class="dropdown-menu">
+                  <li><a id=fpb-c28 class="dropdown-item" href="Monster_8.htm">毒蛇山谷</a></li>
+                  <li><a id=fpb-c28 class="dropdown-item" href="Monster_9.htm">毒蛇矿区</a></li>
+                </ul>
+          </li>
+              <li id=fpb-c28 class="dropright dropdown-submenu"><a id=fpb-c28 class="dropdown-item dropdown-toggle">盟重地区</a>
+            <ul id=fpb-c28 class="dropdown-menu">
+                  <li><a id=fpb-c28 class="dropdown-item" href="Monster_12.htm">盟重省</a></li>
+                  <li><a id=fpb-c28 class="dropdown-item" href="Monster_10.htm">蜈蚣洞</a></li>
+                  <li><a id=fpb-c28 class="dropdown-item" href="Monster_11.htm">未知暗殿</a></li>
+                  <li><a id=fpb-c28 class="dropdown-item" href="Monster_13.htm">石墓</a></li>
+                  <li><a id=fpb-c28 class="dropdown-item" href="Monster_14.htm">香石古墓</a></li>
+                  <li><a id=fpb-c28 class="dropdown-item" href="Monster_15.htm">祖玛寺庙</a></li>
+                  <li><a id=fpb-c28 class="dropdown-item" href="Monster_16.htm">沙巴克密道</a></li>
+                </ul>
+          </li>
+              <li id=fpb-c28 class="dropright dropdown-submenu"><a id=fpb-c28 class="dropdown-item dropdown-toggle">白日门区</a>
+            <ul id=fpb-c28 class="dropdown-menu">
+                  <li><a id=fpb-c28 class="dropdown-item" href="Monster_17.htm">白日门</a></li>
+                  <li><a id=fpb-c28 class="dropdown-item" href="Monster_18.htm">丛林迷宫</a></li>
+                  <li><a id=fpb-c28 class="dropdown-item" href="Monster_19.htm">赤月峡谷</a></li>
+                </ul>
+          </li>
+              <li id=fpb-c28 class="dropright dropdown-submenu"><a id=fpb-c28 class="dropdown-item dropdown-toggle">封魔地区</a>
+            <ul id=fpb-c28 class="dropdown-menu">
+                  <li><a id=fpb-c28 class="dropdown-item" href="Monster_20.htm">封魔谷</a></li>
+                  <li><a id=fpb-c28 class="dropdown-item" href="Monster_21.htm">封魔殿</a></li>
+                </ul>
+          </li>
+              <li id=fpb-c28 class="dropright dropdown-submenu"><a id=fpb-c28 class="dropdown-item dropdown-toggle">苍月地区</a>
+            <ul id=fpb-c28 class="dropdown-menu">
+                  <li><a id=fpb-c28 class="dropdown-item" href="Monster_22.htm">苍月岛</a></li>
+                  <li><a id=fpb-c28 class="dropdown-item" href="Monster_23.htm">尸魔洞</a></li>
+                  <li><a id=fpb-c28 class="dropdown-item" href="Monster_24.htm">骨魔洞</a></li>
+                  <li><a id=fpb-c28 class="dropdown-item" href="Monster_25.htm">牛魔寺庙</a></li>
+                </ul>
+          </li>
+              <li><a id=fpb-c28 class="dropdown-item" href="Monster_26.htm">BOSS</a></li>
+              <li><a id=fpb-c28 class="dropdown-item" href="Monster_27.htm">生物系</a></li>
+              <li><a id=fpb-c28 class="dropdown-item" href="Monster_28.htm">不死系</a></li>
+            </ul>
+      </li>
+          <li id=fpb-c28 class="nav-item dropdown"><a id=fpb-c28 class="nav-link dropdown-toggle">物品</a>
+        <ul id=fpb-c28 class="dropdown-menu">
+              <li id=fpb-c28 class="dropright dropdown-submenu"><a id=fpb-c28 class="dropdown-item dropdown-toggle">武器</a>
+            <ul id=fpb-c28 class="dropdown-menu">
+                  <li><a id=fpb-c28 class="dropdown-item" href="Item.htm">通用</a></li>
+                  <li><a id=fpb-c28 class="dropdown-item" href="Item_2.htm">战士</a></li>
+                  <li><a id=fpb-c28 class="dropdown-item" href="Item_3.htm">法师</a></li>
+                  <li><a id=fpb-c28 class="dropdown-item" href="Item_4.htm">道士</a></li>
+                </ul>
+          </li>
+              <li id=fpb-c28 class="dropright dropdown-submenu"><a id=fpb-c28 class="dropdown-item dropdown-toggle">盔甲</a>
+            <ul id=fpb-c28 class="dropdown-menu">
+                  <li><a id=fpb-c28 class="dropdown-item" href="Item_5.htm">通用</a></li>
+                  <li><a id=fpb-c28 class="dropdown-item" href="Item_6.htm">战士</a></li>
+                  <li><a id=fpb-c28 class="dropdown-item" href="Item_7.htm">法师</a></li>
+                  <li><a id=fpb-c28 class="dropdown-item" href="Item_8.htm">道士</a></li>
+                </ul>
+          </li>
+              <li><a id=fpb-c28 routerlink="list/7" class="dropdown-item" href="Item_9.htm">头盔</a></li>
+              <li id=fpb-c28 class="dropright dropdown-submenu"><a id=fpb-c28 class="dropdown-item dropdown-toggle">项链</a>
+            <ul id=fpb-c28 class="dropdown-menu">
+                  <li><a id=fpb-c28 class="dropdown-item" href="Item_10.htm">通用</a></li>
+                  <li><a id=fpb-c28 class="dropdown-item" href="Item_11.htm">战士</a></li>
+                  <li><a id=fpb-c28 class="dropdown-item" href="Item_12.htm">法师</a></li>
+                  <li><a id=fpb-c28 class="dropdown-item" href="Item_13.htm">道士</a></li>
+                </ul>
+          </li>
+              <li id=fpb-c28 class="dropright dropdown-submenu"><a id=fpb-c28 class="dropdown-item dropdown-toggle">手镯</a>
+            <ul id=fpb-c28 class="dropdown-menu">
+                  <li><a id=fpb-c28 class="dropdown-item" href="Item_14.htm">通用</a></li>
+                  <li><a id=fpb-c28 class="dropdown-item" href="Item_15.htm">战士</a></li>
+                  <li><a id=fpb-c28 class="dropdown-item" href="Item_16.htm">法师</a></li>
+                  <li><a id=fpb-c28 class="dropdown-item" href="Item_17.htm">道士</a></li>
+                </ul>
+          </li>
+              <li id=fpb-c28 class="dropright dropdown-submenu"><a id=fpb-c28 class="dropdown-item dropdown-toggle">戒指</a>
+            <ul id=fpb-c28 class="dropdown-menu">
+                  <li><a id=fpb-c28 class="dropdown-item" href="Item_18.htm">通用</a></li>
+                  <li><a id=fpb-c28 class="dropdown-item" href="Item_19.htm">战士</a></li>
+                  <li><a id=fpb-c28 class="dropdown-item" href="Item_20.htm">法师</a></li>
+                  <li><a id=fpb-c28 class="dropdown-item" href="Item_21.htm">道士</a></li>
+                </ul>
+          </li>
+              <li><a id=fpb-c28 class="dropdown-item" href="Suit.htm">套装</a></li>
+              <li id=fpb-c28 class="dropright dropdown-submenu"><a id=fpb-c28 class="dropdown-item dropdown-toggle">消耗品</a>
+            <ul id=fpb-c28 class="dropdown-menu">
+                  <li><a id=fpb-c28 class="dropdown-item" href="Item_22.htm">恢复消耗品</a></li>
+                  <li><a id=fpb-c28 class="dropdown-item" href="Item_24.htm">增强消耗品</a></li>
+                  <li><a id=fpb-c28 class="dropdown-item" href="Item_23.htm">特殊消耗品</a></li>
+                  <li><a id=fpb-c28 class="dropdown-item" href="Item_25.htm">矿石</a></li>
+                </ul>
+          </li>
+              <li id=fpb-c28 class="dropright dropdown-submenu"><a id=fpb-c28 class="dropdown-item dropdown-toggle">技能书</a>
+            <ul id=fpb-c28 class="dropdown-menu">
+                  <li><a id=fpb-c28 class="dropdown-item" href="Item_26.htm">战士</a></li>
+                  <li><a id=fpb-c28 class="dropdown-item" href="Item_27.htm">法师</a></li>
+                  <li><a id=fpb-c28 class="dropdown-item" href="Item_28.htm">道士</a></li>
+                </ul>
+          </li>
+            </ul>
+      </li>
+          <li id=fpb-c28 class="nav-item dropdown"><a id=fpb-c28 class="nav-link dropdown-toggle">合成</a>
+        <ul id=fpb-c28 class="dropdown-menu">
+              <li><a id=fpb-c28 routerlink="list/170" class="dropdown-item" href="Merge.htm">材料&amp;消耗品</a></li>
+            </ul>
+      </li>
+          <li id=fpb-c28 class="nav-item dropdown"><a id=fpb-c28 class="nav-link dropdown-toggle">技能</a>
+        <ul id=fpb-c28 class="dropdown-menu">
+              <li><a id=fpb-c28 class="dropdown-item" href="Magic.htm">战士技能</a></li>
+              <li><a id=fpb-c28 class="dropdown-item" href="Magic_2.htm">法师技能</a></li>
+              <li><a id=fpb-c28 class="dropdown-item" href="Magic_3.htm">道士技能</a></li>
+            </ul>
+      </li>
+          <li id=fpb-c28 class="nav-item dropdown"><a id=fpb-c28 class="nav-link dropdown-toggle">任务</a>
+        <ul id=fpb-c28 class="dropdown-menu">
+              <li><a id=fpb-c28 class="dropdown-item" href="content_9.htm">祈福项链任务</a></li>
+              <li><a id=fpb-c28 class="dropdown-item" href="content_10.htm">初级装备任务</a></li>
+              <li><a id=fpb-c28 class="dropdown-item" href="content_11.htm">传说中的罗刹任务</a></li>
+              <li><a id=fpb-c28 class="dropdown-item" href="content_12.htm">技巧项链任务</a></li>
+              <li><a id=fpb-c28 class="dropdown-item" href="content_13.htm">特殊戒指与手套</a></li>
+              <li><a id=fpb-c28 class="dropdown-item" href="content_14.htm">神秘商店任务</a></li>
+              <li><a id=fpb-c28 class="dropdown-item" href="content_15.htm">攻击神水金砖</a></li>
+              <li><a id=fpb-c28 class="dropdown-item" href="content_16.htm">命运之刃任务</a></li>
+              <li><a id=fpb-c28 class="dropdown-item" href="content_17.htm">破馆珍剑任务</a></li>
+            </ul>
+      </li>
+          <li id=fpb-c28 class="nav-item dropdown"><a id=fpb-c28 class="nav-link dropdown-toggle">爆率</a>
+        <ul id=fpb-c28 class="dropdown-menu">
+              <li><a id=fpb-c28 class="dropdown-item" href="stditem.html">物品查询</a></li>
+              <li><a id=fpb-c28 class="dropdown-item" href="guaiwu.html">怪物查询</a></li>
+              <li><a id=fpb-c28 class="dropdown-item" href="map.html">地图查询</a></li>
+              <li><a id=fpb-c28 class="dropdown-item" href="npc.html">NPC查询</a></li>
+              <!--             <li><a id=fpb-c28 class="dropdown-item" href="content.aspx">炫彩、炫酷技能</a></li>
+            <li><a id=fpb-c28 class="dropdown-item" href="content.aspx">消除神兽喷怪声</a></li>
+            <li><a id=fpb-c28 class="dropdown-item" href="content.aspx">迷你神兽</a></li>-->
+            </ul>
+      </li>
+          <li id=fpb-c28 class="nav-item dropdown"><a id=fpb-c28 class="nav-link dropdown-toggle">资料</a>
+        <ul id=fpb-c28 class="dropdown-menu">
+              <li><a id=fpb-c28 class="dropdown-item" href="content_18.htm">蜈蚣洞走法传送图</a></li>
+              <li><a id=fpb-c28 class="dropdown-item" href="content_19.htm">祖玛阁怎么走图解</a></li>
+              <li><a id=fpb-c28 class="dropdown-item" href="content_20.htm">石墓阵走法图解</a></li>
+              <li><a id=fpb-c28 class="dropdown-item" href="content_21.htm">幻境迷宫走法图解</a></li>
+              <li><a id=fpb-c28 class="dropdown-item" href="content_22.htm">圣域走法图解</a></li>
+              <li><a id=fpb-c28 class="dropdown-item" href="content_23.htm">赤月走法传送图</a></li>
+              <li><a id=fpb-c28 class="dropdown-item" href="content_25.htm">沙巴克秘密通道走法</a></li>
+              <li><a id=fpb-c28 class="dropdown-item" href="content_24.htm">道士3、4级毒伤害</a></li>
+              <li><a id=fpb-c28 class="dropdown-item" href="content_26.htm">技能等级对照表</a></li>
+              <li><a id=fpb-c28 class="dropdown-item" href="content_27.htm">法师宝宝属性表</a></li>
+              <li><a id=fpb-c28 class="dropdown-item" href="content_28.htm">道士骷髅神兽属性</a></li>
+              <li><a id=fpb-c28 class="dropdown-item" href="content_29.htm">传奇怪物属性表</a></li>
+            </ul>
+      </li>
+        </ul>
+    <!--      <div id=fpb-c28 class="mr-auto pl-3 py-2">
+      <select _ngcontent-hwb-c28="" aria-label="Language Selecter"><option _ngcontent-hwb-c28="" value="CN">CN</option><option _ngcontent-hwb-c28="" value="EN">EN</option></select>
+      </div>--> 
+  </div>
+    </nav>
+<div id="main">
+      <div class="layui-form-item" style="width: 80%;margin: 10px auto">
+    <div class="layui-input-inline" style="width: calc(100% - 200px)">
+          <input id="key" type="text" name="key" required lay-verify="required" placeholder="请输入怪物关键字(删除所有关键字可查询所有怪物)" autocomplete="off" class="layui-input">
+        </div>
+    <div class="layui-input-inline" style="width: 180px">
+          <button id="search" type="button" class="layui-btn">搜索物品装备</button>
+        </div>
+  </div>
+      <div class="content">
+    <div class="equ">
+          <fieldset class="layui-elem-field">
+        <legend>怪物列表（点击怪物查看爆出什么）</legend>
+        <div class="layui-field-box">
+              <div id="equList"> </div>
+            </div>
+      </fieldset>
+        </div>
+    <div class="mon">
+          <fieldset class="layui-elem-field">
+        <legend id="monTitle">会爆这些东西</legend>
+        <div class="layui-field-box">
+              <div class="layui-card npclink" style="margin-bottom: 5px;">
+            <div id="npcTitle" class="layui-card-header" style="color: #212529;font-weight: bolder;"> NPC关联(可以获取或消耗) </div>
+            <div class="layui-card-body" id="npccon"> 没有找到 </div>
+          </div>
+              <div id="monList"> </div>
+            </div>
+      </fieldset>
+        </div>
+    <div class="map">
+          <fieldset class="layui-elem-field">
+        <legend id="mapTitle">所在地图名称（没有地图说明这个怪物不刷出）</legend>
+        <div class="layui-field-box">
+              <div class="layui-card  " style="margin-bottom: 5px;">
+            <div id="dingshiTitle" class="layui-card-header" style="color: #212529;font-weight: bolder;"> 定时刷新 </div>
+            <div class="layui-card-body" id="dingshicon"> 没有找到 </div>
+          </div>
+              <div id="mapList"> </div>
+            </div>
+      </fieldset>
+        </div>
+    <div class="mapTransfer">
+          <fieldset class="layui-elem-field">
+        <legend id="mapTransferTitle">跑图流程（没有信息说明此地图是触发进入）</legend>
+        <div class="layui-field-box">
+              <div id="mapTransferLists">
+            <div listid="0">
+                  <fieldset class="layui-elem-field">
+                <legend>NPC直传</legend>
+                <div class="layui-field-box"> </div>
+              </fieldset>
+                </div>
+            <div listid="1">
+                  <fieldset class="layui-elem-field">
+                <legend></legend>
+                <div class="layui-field-box"></div>
+              </fieldset>
+                </div>
+          </div>
+              <div id="mapTransferList">
+            <div listid="0">
+                  <fieldset class="layui-elem-field">
+                <legend>跑图路线</legend>
+                <div class="layui-field-box"> </div>
+              </fieldset>
+                </div>
+            <div listid="1">
+                  <fieldset class="layui-elem-field">
+                <legend></legend>
+                <div class="layui-field-box"></div>
+              </fieldset>
+                </div>
+          </div>
+            </div>
+      </fieldset>
+        </div>
+  </div>
+    </div>
+<script>
+        //(function ($) {
+        //    alert("start");
+        //})(jQuery);
+
+
+        //// 递归函数来创建并返回fieldset元素
+        //function createFieldset(jsonNode) {
+        //    var fieldset = document.createElement('fieldset');
+        //    var legend = document.createElement('legend');
+
+        //    legend.textContent = jsonNode.name;
+        //    fieldset.appendChild(legend);
+
+        //    if (jsonNode.children && jsonNode.children.length > 0) {
+        //        jsonNode.children.forEach(function (childNode) {
+        //            fieldset.appendChild(createFieldset(childNode));
+        //        });
+        //    }
+
+        //    return fieldset;
+        //}
+
+        //// 使用createFieldset函数并将其插入到HTML文档中
+        //var rootFieldset = createFieldset(jsonTree);
+        //document.body.appendChild(rootFieldset);
+    </script> 
+<script src="layui.min.js"></script> 
+<!--<script src="./jquery.min.js"></script>--> 
+<script src="https://cdn.bootcdn.net/ajax/libs/jquery/1.9.1/jquery.min.js"></script> 
+<script src="js/xin.js"></script> 
+<script src="js/two.js"></script> 
+<script src="js/three.js"></script> 
+<script src="js/name.js"></script> 
+<script src="js/guaiwu.js"></script>
+<script charset="UTF-8" id="LA_COLLECT" src="//sdk.51.la/js-sdk-pro.min.js"></script>
+<script>LA.init({id:"3JsROvHYidvkpN9A",ck:"3JsROvHYidvkpN9A"})</script>
+<script src="https://cdn.bootcdn.net/ajax/libs/jquery/3.5.1/jquery.min.js"></script> <!-- BootCDN jQuery -->
+	<script src="https://cdn.bootcdn.net/ajax/libs/twitter-bootstrap/4.5.2/js/bootstrap.bundle.min.js"></script> <!-- BootCDN Bootstrap JS -->
+	<script>
+	$(document).ready(function () {
+		$('.dropdown-submenu a.dropdown-toggle').on("click", function(e) {
+			var $el = $(this);
+			var $submenu = $el.next(".dropdown-menu");
+
+			if (!$submenu.hasClass('show')) {
+				$submenu.parent().siblings().find(".dropdown-menu").removeClass("show");
+				$submenu.toggleClass('show');
+			}
+
+			e.preventDefault();
+			e.stopPropagation();
+		});
+
+		$(document).on("click", function() {
+			$('.dropdown-menu.show').removeClass("show");
+		});
+	});
+	</script>
+
+
+</body>
+</html>
