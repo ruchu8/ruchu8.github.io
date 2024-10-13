@@ -1337,3 +1337,6 @@ View_99.htm.bak
 *.bak
 *.bak
 *.bak
+static/hexo/scaffolds/post.md
+static/hexo/themes/hexo-theme-fluid
+static/hexo/themes/hexo-theme-fluid
