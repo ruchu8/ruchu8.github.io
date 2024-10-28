@@ -16,8 +16,12 @@
     left: 100%; /* 使子菜单向右弹出 */
     margin-top: -6px; /* 微调位置 */
   }
-</style>
-<style>
+img.lazyload {
+    display: block; /* 确保图像占据空间 */
+    width: 894px; /* 或者根据实际尺寸设置 */
+    height: 599px; /* 或者根据实际尺寸设置 */
+    background: url('loading.gif') center center no-repeat; /* 设置loading.gif为背景 */
+}
 div.title { text-align: center }
 div.article { padding: 0 30px }
 </style>
@@ -416,64 +420,64 @@ div.article { padding: 0 30px }
 	接第三章任务
 </p>
 <p>
-	<img src="./files/技巧项链/image1.png" width="897" height="598" /> 
+	<img class="lazyload" data-src="./files/技巧项链/image1.png" width="897" height="598" /> 
 </p>
 <p>
-	<img src="./files/技巧项链/image2.png" width="899" height="601" /> 
+	<img class="lazyload" data-src="./files/技巧项链/image2.png" width="899" height="601" /> 
 </p>
 <p>
-	<img src="./files/技巧项链/image3.png" width="897" height="602" /> 
+	<img class="lazyload" data-src="./files/技巧项链/image3.png" width="897" height="602" /> 
 </p>
 <p>
-	<img src="./files/技巧项链/image4.png" width="897" height="598" /> 
+	<img class="lazyload" data-src="./files/技巧项链/image4.png" width="897" height="598" /> 
 </p>
 <p>
-	<img src="./files/技巧项链/image5.png" width="897" height="602" /> 
+	<img class="lazyload" data-src="./files/技巧项链/image5.png" width="897" height="602" /> 
 </p>
 <p>
 	一直按照屠夫的指定路线走，直到来到下面这张地图，老人就在这里。
 </p>
 <p>
-	<img src="./files/技巧项链/image6.png" width="896" height="599" /> 
+	<img class="lazyload" data-src="./files/技巧项链/image6.png" width="896" height="599" /> 
 </p>
 <p>
-	<img src="./files/技巧项链/image7.jpg" width="897" height="598" /> 
+	<img class="lazyload" data-src="./files/技巧项链/image7.jpg" width="897" height="598" /> 
 </p>
 <p>
-	<img src="./files/技巧项链/image8.png" width="895" height="599" /> 
+	<img class="lazyload" data-src="./files/技巧项链/image8.png" width="895" height="599" /> 
 </p>
 <p>
-	<img src="./files/技巧项链/image9.jpg" width="899" height="600" /> 
+	<img class="lazyload" data-src="./files/技巧项链/image9.jpg" width="899" height="600" /> 
 </p>
 <p>
-	<img src="./files/技巧项链/image10.png" width="899" height="602" /> 
+	<img class="lazyload" data-src="./files/技巧项链/image10.png" width="899" height="602" /> 
 </p>
 <p>
-	<img src="./files/技巧项链/image11.png" width="897" height="601" /> 
+	<img class="lazyload" data-src="./files/技巧项链/image11.png" width="897" height="601" /> 
 </p>
 <p>
-	<img src="./files/技巧项链/image12.png" width="895" height="599" /> 
+	<img class="lazyload" data-src="./files/技巧项链/image12.png" width="895" height="599" /> 
 </p>
 <p>
-	<img src="./files/技巧项链/image13.png" width="895" height="600" /> 
+	<img class="lazyload" data-src="./files/技巧项链/image13.png" width="895" height="600" /> 
 </p>
 <p>
-	<img src="./files/技巧项链/image14.png" width="895" height="599" /> 
+	<img class="lazyload" data-src="./files/技巧项链/image14.png" width="895" height="599" /> 
 </p>
 <p>
-	<img src="./files/技巧项链/image15.png" width="891" height="600" /> 
+	<img class="lazyload" data-src="./files/技巧项链/image15.png" width="891" height="600" /> 
 </p>
 <p>
-	<img src="./files/技巧项链/image16.jpg" width="893" height="600" /> 
+	<img class="lazyload" data-src="./files/技巧项链/image16.jpg" width="893" height="600" /> 
 </p>
 <p>
-	<img src="./files/技巧项链/image17.png" width="897" height="599" /> 
+	<img class="lazyload" data-src="./files/技巧项链/image17.png" width="897" height="599" /> 
 </p>
 <p>
-	<img src="./files/技巧项链/image18.jpg" width="896" height="598" /> 
+	<img class="lazyload" data-src="./files/技巧项链/image18.jpg" width="896" height="598" /> 
 </p>
 <p>
-	<img src="./files/技巧项链/image19.png" width="896" height="599" /> 
+	<img class="lazyload" data-src="./files/技巧项链/image19.png" width="896" height="599" /> 
 </p>
 <p>
 	至此，技巧项链任务完结。<br />
@@ -494,7 +498,7 @@ div.article { padding: 0 30px }
 <script src="./static/ruchu/js/ruchu.js"></script> 
 <script src="./static/ruchu/js/jquery.min.js"></script> 
 <script src="./static/ruchu/js/bootstrap.bundle.min.js"></script>
-	<script>
+<script>
 	$(document).ready(function () {
 		$('.dropdown-submenu a.dropdown-toggle').on("click", function(e) {
 			var $el = $(this);
@@ -513,7 +517,33 @@ div.article { padding: 0 30px }
 			$('.dropdown-menu.show').removeClass("show");
 		});
 	});
-	</script>
+</script>
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    const lazyloadImages = document.querySelectorAll('img.lazyload');
+    const loadImage = (image) => {
+        image.src = 'loading.gif'; // 临时设定src为loading.gif
+        const realSrc = image.dataset.src; // 获取真实图片地址
+        const img = new Image(); // 创建新的 Image 对象
+        img.src = realSrc; // 加载真正的图片
+        img.onload = () => { 
+            image.src = realSrc; // 设置源为真实图像
+            image.classList.remove('lazyload'); // 移除 lazyload 类
+        };
+    };
+
+    const handleScroll = () => {
+        lazyloadImages.forEach((img) => {
+            if (img.getBoundingClientRect().top <= window.innerHeight) {
+                loadImage(img); // 加载图像
+            }
+        });
+    };
+
+    window.addEventListener('scroll', handleScroll);
+    handleScroll(); // 初始加载可见的图像
+});
+</script>
 
 
 </body>
