@@ -16,8 +16,12 @@
     left: 100%; /* 使子菜单向右弹出 */
     margin-top: -6px; /* 微调位置 */
   }
-</style>
-<style>
+img.lazyload {
+    display: block; /* 确保图像占据空间 */
+    width: 894px; /* 或者根据实际尺寸设置 */
+    height: 599px; /* 或者根据实际尺寸设置 */
+    background: url('loading.gif') center center no-repeat; /* 设置loading.gif为背景 */
+}
 div.title { text-align: center }
 div.article { padding: 0 30px }
 </style>
@@ -416,38 +420,38 @@ div.article { padding: 0 30px }
 	接第四章任务！！！找到比奇省门外面的 屠户 对话。
 </p>
 <p>
-	<img src="./files/特殊戒指与手套/image1.png" alt="传奇特殊戒指与手套任务" width="893" height="602" /> 
+	<img class="lazyload" data-src="./files/特殊戒指与手套/image1.png" alt="传奇特殊戒指与手套任务" width="893" height="602" /> 
 </p>
 <p>
-	<img src="./files/特殊戒指与手套/image2.png" alt="传奇特殊戒指与手套任务" width="895" height="600" /> 
+	<img class="lazyload" data-src="./files/特殊戒指与手套/image2.png" alt="传奇特殊戒指与手套任务" width="895" height="600" /> 
 </p>
 <p>
-	<img src="./files/特殊戒指与手套/image3.png" alt="传奇特殊戒指与手套任务" width="898" height="599" /> 
+	<img class="lazyload" data-src="./files/特殊戒指与手套/image3.png" alt="传奇特殊戒指与手套任务" width="898" height="599" /> 
 </p>
 <p>
-	<img src="./files/特殊戒指与手套/image4.png" alt="传奇特殊戒指与手套任务" width="897" height="601" /> 
+	<img class="lazyload" data-src="./files/特殊戒指与手套/image4.png" alt="传奇特殊戒指与手套任务" width="897" height="601" /> 
 </p>
 <p>
-	<img src="./files/特殊戒指与手套/image5.png" alt="传奇特殊戒指与手套任务" width="904" height="601" /> 
+	<img class="lazyload" data-src="./files/特殊戒指与手套/image5.png" alt="传奇特殊戒指与手套任务" width="904" height="601" /> 
 </p>
 <p>
-	<img src="./files/特殊戒指与手套/image6.png" alt="传奇特殊戒指与手套任务" width="896" height="598" /> 
+	<img class="lazyload" data-src="./files/特殊戒指与手套/image6.png" alt="传奇特殊戒指与手套任务" width="896" height="598" /> 
 </p>
 <p>
-	<img src="./files/特殊戒指与手套/image7.jpg" alt="传奇特殊戒指与手套任务" width="895" height="598" /> 
+	<img class="lazyload" data-src="./files/特殊戒指与手套/image7.jpg" alt="传奇特殊戒指与手套任务" width="895" height="598" /> 
 </p>
 <p>
-	<img src="./files/特殊戒指与手套/image8.png" alt="传奇特殊戒指与手套任务" width="900" height="601" /> 
+	<img class="lazyload" data-src="./files/特殊戒指与手套/image8.png" alt="传奇特殊戒指与手套任务" width="900" height="601" /> 
 </p>
 <p>
 	“长的让人讨厌<span>”</span>&nbsp;选项 随机只出黑铁手套，幽灵手套其中的一种。<br />
 需要拼一拼人品，黑铁手套奖励翻倍。<br />
 </p>
 <p>
-	<img src="./files/特殊戒指与手套/image9.jpg" alt="传奇特殊戒指与手套任务" width="896" height="598" /> 
+	<img class="lazyload" data-src="./files/特殊戒指与手套/image9.jpg" alt="传奇特殊戒指与手套任务" width="896" height="598" /> 
 </p>
 <p>
-	<img src="./files/特殊戒指与手套/image10.png" alt="传奇特殊戒指与手套任务" width="898" height="599" /> 
+	<img class="lazyload" data-src="./files/特殊戒指与手套/image10.png" alt="传奇特殊戒指与手套任务" width="898" height="599" /> 
 </p>
 <p>
 	次任务到此完结，接下一任务，兽人古墓刘老头，继续对话，林小姐会告知你 刘老头的坐标及路线。
@@ -467,7 +471,7 @@ div.article { padding: 0 30px }
 <script src="./static/ruchu/js/ruchu.js"></script> 
 <script src="./static/ruchu/js/jquery.min.js"></script> 
 <script src="./static/ruchu/js/bootstrap.bundle.min.js"></script>
-	<script>
+<script>
 	$(document).ready(function () {
 		$('.dropdown-submenu a.dropdown-toggle').on("click", function(e) {
 			var $el = $(this);
@@ -486,7 +490,33 @@ div.article { padding: 0 30px }
 			$('.dropdown-menu.show').removeClass("show");
 		});
 	});
-	</script>
+</script>
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    const lazyloadImages = document.querySelectorAll('img.lazyload');
+    const loadImage = (image) => {
+        image.src = 'loading.gif'; // 临时设定src为loading.gif
+        const realSrc = image.dataset.src; // 获取真实图片地址
+        const img = new Image(); // 创建新的 Image 对象
+        img.src = realSrc; // 加载真正的图片
+        img.onload = () => { 
+            image.src = realSrc; // 设置源为真实图像
+            image.classList.remove('lazyload'); // 移除 lazyload 类
+        };
+    };
+
+    const handleScroll = () => {
+        lazyloadImages.forEach((img) => {
+            if (img.getBoundingClientRect().top <= window.innerHeight) {
+                loadImage(img); // 加载图像
+            }
+        });
+    };
+
+    window.addEventListener('scroll', handleScroll);
+    handleScroll(); // 初始加载可见的图像
+});
+</script>
 
 
 </body>
