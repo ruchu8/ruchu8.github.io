@@ -16,12 +16,6 @@
     left: 100%; /* 使子菜单向右弹出 */
     margin-top: -6px; /* 微调位置 */
   }
-img.lazyload {
-    display: block; /* 确保图像占据空间 */
-    width: 894px; /* 或者根据实际尺寸设置 */
-    height: 599px; /* 或者根据实际尺寸设置 */
-    background: url('loading.gif') center center no-repeat; /* 设置loading.gif为背景 */
-}
 div.title { text-align: center }
 div.article { padding: 0 30px }
 </style>
@@ -622,33 +616,6 @@ div.article { padding: 0 30px }
 		});
 	});
 </script>
-<script>
-document.addEventListener('DOMContentLoaded', function() {
-    const lazyloadImages = document.querySelectorAll('img.lazyload');
-    const loadImage = (image) => {
-        image.src = 'loading.gif'; // 临时设定src为loading.gif
-        const realSrc = image.dataset.src; // 获取真实图片地址
-        const img = new Image(); // 创建新的 Image 对象
-        img.src = realSrc; // 加载真正的图片
-        img.onload = () => { 
-            image.src = realSrc; // 设置源为真实图像
-            image.classList.remove('lazyload'); // 移除 lazyload 类
-        };
-    };
-
-    const handleScroll = () => {
-        lazyloadImages.forEach((img) => {
-            if (img.getBoundingClientRect().top <= window.innerHeight) {
-                loadImage(img); // 加载图像
-            }
-        });
-    };
-
-    window.addEventListener('scroll', handleScroll);
-    handleScroll(); // 初始加载可见的图像
-});
-</script>
-
-
+<script async src="https://cdn.bootcdn.net/ajax/libs/lazysizes/5.2.2/lazysizes.min.js" async></script>
 </body>
 </html>
