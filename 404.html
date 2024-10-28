@@ -208,14 +208,13 @@
     <div class="main-text">
         <h1>404 天呐！出错了 ~<br><br>您好像去了一个不存在的地方！ (灬ꈍ ꈍ灬)</h1>
         <div class="main-text-a" id="return-link"><a href="#">返回首页</a></div>
-    </div>
+        <div id="redirect-message"></div> </div>
     <div class="ground">
         <div class="mound">
             <div class="mound_text">404</div>
             <div class="mound_spade"></div>
         </div>
     </div>
-</div>
 
 <script>
     (function () {
@@ -315,6 +314,28 @@
             }
         }
     });
+</script>
+<script>
+  const redirectMessage = document.getElementById('redirect-message');
+  const returnLink = document.getElementById('return-link');
+
+  //Set redirect URL - replace "#" with your actual homepage URL
+  const redirectURL = "#";
+
+
+  //Show message and redirect after 5 seconds
+  setTimeout(() => {
+    redirectMessage.innerHTML = "5 秒后自动跳转到首页...";
+    setTimeout(() => {
+        redirectMessage.innerHTML = "3 秒后自动跳转到首页...";
+        setTimeout(() => {
+            window.location.href = redirectURL;
+        }, 3000); //Redirect after 3 seconds
+    }, 2000); //Show 3 second message after 2 second delay
+  }, 3000); //Show 5 second message after 3 seconds
+
+  //Remove or disable the default link if you don't want it to be clickable
+  returnLink.style.display = "none"; //Hide the link
 </script>
 </body>
 </html>
