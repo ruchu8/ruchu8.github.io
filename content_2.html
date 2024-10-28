@@ -835,16 +835,6 @@ div.article { padding: 0 30px }
 	});
 	</script>
 
-<script>
-document.addEventListener('DOMContentLoaded', function() {
-    document.addEventListener('copy', function(e) {
-        const selectedText = document.getSelection().toString();
-        const tail = "\n（这是附加的尾巴内容）";
-        const clipboardData = e.clipboardData || window.clipboardData;
-        clipboardData.setData('text/plain', selectedText + tail);
-        e.preventDefault();
-    });
-});
-</script>
+ 
 </body>
 </html>
