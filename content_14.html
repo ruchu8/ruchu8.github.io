@@ -8,7 +8,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
  <link rel="stylesheet" href="./static/ruchu/bootstrap.min.css">
-
+<link rel="stylesheet" href="https://cdn.bootcdn.net/ajax/libs/lazysizes/5.2.2/lazysizes.min.css">
 <link rel="stylesheet" href="./static/ruchu/mir.css">
 <style>
   .dropdown-submenu .dropdown-menu {
@@ -535,6 +535,53 @@ div.article { padding: 0 30px }
 		});
 	});
 </script>
-<script async src="https://cdn.bootcdn.net/ajax/libs/lazysizes/5.2.2/lazysizes.min.js" async></script>
+<script src="https://cdn.bootcdn.net/ajax/libs/lazysizes/5.2.2/lazysizes.min.js"></script>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        if ("IntersectionObserver" in window) {
+            var lazyImages = [].slice.call(document.querySelectorAll("img.lazyload"));
+            var lazyImagesToLoad = lazyImages.filter(function(lazyImage) {
+                return ("lazysizes" in lazyImage) && (lazyImage.complete === false);
+            });
+
+            function lazyLoad() {
+                if ((lazyImagesToLoad.length === 0) && (document.readyState === "complete")) {
+                    return;
+                }
+
+                lazyImagesToLoad.forEach(function(lazyImage) {
+                    var bounding = lazyImage.getBoundingClientRect();
+                    if ((bounding.top >= 0) && (bounding.left >= 0) &&
+                        ((bounding.top + bounding.height) <= (window.innerHeight || document.documentElement.clientHeight)) &&
+                        ((bounding.left + bounding.width) <= (window.innerWidth || document.documentElement.clientWidth))) {
+                        lazyImage.src = lazyImage.dataset.src;
+                        lazyImage.classList.remove("lazyload");
+                        lazyImagesToLoad = lazyImagesToLoad.filter(function(image) {
+                            return (image !== lazyImage);
+                        });
+
+                        if (lazyImage.complete === false) {
+                            lazyImage.src = "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///ywAAAAAAQABAAACAUwAOw==";
+                            lazyImage.src = lazyImage.dataset.src;
+                        }
+                    }
+                });
+
+                setTimeout(lazyLoad, 0);
+            }
+
+            lazyLoad();
+        } else {
+            var lazyImages = [].slice.call(document.querySelectorAll("img.lazyload"));
+            lazyImages.forEach(function(lazyImage) {
+                lazyImage.onload = function() {
+                    lazyImage.classList.remove("lazyload");
+                };
+                lazyImage.src = lazyImage.dataset.src;
+            });
+        }
+    });
+</script>
 </body>
 </html>
