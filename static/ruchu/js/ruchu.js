@@ -21,4 +21,4 @@
         });
 
 
-        <script type="text/javascript" id="myhk" src="https://myhkw.cn/api/player/171819249893" key="171819249893" m="1"></script>
+ 
