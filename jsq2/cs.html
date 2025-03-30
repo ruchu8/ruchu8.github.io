@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+  <title>初始标题</title>
+</head>
+<body>
+
+  <script>
+    function updateTitle() {
+      const randomNumber = Math.random();
+      const newTitle = randomNumber < 0.5 ? "如初的BOSS计时器" : "如初制作BOSS计时器"; // 如果随机数小于 0.5，则选择 "A"，否则选择 "B"
+      document.title = newTitle;
+    }
+
+    // 页面加载完成后立即更新标题
+    window.onload = updateTitle;
+
+    // 可选：每隔一段时间更新标题 (例如，每秒)
+    // setInterval(updateTitle, 1000);
+  </script>
+
+</body>
+</html>
