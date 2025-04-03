@@ -1,0 +1,153 @@
+/*标题字体
+#kjbt{font-Weight:bold;font-size:50px;color:white}
+*/
+/*目录框透明*/
+#dzx,#ysmenu1,#lyz{border-radius:10px;opacity:.75;
+/*椭圆边框*/
+background: linear-gradient(#DDFFFF,#FFEEEE);box-shadow:0 6px 6px rgba(232 232 237);}
+/*页头隐藏*/
+ .tdtop,.ta_wjq{background:transparent!important}
+/*目录列表上方线隐藏*/
+.tdtop,
+/*目录线条隐藏*/
+#menuList li.gml{border-bottom:0px}
+/* /*空间大小字体*/   font-family: Georgia */
+.ta_wjq{color:black;}
+/*背景图片
+body{background:url(https://pic.rmb.bdstatic.com/bjh/34d0c5e832ebd173ea313f954b15e462.jpeg);background-size:cover;} 
+*/
+/*公告装饰*/
+.z_bt{display: none}
+/*导航条*/
+*::-webkit-scrollbar{width:8px;height:5px;background-color:transparent} /* 轨道 */
+*::-webkit-scrollbar-thumb{border-radius:5px;background-color:red} /* 滑块 */
+.lynrc::-webkit-scrollbar{width:0px;height:0px} /* 留言窄宽度 */
+/*留言动画*/
+（暂停使用）#nr {
+    background-image: url(http://z.s5r.cn/5T);
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+/*公告背景透明*/
+.fgg5 .z_bt {background-color:transparent;}
+/*留言字体变色*/
+@keyframes change{0%{color:#FF0000}25%{color:#FF00FF}50%{color:#00FF00}75%{color:#00FFFF}100%{color:#FF0000}} /* 置顶留言变色动画 */
+#lynr div:first-child .lynr div{color:inherit;animation: change 40s linear 0s infinite;} /* 引用动画 */
+#lynr div:first-child div label{display:none} /* 去掉首个留言的时间 */
+#lynr div:first-child>div:last-child:before{content:'刚刚 1分钟前';color:#999!important} /* 留言时间替换 */
+/*指定目录字体变色*/
+#ml_2503974 a.ml {color: red;}
+#ml_2503060 a.ml {color: blue;}
+/*留言背景*/
+#nr {
+    background-image: url(http://ys-d.ysepan.com/624616652/714411208/o6H5S2X642OI7msQimLfc/%E6%AC%A2%E8%BF%8E%E7%95%99%E8%A8%80%E8%83%8C%E6%99%AF%E5%9B%BE.png);
+    background-repeat: no-repeat;
+    background-position: 20px;
+    background-size: 80%;
+}
+
+ 
+ 
+/*按钮样式*/
+input[type="button"],button{    margin: 2px;
+    background: linear-gradient(100deg,#fedede,red,#008cfe,#e0f9e4);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    font-weight: bold;}
+
+/*上传文件隐藏*/
+.gml>img:first-child{display:none}
+/*寄语样式*/
+font a,font strong {
+    margin: 0 auto;
+    margin-top: 100px;
+    text-align: center;
+    background: -webkit-linear-gradient(left,#ecceec,#e0f9e4 25%,#61884d 50%,#ff0000 75%,#ee8916);
+    color: transparent;
+    -webkit-background-clip: text;
+    background-size: 200% 100%;
+    animation: masked-animation 3s infinite linear;}
+    }
+@-webkit-keyframes masked-animation {
+    0% {
+        background-position: 0 0;
+    }
+
+    100% {
+        background-position: -100% 0;
+    }
+
+	   }
+	   	  /*字体放大*/
+*{!important;font-size:11.1pt;font-weight:bold;}
+
+
+	/*banner居中*/
+#sylj{
+	text-align: center;
+	}
+
+/*文件夹样式*/
+/*#menuList li.gml {     */
+    /* padding-left: 23px; */
+    /* height: 30px;*/
+    /* background: url(https://show.gtabox.cn/mybb/123.svg) no-repeat 0em 0.1em; */
+}
+ /*在线人数*/
+ 
+ #zxrsts {
+  color: red !important;
+}
+/* #zxrsts:after { */
+  /* content: "9"; */
+  /* color: red; */
+/* } */
+
+ /*有锁*/
+img.bjtb[src*="http://zy.ysepan.com/f_zy/tp/ml/mll1x.gif"] {
+  content: url("https://99j.us.kg/bjtb1.png");
+}
+
+ /*无锁*/
+img.bjtb[src*="http://zy.ysepan.com/f_zy/tp/ml/mll1.gif"] {
+  content: url("https://99j.us.kg/bjtb.png");
+}
+
+
+#menuList{margin:0px;padding:0px;}
+#menuList li{list-style-type:none;BORDER-BOTTOM:#ccc 1px solid;line-height:140%;padding-left:0px;}
+#menuList li:hover img{transform:rotate(180deg)}#menuList li ul li,#menuList li ul li ul li{BORDER-BOTTOM:0;}
+
+/*目录图标转圈*/
+#menuList li img{width:16px;height:16px;margin-right:1px;cursor:url('http://zy.ys168.com/tp/cur/edit1.cur'),default;-moz-transition:transform 0.3s;-webkit-transition:transform 0.3s;-o-transition:transform 0.3s;}
+#menuList li:hover ul li img{transform:none;}
+#menuList { margin: 0px; padding: 0px; padding-left: 0px; padding-right: 5px; padding-top: 5px; }
+#menuList li img {
+	height: 24px!important;
+	width: 24px!important
+}
+
+ .ta_wjq * {
+  color: #fe2323 !important;
+font-size: 13px;
+}
+
+
+#menuList li {
+  transition: color 0.3s, text-shadow 0.3s;
+}
+
+#menuList li:hover {  
+  text-shadow: 0 0 5px #f40000, 0 0 5px #ffffff; /* 先添加一层黑色阴影，再添加一层黄色阴影 */  
+}
+#menuList li:hover > ul {
+  color: inherit; /* 确保子菜单颜色不变 */
+  text-shadow: none; /* 确保子菜单无发光效果 */
+}
+
+/*鼠标样式*/
+.fgg5 {
+    cursor: url(https://99j.us.kg/sb.png) ,default;
+}
+
+ 
