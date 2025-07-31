@@ -1,7 +1,11 @@
 {
   "version": 2,
   "builds": [
-    { "src": "mp3.php", "use": "@vercel/php" }
+    { 
+      "src": "mp3.php", 
+      "use": "amondnet/vercel-php@v30",  // 社区维护的PHP构建器
+      "config": { "phpVersion": "8.2" }  // 指定PHP版本（8.0+推荐）
+    }
   ],
   "routes": [
     { "src": "/(.*)", "dest": "mp3.php" }
