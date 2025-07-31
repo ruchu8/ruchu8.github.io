@@ -1,0 +1,9 @@
+{
+  "version": 2,
+  "builds": [
+    { "src": "mp3.php", "use": "@vercel/php" }
+  ],
+  "routes": [
+    { "src": "/(.*)", "dest": "mp3.php" }
+  ]
+}
