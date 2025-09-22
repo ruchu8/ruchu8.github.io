@@ -9,310 +9,313 @@
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 <link rel="stylesheet" href="./static/ruchu/mir.css">
  
+ 
 <style>
-        body {
-            font-family: Arial, sans-serif;
-            padding: 20px;
-            background-color: #f5f5f5;
-        }
-        .container {
-            max-width: 700px;
-            margin: 0 auto;
-            margin-top: 20px;
-            background: white;
-            padding: 20px;
-            border-radius: 10px;
-            box-shadow: 0 0 15px rgba(0,0,0,0.1);
-        }
-        .header {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            gap: 15px;
-            margin-bottom: 20px;
-            flex-wrap: wrap;
-            padding: 15px;
-            background: #f0f8f0;
-            border-radius: 8px;
-        }
-        .header-left {
-            display: flex;
-            align-items: center;
-            gap: 15px;
-            flex-wrap: wrap;
-        }
-        .header-right {
-            display: flex;
-            gap: 10px;
-            flex-wrap: wrap;
-        }
-        .warning-time {
-            display: flex;
-            align-items: center;
-            gap: 10px;
-        }
-        .warning-time label {
-            color: #333;
-            font-weight: bold;
-        }
-        .warning-time input {
-            width: 60px;
-            padding: 8px;
-            border: 1px solid #ddd;
-            border-radius: 4px;
-        }
-        .font-size {
-            display: flex;
-            align-items: center;
-            gap: 10px;
-        }
-		/* 在.font-size样式块下方新增 */
+    body {
+        font-family: Arial, sans-serif;
+        padding: 20px;
+        background-color: #f5f5f5;
+    }
+    .container {
+        max-width: 700px;
+        margin: 0 auto;
+        margin-top: 20px;
+        background: white;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 0 15px rgba(0,0,0,0.1);
+    }
+    .header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 15px;
+        margin-bottom: 20px;
+        flex-wrap: wrap;
+        padding: 15px;
+        background: #f0f8f0;
+        border-radius: 8px;
+    }
+    .header-left {
+        display: flex;
+        align-items: center;
+        gap: 15px;
+        flex-wrap: wrap;
+    }
+    .header-right {
+        display: flex;
+        gap: 10px;
+        flex-wrap: wrap;
+    }
+    .warning-time {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+    .warning-time label {
+        color: #333;
+        font-weight: bold;
+    }
+    .warning-time input {
+        width: 60px;
+        padding: 8px;
+        border: 1px solid #ddd;
+        border-radius: 4px;
+    }
+    .font-size {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+    /* 在.font-size样式块下方新增 */
 .countdown-sound {
-    display: flex;
-    align-items: center;
-    gap: 10px;
+display: flex;
+align-items: center;
+gap: 10px;
 }
 .countdown-sound label {
-    color: #333;
-    font-weight: bold;
+color: #333;
+font-weight: bold;
 }
-		
-        .font-size label {
-            color: #333;
-            font-weight: bold;
-        }
-        /* 字体大小类 - 应用于所有需要调整的元素 */
-        .default-font {
-            font-size: 12px; /* 默认字体大小 */
-        }
-        .medium-font {
-            font-size: 14px; /* 中等字体大小 */
-        }
-        .large-font {
-            font-size: 16px; /* 大字体大小 */
-        }
-        .extra-large-font {
-            font-size: 18px; /* 特大字体大小 */
-        }
-        table {
-            width: 100%;
-            border-collapse: collapse;
-            margin: 20px 0;
-            box-shadow: 0 1px 5px rgba(0,0,0,0.1);
-        }
-        th, td {
-            padding: 8px 6px;
-            text-align: left;
-            border-bottom: 1px solid #e0e0e0;
-            white-space: nowrap; /* 防止内容换行 */
-        }
-        th {
-            background-color: #2E7D32;
-            color: white;
-            font-weight: bold;
-            position: sticky;
-            top: 0;
-        }
-        tr:nth-child(even) {
-            background-color: #f9f9f9;
-        }
-        tr:hover {
-            background-color: #f1f8e9;
-        }
-        input[type="checkbox"] {
-            transform: scale(2);
-            cursor: pointer;
-        }
-        input[type="number"] {
-            width: 80px;
-            padding: 5px;
-            border: 1px solid #ddd;
-            border-radius: 4px;
-        }
-        input[type="text"] {
-            padding: 8px;
-            border: 1px solid #ddd;
-            border-radius: 4px;
-            width: 100%;
-            box-sizing: border-box;
-        }
-        button {
-            background-color: #2E7D32;
-            color: white;
-            padding: 10px 16px;
-            border: none;
-            border-radius: 6px;
-            cursor: pointer;
-            font-weight: bold;
-            transition: all 0.3s;
-            white-space: nowrap;
-        }
-        button:hover {
-            background-color: #1B5E20;
-            transform: translateY(-2px);
-            box-shadow: 0 2px 5px rgba(0,0,0,0.2);
-        }
-        .mute-btn {
-            background-color: #f44336;
-        }
-        .unmute-btn {
-            background-color: #4CAF50;
-        }
-        .countdown {
-            color: #000000; /* 默认黑色 */
-            font-weight: bold;
-            font-family: 'Digital-7', 'Courier New', monospace; /* 使用更具数字感的字体 */
-            font-size: 2.2em; /* 增大字体大小 */
-            text-shadow: 0 0 8px rgba(0, 0, 0, 0.7); /* 添加发光效果 */
-            letter-spacing: 2px; /* 增加字母间距 */
-            animation: pulse 1.5s infinite alternate; /* 添加跳动动画 */
-        }
+    
+    .font-size label {
+        color: #333;
+        font-weight: bold;
+    }
+    /* 字体大小类 - 应用于所有需要调整的元素 */
+    .default-font {
+        font-size: 14px; /* 默认字体大小 */
+    }
+    .medium-font {
+        font-size: 16px; /* 中等字体大小 */
+    }
+    .large-font {
+        font-size: 18px; /* 大字体大小 */
+    }
+    .extra-large-font {
+        font-size: 20px; /* 特大字体大小 */
+    }
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        margin: 20px 0;
+        box-shadow: 0 1px 5px rgba(0,0,0,0.1);
+    }
+    th, td {
+        padding: 8px 6px;
+        text-align: left;
+        border-bottom: 1px solid #e0e0e0;
+        white-space: nowrap; /* 防止内容换行 */
+    }
+    th {
+        background-color: #2E7D32;
+        color: white;
+        font-weight: bold;
+        position: sticky;
+        top: 0;
+    }
+    tr:nth-child(even) {
+        background-color: #f9f9f9;
+    }
+    tr:hover {
+        background-color: #f1f8e9;
+    }
+    input[type="checkbox"] {
+        transform: scale(2);
+        cursor: pointer;
+    }
+    input[type="number"] {
+        width: 80px;
+        padding: 5px;
+        border: 1px solid #ddd;
+        border-radius: 4px;
+    }
+    input[type="text"] {
+        padding: 8px;
+        border: 1px solid #ddd;
+        border-radius: 4px;
+        width: 100%;
+        box-sizing: border-box;
+        font-size: 20px;
+        font-weight: bold;
+    }
+    button {
+        background-color: #2E7D32;
+        color: white;
+        padding: 10px 16px;
+        border: none;
+        border-radius: 6px;
+        cursor: pointer;
+        font-weight: bold;
+        transition: all 0.3s;
+        white-space: nowrap;
+    }
+    button:hover {
+        background-color: #1B5E20;
+        transform: translateY(-2px);
+        box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    }
+    .mute-btn {
+        background-color: #f44336;
+    }
+    .unmute-btn {
+        background-color: #4CAF50;
+    }
+    .countdown {
+        color: #000000; /* 默认黑色 */
+        font-weight: bold;
+        font-family: 'Digital-7', 'Courier New', monospace; /* 使用更具数字感的字体 */
+        font-size: 2.2em; /* 增大字体大小 */
+        text-shadow: 0 0 8px rgba(0, 0, 0, 0.7); /* 添加发光效果 */
+        letter-spacing: 2px; /* 增加字母间距 */
+        animation: pulse 1.5s infinite alternate; /* 添加跳动动画 */
+    }
 
-        @keyframes pulse {
-            from {
-                transform: scale(1);
-                opacity: 1;
-            }
-            to {
-                transform: scale(1.05);
-                opacity: 0.9;
-            }
+    @keyframes pulse {
+        from {
+            transform: scale(1);
+            opacity: 1;
         }
-        .time-input {
-            width: 100%;
-            padding: 8px;
-            border: 1px solid #ddd;
-            border-radius: 4px;
-            box-sizing: border-box;
-            font-family: 'Courier New', monospace;
+        to {
+            transform: scale(1.05);
+            opacity: 0.9;
         }
-        .time-input:focus {
-            outline: none;
-            border-color: #4CAF50;
-            box-shadow: 0 0 5px rgba(76, 175, 80, 0.5);
-        }
-        .voice-status {
-            margin: 10px 0;
-            padding: 10px;
-            background-color: #e8f5e9;
-            border-radius: 6px;
-            text-align: center;
-            font-weight: bold;
-            color: #2E7D32;
-            border: 1px solid #c8e6c9;
-        }
-        .tip {
-            padding: 10px;
-            background-color: #fff8e1;
-            border-radius: 6px;
-            margin-bottom: 15px;
-            border: 1px solid #ffecb3;
-            color: #7d6608;
-            font-weight: bold;
-        }
-        .footer {
-            text-align: center;
-            margin-top: 20px;
-            color: #757575;
-        }
-        
-        /* 新增预警样式 */
-        .warning-alert {
-            background-color: yellow !important;
-            color: red !important;
-            font-weight: bold;
-        }
-        .warning-alert input,
-        .warning-alert .countdown {
-            color: red !important;
-            font-weight: bold;
-            background-color: #fff8e1 !important;
-        }
-        
+    }
+    .time-input {
+        width: 100%;
+        padding: 8px;
+        border: 1px solid #ddd;
+        border-radius: 4px;
+        box-sizing: border-box;
+        font-family: 'Courier New', monospace;
+    }
+    .time-input:focus {
+        outline: none;
+        border-color: #4CAF50;
+        box-shadow: 0 0 5px rgba(76, 175, 80, 0.5);
+    }
+    .voice-status {
+        margin: 10px 0;
+        padding: 10px;
+        background-color: #e8f5e9;
+        border-radius: 6px;
+        text-align: center;
+        font-weight: bold;
+        color: #2E7D32;
+        border: 1px solid #c8e6c9;
+    }
+    .tip {
+        padding: 10px;
+        background-color: #fff8e1;
+        border-radius: 6px;
+        margin-bottom: 15px;
+        border: 1px solid #ffecb3;
+        color: #7d6608;
+        font-weight: bold;
+    }
+    .footer {
+        text-align: center;
+        margin-top: 20px;
+        color: #757575;
+    }
+    
+    /* 新增预警样式 */
+    .warning-alert {
+        background-color: yellow !important;
+        color: red !important;
+        font-weight: bold;
+    }
+    .warning-alert input,
+    .warning-alert .countdown {
+        color: red !important;
+        font-weight: bold;
+        background-color: #fff8e1 !important;
+    }
+    
 /* 地图名列宽度增大 */
 #bossTable tr td:nth-child(2) {
-    width: 12%; /* 地图名宽度 */
-    padding-right: 1px;
+width: 15%; /* 地图名宽度 */
+padding-right: 1px;
 }
 
 /* 间隔列宽度减小 */
 #bossTable tr td:nth-child(3) {
-    width: 3%; /* 间隔列宽度（已缩小） */
-    padding-right: 1px;
+width: 1%; /* 间隔列宽度（已缩小） */
+padding-right: 1px;
 }
 
 /* 上次刷新时间列宽度减小 */
 #bossTable tr td:nth-child(4) {
-    width: 5%; /* 时间列宽度 */
+width: 5%; /* 时间列宽度 */
 }
 
 /* 下次刷新时间列宽度减小 */
 #bossTable tr td:nth-child(5) {
-    width: 5%; /* 时间列宽度 */
+width: 5%; /* 时间列宽度 */
 }
 
 /* 倒计时列宽度 */
 #bossTable tr td:nth-child(6) {
-    width: 3%; /* 倒计时列宽度 */
+width: 3%; /* 倒计时列宽度 */
 }
 
 /* 开关列宽度 */
 #bossTable tr td:nth-child(1) {
-    width: 2%; /* 开关列宽度 */
+width: 2%; /* 开关列宽度 */
 }
-        
-        @media (max-width: 768px) {
-            .header {
-                flex-direction: column;
-                align-items: flex-start;
-            }
-            .header-right {
-                width: 100%;
-                justify-content: center;
-            }
-            th, td {
-                padding: 10px 8px;
-            }
+    
+    @media (max-width: 768px) {
+        .header {
+            flex-direction: column;
+            align-items: flex-start;
         }
+        .header-right {
+            width: 100%;
+            justify-content: center;
+        }
+        th, td {
+            padding: 10px 8px;
+        }
+    }
 /* 信息提示文本样式 */
 .info-text {
-    display: flex;
-    align-items: center;
-    gap: 8px;
-    color: #555;
-    font-size: 14px;
-    padding: 5px 10px;
-    border-left: 3px solid #4CAF50;
-    background-color: #f1f8e9;
-    border-radius: 0 4px 4px 0;
-    margin: 0 10px;
+display: flex;
+align-items: center;
+gap: 8px;
+color: #555;
+font-size: 14px;
+padding: 5px 10px;
+border-left: 3px solid #4CAF50;
+background-color: #f1f8e9;
+border-radius: 0 4px 4px 0;
+margin: 0 10px;
 }
 
 /* 链接样式 */
 .info-link {
-    color: #2E7D32;
-    text-decoration: none;
-    font-weight: bold;
-    border-bottom: 1px dashed #2E7D32;
-    padding-bottom: 1px;
-    transition: all 0.2s;
+color: #2E7D32;
+text-decoration: none;
+font-weight: bold;
+border-bottom: 1px dashed #2E7D32;
+padding-bottom: 1px;
+transition: all 0.2s;
 }
 
 .info-link:hover {
-    color: #1B5E20;
-    border-bottom-style: solid;
+color: #1B5E20;
+border-bottom-style: solid;
 }
 
 /* 响应式调整 */
 @media (max-width: 768px) {
-    .info-text {
-        font-size: 13px;
-        margin: 10px 0;
-        width: 100%;
-        justify-content: center;
-    }
+.info-text {
+    font-size: 13px;
+    margin: 10px 0;
+    width: 100%;
+    justify-content: center;
 }
-    </style>
+}
+</style>
 </head>
 <body>
     <nav id=fpb-c28 class="navbar navbar-expand-md sticky-top"><a id=fpb-c28 class="navbar-brand" href="http://ruchu888.ysepan.com/">传奇补丁</a>
@@ -652,3 +655,4 @@
  
 </body>
 </html>
+
