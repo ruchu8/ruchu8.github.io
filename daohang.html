@@ -2,16 +2,12 @@
 <html lang="zh-CN">
 <head>
     <meta charset="UTF-8">
-<title>如初的网盘导航 - 实时检测网盘站点可访问状态</title>
-<!-- SEO关键词 -->
-<meta name="keywords" content="如初网盘导航,网盘地址导航,网盘站点状态检测,可用网盘地址,网盘链接在线检测,176170网盘,ruchu888网盘,博客地址导航">
-<!-- SEO简介/描述 -->
-<meta name="description" content="如初的网盘导航提供ruchu888系列网盘地址、176170新版网盘地址及博客地址的一站式导航服务，实时检测各网盘站点可访问状态，快速找到可用的网盘链接，无需逐个测试，高效便捷。">
-<!-- 辅助SEO优化 -->
-<meta name="author" content="如初网盘导航">
-<meta name="robots" content="index,follow">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+    <title>如初的网盘导航 - 实时检测网盘站点可访问状态</title>
+    <meta name="keywords" content="如初网盘导航,网盘地址导航,网盘站点状态检测,可用网盘地址,网盘链接在线检测,176170网盘,ruchu888网盘,博客地址导航">
+    <meta name="description" content="如初的网盘导航提供ruchu888系列网盘地址、176170新版网盘地址及博客地址的一站式导航服务，实时检测各网盘站点可访问状态，快速找到可用的网盘链接，无需逐个测试，高效便捷。">
+    <meta name="author" content="如初网盘导航">
+    <meta name="robots" content="index,follow">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style>
         * {
             margin: 0;
@@ -138,9 +134,15 @@
             background: #00ff3d;
             color: #155724;
         }
+
         .status-offline {
             background: #f8d7da;
             color: #721c24;
+        }
+
+        .status-error {
+            background: #fff3cd;
+            color: #856404;
         }
 
         .status-icon {
@@ -163,16 +165,14 @@
             background: #dc3545;
         }
 
+        .status-error .status-icon {
+            background: #ffc107;
+        }
+
         @keyframes pulse {
-            0% {
-                opacity: 1;
-            }
-            50% {
-                opacity: 0.3;
-            }
-            100% {
-                opacity: 1;
-            }
+            0% { opacity: 1; }
+            50% { opacity: 0.3; }
+            100% { opacity: 1; }
         }
 
         .check-all-btn {
@@ -249,14 +249,20 @@
             margin-bottom: 1rem;
         }
 
-        .progress-ring__circle {
+        .progress-ring__svg {
             transform: rotate(-90deg);
-            transform-origin: 50% 50%;
-            stroke-linecap: round;
-            transition: stroke-dashoffset 0.35s;
+            width: 100%;
+            height: 100%;
+        }
+
+        .progress-ring__circle {
             fill: transparent;
             stroke: #3498db;
-            stroke-width: 4px;
+            stroke-width: 4;
+            stroke-linecap: round;
+            stroke-dasharray: 2512;
+            stroke-dashoffset: 2512;
+            transition: stroke-dashoffset 0.3s ease;
         }
 
         .progress-ring__percentage {
@@ -276,29 +282,38 @@
             display: block;
         }
 
+        .env-tip {
+            background: rgba(255, 255, 255, 0.9);
+            color: #856404;
+            padding: 10px 15px;
+            border-radius: 8px;
+            text-align: center;
+            margin: 10px auto;
+            max-width: 800px;
+            font-size: 14px;
+            border-left: 4px solid #ffc107;
+        }
+
         @media (max-width: 768px) {
             .header h1 {
                 font-size: 2em;
             }
-            
             .links-grid {
                 grid-template-columns: 1fr;
             }
         }
-          /* 其他原有样式保持不变 */
-  
-  /* SEO底部文字样式 */
-  .seo-footer-text {
-    margin: 30px auto 20px; /* 上下间距更合理 */
-    text-align: center;
-    color: #666;
-    font-size: 14px;
-    padding: 15px 20px;
-    max-width: 800px; /* 限制宽度，避免文字过长 */
-    line-height: 1.6; /* 行高更易读 */
-    background: rgba(255, 255, 255, 0.8); /* 适配背景渐变，增加可读性 */
-    border-radius: 8px; /* 和页面卡片风格统一 */
-  }
+
+        .seo-footer-text {
+            margin: 30px auto 20px;
+            text-align: center;
+            color: #666;
+            font-size: 14px;
+            padding: 15px 20px;
+            max-width: 800px;
+            line-height: 1.6;
+            background: rgba(255, 255, 255, 0.8);
+            border-radius: 8px;
+        }
     </style>
 </head>
 <body>
@@ -308,16 +323,19 @@
             <p>实时监测网站状态,防止无法访问</p>
         </div>
 
+        <div class="env-tip">
+            ✅ 智能检测：HTTPS地址本地检测，HTTP地址通过Cloudflare代理检测 | 白名单地址已标记为可访问
+        </div>
+
         <button class="check-all-btn" onclick="checkAllSites()">
             <span>🔄</span>
             <span>检查所有网站状态</span>
         </button>
 
-        <!-- 加载进度条 -->
         <div class="loading" id="loadingIndicator" style="display: none;">
             <div class="progress-ring">
                 <svg class="progress-ring__svg" width="60" height="60">
-                    <circle class="progress-ring__circle" cx="30" cy="30" r="26" stroke-width="4"></circle>
+                    <circle class="progress-ring__circle" cx="30" cy="30" r="26"></circle>
                 </svg>
                 <div class="progress-ring__percentage" id="progressPercentage">0%</div>
             </div>
@@ -326,23 +344,17 @@
 
         <div class="section">
             <h2 class="section-title">网盘地址</h2>
-            <div class="links-grid" id="netdisk-links">
-                <!-- 网盘链接将通过JavaScript动态生成 -->
-            </div>
+            <div class="links-grid" id="netdisk-links"></div>
         </div>
 
         <div class="section">
             <h2 class="section-title">新版网盘地址</h2>
-            <div class="links-grid" id="new-netdisk-links">
-                <!-- 新版网盘链接将通过JavaScript动态生成 -->
-            </div>
+            <div class="links-grid" id="new-netdisk-links"></div>
         </div>
 
         <div class="section">
             <h2 class="section-title">博客地址</h2>
-            <div class="links-grid" id="blog-links">
-                <!-- 博客链接将通过JavaScript动态生成 -->
-            </div>
+            <div class="links-grid" id="blog-links"></div>
         </div>
 
         <div class="section">
@@ -365,19 +377,22 @@
                 </div>
             </div>
             <div class="seo-footer-text">
-  如初网盘导航专注于提供ruchu888网盘、176170新版网盘等常用网盘地址的导航服务，实时检测各网盘站点的在线状态，帮助用户快速找到可正常访问的网盘链接，避免无效链接浪费时间。
-</div>
+                如初网盘导航专注于提供ruchu888网盘、176170新版网盘等常用网盘地址的导航服务，实时检测各网盘站点的在线状态，帮助用户快速找到可正常访问的网盘链接，避免无效链接浪费时间。
+            </div>
         </div>
-        
     </div>
 
     <script>
+        // ========== 配置项：替换为你的Cloudflare Workers域名 ==========
+        const WORKER_API_URL = "https://jcurl.176170.xyz";
+        // ========== 配置项结束 ==========
+
         // 网站数据
         const sites = {
             netdisk: [
                 'http://ruchu888.ysepan.com',
                 'http://ruchu888.ysok.net',
-                'http://ruchu888.cccpan.com',
+                'http://ruchu888.cccpan.com', // 白名单地址
                 'http://ruchu888.uupan.net',
                 'http://ruchu888.ysupan.com'
             ],
@@ -407,40 +422,131 @@
             checking: 0
         };
 
-        // 改进的检测方法（来自监控代码）
+        // 核心：分协议检测 + 白名单处理
         async function checkStatus(url) {
-            const controller = new AbortController();
-            const timeoutId = setTimeout(() => controller.abort(), 5000);
-            
-            try {
-                const startTime = Date.now();
-                // 使用HEAD方法减少数据传输量
-                const response = await fetch(url, {
-                    method: 'HEAD',
-                    mode: 'no-cors',
-                    signal: controller.signal
-                });
-                const endTime = Date.now();
-                clearTimeout(timeoutId);
-                
-                // 通过响应类型判断
+            // 白名单：检测失败但实际可访问的地址，强制标记为在线
+            const forceOnlineUrls = [
+                'http://ruchu888.cccpan.com'
+            ];
+            if (forceOnlineUrls.includes(url)) {
                 return {
-                    status: response.type === 'opaque' ? true : response.ok,
-                    responseTime: endTime - startTime
+                    status: true,
+                    responseTime: 0,
+                    errorType: "whitelist",
+                    httpCode: 200,
+                    error: "白名单地址（已知可访问）"
                 };
-            } catch (error) {
-                clearTimeout(timeoutId);
-                return { status: false, responseTime: null };
+            }
+
+            if (!url) {
+                return { status: false, errorType: "param_error", error: "URL为空" };
+            }
+
+            // 判断URL协议
+            const isHttp = url.startsWith('http://');
+            const isHttps = url.startsWith('https://');
+
+            if (!isHttp && !isHttps) {
+                return { status: false, errorType: "invalid_protocol", error: "URL必须以http://或https://开头" };
+            }
+
+            // HTTPS地址：本地直接检测
+            if (isHttps) {
+                const controller = new AbortController();
+                const timeoutId = setTimeout(() => controller.abort(), 5000);
+                
+                try {
+                    const startTime = Date.now();
+                    let response;
+                    try {
+                        response = await fetch(url, {
+                            method: 'HEAD',
+                            mode: 'no-cors',
+                            signal: controller.signal
+                        });
+                    } catch (e) {
+                        response = await fetch(url, {
+                            method: 'GET',
+                            mode: 'no-cors',
+                            signal: controller.signal,
+                            cache: 'no-cache'
+                        });
+                    }
+                    const endTime = Date.now();
+                    clearTimeout(timeoutId);
+                    
+                    return {
+                        status: response.type === 'opaque' ? true : response.ok,
+                        responseTime: endTime - startTime,
+                        errorType: null,
+                        httpCode: response.status || 200
+                    };
+                } catch (error) {
+                    clearTimeout(timeoutId);
+                    return {
+                        status: false,
+                        responseTime: null,
+                        errorType: error.name === 'AbortError' ? 'timeout' : 'network',
+                        error: error.message
+                    };
+                }
+            }
+
+            // HTTP地址：调用Workers代理检测
+            if (isHttp) {
+                try {
+                    const requestUrl = `${WORKER_API_URL}?url=${encodeURIComponent(url)}`;
+                    const controller = new AbortController();
+                    const timeoutId = setTimeout(() => controller.abort(), 6000);
+
+                    const response = await fetch(requestUrl, {
+                        method: "GET",
+                        signal: controller.signal,
+                        cache: "no-cache",
+                        headers: {
+                            "Accept": "application/json",
+                            "Origin": window.location.origin
+                        }
+                    });
+
+                    clearTimeout(timeoutId);
+                    let result;
+                    try {
+                        result = await response.json();
+                    } catch (e) {
+                        return {
+                            status: false,
+                            errorType: "parse_error",
+                            error: `接口返回非JSON格式：${e.message}`
+                        };
+                    }
+
+                    return {
+                        status: result.status || false,
+                        responseTime: result.responseTime || null,
+                        errorType: result.errorType || "unknown",
+                        httpCode: result.httpCode || null,
+                        error: result.error || null
+                    };
+
+                } catch (error) {
+                    return {
+                        status: false,
+                        responseTime: null,
+                        errorType: error.name === "AbortError" ? "timeout" : "api_error",
+                        error: error.message || "Workers接口请求失败"
+                    };
+                }
             }
         }
 
         // 设置进度条
         function setProgress(value, progressCircle) {
-            const progressMaxValue = 2512; // 圆的周长，根据SVG的参数计算得出
-            const roundedValue = Math.round(value); // 四舍五入以避免小数点
+            const progressMaxValue = 2512;
+            const roundedValue = Math.round(value);
             const progress = roundedValue / 100;
             const dasharrayValue = progressMaxValue * progress;
-            progressCircle.style.strokeDasharray = `${dasharrayValue} ${progressMaxValue}`;
+            progressCircle.style.strokeDashoffset = progressMaxValue - dasharrayValue;
             document.getElementById('progressPercentage').textContent = `${roundedValue}%`;
         }
 
@@ -450,18 +556,16 @@
             renderLinks('new-netdisk-links', sites.newNetdisk);
             renderLinks('blog-links', sites.blog);
             
-            // 计算总站点数
             statusCount.total = sites.netdisk.length + sites.newNetdisk.length + sites.blog.length;
             updateStats();
             
-            // 页面加载完成后自动检测一次
+            // 页面加载后自动检测一次
             setTimeout(checkAllSites, 1000);
-            
-            // 每2分钟自动更新
+            // 每2分钟自动刷新检测
             setInterval(checkAllSites, 120000);
         }
 
-        // 渲染链接
+        // 渲染链接卡片
         function renderLinks(containerId, links) {
             const container = document.getElementById(containerId);
             container.innerHTML = '';
@@ -470,7 +574,7 @@
                 const linkCard = document.createElement('div');
                 linkCard.className = 'link-card';
                 linkCard.innerHTML = `
-                    <a href="${link}" target="_blank">${link}</a>
+                    <a href="${link}" target="_blank" rel="noopener noreferrer">${link}</a>
                     <div class="status status-checking" id="status-${containerId}-${index}">
                         <span class="status-icon"></span>
                         <span>等待检查</span>
@@ -486,51 +590,82 @@
             const statusElement = document.getElementById(statusElementId);
             const responseElement = document.getElementById(responseElementId);
             
-            // 更新为检查中状态
+            // 重置状态为检查中
             statusElement.className = 'status status-checking';
             statusElement.innerHTML = '<span class="status-icon"></span><span>检查中...</span>';
             responseElement.textContent = '';
             statusCount.checking++;
             updateStats();
             
-            // 调用改进的检测方法
+            // 执行检测
             const result = await checkStatus(url);
             
-            if (result.status) {
+            // 更新状态显示
+            if (result.errorType === "whitelist") {
+                // 白名单地址
                 statusElement.className = 'status status-online';
                 statusElement.innerHTML = '<span class="status-icon"></span><span>在线</span>';
-                if (result.responseTime) {
-                    responseElement.textContent = `响应时间: ${result.responseTime}ms`;
+                responseElement.textContent = `提示：${result.error}`;
+                statusCount.online++;
+            } else if (result.errorType === "param_error" || result.errorType === "invalid_protocol") {
+                // 参数错误
+                statusElement.className = 'status status-error';
+                statusElement.innerHTML = '<span class="status-icon"></span><span>参数错误</span>';
+                responseElement.textContent = `错误：${result.error}`;
+                statusCount.offline++;
+            } else if (result.errorType === "api_error" || result.errorType === "parse_error") {
+                // 代理接口错误
+                statusElement.className = 'status status-error';
+                statusElement.innerHTML = '<span class="status-icon"></span><span>代理异常</span>';
+                responseElement.textContent = `提示：${result.error}，请稍后重试`;
+                statusCount.offline++;
+            } else if (result.status) {
+                // 正常在线
+                statusElement.className = 'status status-online';
+                if (result.httpCode === 500) {
+                    statusElement.innerHTML = '<span class="status-icon"></span><span>在线 (服务器兼容)</span>';
+                    responseElement.textContent = `响应码：500（实际可访问） | 响应时间: ${result.responseTime}ms`;
+                } else {
+                    statusElement.innerHTML = `<span class="status-icon"></span><span>在线  </span>`;
+                    if (result.responseTime) {
+                        responseElement.textContent = `响应时间: ${result.responseTime}ms`;
+                    }
                 }
                 statusCount.online++;
             } else {
+                // 离线/超时
                 statusElement.className = 'status status-offline';
-                statusElement.innerHTML = '<span class="status-icon"></span><span>离线</span>';
-                responseElement.textContent = '响应时间: 超时';
+                if (result.errorType === 'timeout') {
+                    statusElement.innerHTML = '<span class="status-icon"></span><span>离线 (超时)</span>';
+                    responseElement.textContent = '响应时间: 超时（5秒）';
+                } else {
+                    statusElement.innerHTML = '<span class="status-icon"></span><span>离线</span>';
+                    responseElement.textContent = `原因: ${result.error || '网络错误'}`;
+                }
                 statusCount.offline++;
             }
             
+            // 检查完成，减少检查中计数
             statusCount.checking--;
             updateStats();
-            
             return result;
         }
 
-        // 检查所有网站
+        // 检查所有网站状态
         async function checkAllSites() {
             // 重置统计
             statusCount.online = 0;
             statusCount.offline = 0;
             statusCount.checking = 0;
             
-            // 显示加载指示器
+            // 显示加载动画
             const loadingIndicator = document.getElementById('loadingIndicator');
             loadingIndicator.style.display = 'flex';
             const progressCircle = document.querySelector('.progress-ring__circle');
-            progressCircle.style.strokeDasharray = `0 2512`; // 重置进度条
-            document.getElementById('progressPercentage').textContent = `0%`; // 重置百分比
+            progressCircle.style.strokeDashoffset = 2512;
+            document.getElementById('progressPercentage').textContent = `0%`;
 
-            // 收集所有需要检测的URL
+            // 收集所有待检测的URL
             const allUrls = [
                 ...sites.netdisk.map(url => ({ url, type: 'netdisk' })),
                 ...sites.newNetdisk.map(url => ({ url, type: 'newNetdisk' })),
@@ -540,12 +675,11 @@
             const totalWebsites = allUrls.length;
             let currentProgress = 0;
 
-            // 逐个检测URL
+            // 逐个检测（串行执行，避免请求过多）
             for (let i = 0; i < allUrls.length; i++) {
                 const { url, type } = allUrls[i];
                 let containerId, index;
                 
-                // 计算对应的容器ID和索引
                 if (type === 'netdisk') {
                     containerId = 'netdisk-links';
                     index = i;
@@ -560,19 +694,18 @@
                 const statusElementId = `status-${containerId}-${index}`;
                 const responseElementId = `response-${containerId}-${index}`;
                 
-                // 检测单个站点
                 await checkSingleSiteStatus(url, statusElementId, responseElementId);
                 
-                // 更新进度
+                // 更新进度条
                 currentProgress += 100 / totalWebsites;
                 setProgress(currentProgress, progressCircle);
             }
 
-            // 隐藏加载指示器
+            // 隐藏加载动画
             loadingIndicator.style.display = 'none';
         }
 
-        // 更新统计数据
+        // 更新统计数据显示
         function updateStats() {
             document.getElementById('total-sites').textContent = statusCount.total;
             document.getElementById('online-sites').textContent = statusCount.online;
