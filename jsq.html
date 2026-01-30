@@ -17,12 +17,12 @@
         background-color: #f5f5f5;
     }
     .container {
-        max-width: 700px;
+        max-width: 780px;
         margin: 0 auto;
         margin-top: 20px;
         background: white;
         padding: 20px;
-        border-radius: 10px;
+        border-radius: 15px;
         box-shadow: 0 0 15px rgba(0,0,0,0.1);
     }
     .header {
@@ -90,10 +90,10 @@ font-weight: bold;
         font-size: 16px; /* ä¸­ç­‰å­—ä½“å¤§å° */
     }
     .large-font {
-        font-size: 18px; /* å¤§å­—ä½“å¤§å° */
+        font-size: 19px; /* å¤§å­—ä½“å¤§å° */
     }
     .extra-large-font {
-        font-size: 20px; /* ç‰¹å¤§å­—ä½“å¤§å° */
+        font-size: 23px; /* ç‰¹å¤§å­—ä½“å¤§å° */
     }
     table {
         width: 100%;
@@ -128,12 +128,12 @@ font-weight: bold;
         width: 80px;
         padding: 5px;
         border: 1px solid #ddd;
-        border-radius: 4px;
+        border-radius: 6px;
     }
     input[type="text"] {
         padding: 8px;
         border: 1px solid #ddd;
-        border-radius: 4px;
+        border-radius: 6px;
         width: 100%;
         box-sizing: border-box;
         font-size: 20px;
@@ -144,7 +144,7 @@ font-weight: bold;
         color: white;
         padding: 10px 16px;
         border: none;
-        border-radius: 6px;
+        border-radius: 8px;
         cursor: pointer;
         font-weight: bold;
         transition: all 0.3s;
@@ -593,13 +593,13 @@ border-bottom-style: solid;
       </nav>
 <div style="width: 100%; display: flex; justify-content: center; align-items: center; padding: 10px 0;">
     <a href="./daohang.html" target="_blank" class="text-decoration-none ad-link">
-        <img src="files/dh.gif" alt="µ¼º½¹ã¸æ" style="
+        <img src="files/dh.gif" alt="       " style="
             display: block;
             max-width: 100%;
             height: auto;
-            object-fit: cover; /* Æ½ÆÌÏÔÊ¾£¬±£³Ö±ÈÀı²¢¸²¸ÇÈİÆ÷ */
-            border-radius: 12px; /* Ô²½Ç´óĞ¡£¬¿É×ÔĞĞµ÷Õû */
-            width: 100%; /* Æ½ÆÌÕ¼Âú¸¸ÈİÆ÷¿í¶È */
+            object-fit: cover; /* Æ½    Ê¾     Ö±              */
+            border-radius: 12px; /* Ô² Ç´ Ğ¡       Ğµ    */
+            width: 100%; /* Æ½  Õ¼            */
             max-height: 100%;
         ">
     </a>
@@ -636,7 +636,7 @@ border-bottom-style: solid;
                         <option value="default">é»˜è®¤</option>
                         <option value="medium">ä¸­</option>
                         <option value="large">å¤§</option>
-                        <option value="large">ç‰¹å¤§</option>
+                         <option value="extra-large">ç‰¹å¤§</option>
                     </select>
                 </div>
         <div class="countdown-sound">
@@ -684,7 +684,7 @@ let playingAudio = new Map(); // è·Ÿè¸ªå½“å‰æ­£åœ¨æ’­æ”¾çš„éŸ³é¢‘ï¼Œé˜²æ­¢é‡å¤
 const STORAGE_KEY = 'bossTimerData';
 
 // ç™¾åº¦è¯­éŸ³APIåŸºç¡€URL
-const BAIDU_TTS_BASE_URL = 'http://tsn.baidu.com/text2audio';
+const BAIDU_TTS_BASE_URL = 'https://tsn.baidu.com/text2audio';
 
 // APIå‚æ•°é…ç½®
 const API_PARAMS = {
