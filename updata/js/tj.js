@@ -1,1 +1,73 @@
-!function(){"use strict";let mask=document.createElement("div");mask.style.cssText="position:fixed; top:0; left:0; right:0; bottom:0; background:rgba(0,0,0,0.6); z-index:99999; display:flex; align-items:center; justify-content:center;";let box=document.createElement("div");box.style.cssText="background:#fff; border-radius:12px; width:90%; max-width:380px; padding:24px; box-sizing:border-box; text-align:center;";let text=document.createElement("p");text.innerText="为了您能够以后正常访问，请前往新的网盘，此网盘为第三方网盘，随时可能会被关闭。";text.style.cssText="font-size:15px; line-height:1.6; margin:0 0 24px; color:#333;";let btnWrap=document.createElement("div");btnWrap.style.display="flex";btnWrap.style.gap="12px";let btnGo=document.createElement("button");btnGo.innerText="前往新网盘";btnGo.style.cssText="flex:1; padding:10px 0; border:none; border-radius:8px; background:#007bff; color:#fff; font-size:14px; cursor:pointer;";btnGo.onclick=function(){window.location.href="https://www.176170.xyz";};let btnCancel=document.createElement("button");btnCancel.innerText="取消";btnCancel.style.cssText="flex:1; padding:10px 0; border:1px solid #ddd; border-radius:8px; background:#fff; color:#666; font-size:14px; cursor:pointer;";btnCancel.onclick=function(){document.body.removeChild(mask);};btnWrap.appendChild(btnGo);btnWrap.appendChild(btnCancel);box.appendChild(text);box.appendChild(btnWrap);mask.appendChild(box);document.body.appendChild(mask);}(),function(p){"use strict";!function(t){var s=window,e=document,i=p,c="".concat("https:"===e.location.protocol?"https://":"http://","sdk.51.la/js-sdk-pro.min.js"),n=document.createElement("script"),r=document.getElementsByTagName("script")[0];n.type="text/javascript",n.setAttribute("charset","UTF-8"),n.async=!0,n.src=c,n.id="LA_COLLECT",i.d=n;var o=function(){s.LA.ids.push(i)};s.LA?s.LA.ids&&o():(s.LA=p,s.LA.ids=[],o()),r.parentNode.insertBefore(n,r)}()}({id:"3KCmbDVj0ifgO0X8",ck:"3KCmbDVj0ifgO0X8"});
+!function() {
+    "use strict";
+
+    // 👇 核心：判断今天是否已经弹过窗（24小时内只弹1次）
+    const hasShowed = localStorage.getItem('noticeModalShowed');
+    const now = Date.now();
+    const oneDay = 24 * 60 * 60 * 1000; // 24小时毫秒数
+
+    // 如果有记录 且 没超过24小时，直接不弹窗
+    if (hasShowed && now - hasShowed < oneDay) {
+        return;
+    }
+
+    // 👇 记录本次弹窗时间
+    localStorage.setItem('noticeModalShowed', now);
+
+    // 下面是你原来的弹窗代码，完全不变
+    let mask = document.createElement("div");
+    mask.style.cssText = "position:fixed; top:0; left:0; right:0; bottom:0; background:rgba(0,0,0,0.6); z-index:99999; display:flex; align-items:center; justify-content:center;";
+    let box = document.createElement("div");
+    box.style.cssText = "background:#fff; border-radius:12px; width:90%; max-width:380px; padding:24px; box-sizing:border-box; text-align:center;";
+    let text = document.createElement("p");
+    text.innerText = "为了您能够以后正常访问，请前往新的网盘，此网盘为第三方网盘，随时可能会被关闭。";
+    text.style.cssText = "font-size:15px; line-height:1.6; margin:0 0 24px; color:#333;";
+    let btnWrap = document.createElement("div");
+    btnWrap.style.display = "flex";
+    btnWrap.style.gap = "12px";
+    let btnGo = document.createElement("button");
+    btnGo.innerText = "前往新网盘";
+    btnGo.style.cssText = "flex:1; padding:10px 0; border:none; border-radius:8px; background:#007bff; color:#fff; font-size:14px; cursor:pointer;";
+    btnGo.onclick = function() {
+        window.location.href = "https://www.176170.xyz";
+    };
+    let btnCancel = document.createElement("button");
+    btnCancel.innerText = "取消";
+    btnCancel.style.cssText = "flex:1; padding:10px 0; border:1px solid #ddd; border-radius:8px; background:#fff; color:#666; font-size:14px; cursor:pointer;";
+    btnCancel.onclick = function() {
+        document.body.removeChild(mask);
+    };
+    btnWrap.appendChild(btnGo);
+    btnWrap.appendChild(btnCancel);
+    box.appendChild(text);
+    box.appendChild(btnWrap);
+    mask.appendChild(box);
+    document.body.appendChild(mask);
+}(),
+function(p) {
+    "use strict";
+    !function(t) {
+        var s = window
+          , e = document
+          , i = p
+          , c = "".concat("https:" === e.location.protocol ? "https://" : "http://", "sdk.51.la/js-sdk-pro.min.js")
+          , n = document.createElement("script")
+          , r = document.getElementsByTagName("script")[0];
+        n.type = "text/javascript",
+        n.setAttribute("charset", "UTF-8"),
+        n.async = !0,
+        n.src = c,
+        n.id = "LA_COLLECT",
+        i.d = n;
+        var o = function() {
+            s.LA.ids.push(i)
+        };
+        s.LA ? s.LA.ids && o() : (s.LA = p,
+        s.LA.ids = [],
+        o()),
+        r.parentNode.insertBefore(n, r)
+    }()
+}({
+    id: "3KCmbDVj0ifgO0X8",
+    ck: "3KCmbDVj0ifgO0X8"
+});
