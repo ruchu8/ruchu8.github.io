@@ -20,6 +20,23 @@
 <style>
 div.title { text-align: center }
 div.article { padding: 0 30px }
+
+/* 表头吸顶样式 */
+.table thead th {
+  position: sticky;
+  top: 56px; /* 对应 sticky-top 导航栏的高度 */
+  background-color: #f8f9fa;
+  z-index: 999;
+  border-top: none;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+/* 针对移动端的适配，如果导航栏高度变化，可以调整 top 值 */
+@media (max-width: 768px) {
+  .table thead th {
+    top: 50px; 
+  }
+}
 </style>
 </head>
 <body>
@@ -48,7 +65,9 @@ div.article { padding: 0 30px }
                     <li><a class="dropdown-item" href="content_3.html">命令</a></li>
                     <li><a class="dropdown-item" href="content_5.html">属性中英对照</a></li>
                     <li><a class="dropdown-item" href="content_4.html">经验列表</a></li>
-  <li><a class="dropdown-item" href="shijian.html">刷怪间隔</a></li>
+                      <li><a class="dropdown-item" href="shijian.html">刷怪间隔</a></li>
+                    <li><a class="dropdown-item" href="buding.html">补丁资源</a></li>
+                    <li><a class="dropdown-item" href="jineng.html">技能代码</a></li>
                 </ul>
             </li>
             <li class="nav-item dropdown">
@@ -323,13 +342,13 @@ div.article { padding: 0 30px }
 </nav>
 <div style="width: 100%; display: flex; justify-content: center; align-items: center; padding: 10px 0;">
     <a href="./daohang.html" target="_blank" class="text-decoration-none ad-link">
-        <img src="files/dh.gif" alt="�������" style="
+        <img src="files/dh.gif" alt="�������" style="
             display: block;
             max-width: 100%;
             height: auto;
-            object-fit: cover; /* ƽ����ʾ�����ֱ������������� */
-            border-radius: 12px; /* Բ�Ǵ�С�������е��� */
-            width: 100%; /* ƽ��ռ������������ */
+            object-fit: cover; /* ƽ����ʾ�����ֱ������������� */
+            border-radius: 12px; /* Բ�Ǵ�С�������е��� */
+            width: 100%; /* ƽ��ռ������������ */
             max-height: 100%;
         ">
     </a>
@@ -432,18 +451,14 @@ div.article { padding: 0 30px }
           <h2>升级经验列表</h2>
         </div>
         <div class="article"> <table class="table table-striped table-bordered table-hover text-center">
-	<tbody>
+	<thead>
 		<tr>
-			<td>
-				等级
-			</td>
-			<td>
-				盛大升级经验
-			</td>
-			<td>
-				等级总获取经验
-			</td>
+			<th>等级</th>
+			<th>盛大升级经验</th>
+			<th>等级总获取经验</th>
 		</tr>
+	</thead>
+	<tbody>
 		<tr>
 			<td>
 				1

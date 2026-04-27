@@ -1,0 +1,716 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Legend of Mir 2 WZL 补丁资源参考手册</title>
+<meta name="keywords" content="传奇补丁, WZL补丁, 传奇资源, 补丁下载, 盛大传奇, 游戏补丁" />
+<meta name="description" content="提供详尽的传奇 (Legend of Mir 2) WZL 补丁资源参考手册，包含地图、怪物、装备等补丁信息。" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+ <link rel="stylesheet" href="./static/ruchu/bootstrap.min.css">
+
+<link rel="stylesheet" href="./static/ruchu/mir.css">
+<style>
+  .dropdown-submenu .dropdown-menu {
+    top: 0;
+    left: 100%; /* 使子菜单向右弹出 */
+    margin-top: -6px; /* 微调位置 */
+  }
+  ol
+        {
+            margin: 5px;
+            _margin-left: 35px;
+        }
+        ol li
+        {
+            color: #3342ea;
+            margin: 8px 0px;
+        }
+        fieldset
+        {
+            margin: 10px auto;
+            margin-right: 10px;
+        }
+        legend
+        {
+            /*text-align: center;*/
+            margin: 10px auto;
+            color: #FF0000;
+            letter-spacing: 10px;
+        }
+        .red-time {
+            color: red;
+        }
+
+      .bg-grey { background-color: #f8f9fa; }
+      .main { padding: 30px; border-radius: 10px; box-shadow: 0 0 15px rgba(0,0,0,0.05); }
+      .title { text-align: center; border-bottom: 3px solid #333; margin-bottom: 30px; padding-bottom: 10px; }
+      .card { border: none; transition: transform 0.2s; }
+      .card:hover { transform: translateY(-5px); }
+      .custom-list li { margin-bottom: 8px; padding-left: 5px; }
+      .border-left { border-left: 1px solid #dee2e6; }
+      .badge-light { background-color: rgba(255,255,255,0.2); color: #fff; }
+      .table thead th { border-top: none; }
+
+        #f2
+ 
+ 
+div.article { padding: 0 30px }
+</style>
+</head>
+<body>
+	<nav id="fpb-c28" class="navbar navbar-expand-md sticky-top"><a id="fpb-c28" class="navbar-brand" href="http://176170.xyz">传奇补丁</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+   <div id=fpb-c28 class="pl-3">
+      <a id=fpb-c28 class="dropdown-item" href="./">首页</a>
+      </div>
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown">系统</a>
+                <ul class="dropdown-menu">
+                    <li class="dropdown-submenu">
+                        <a class="dropdown-item dropdown-toggle" href="#">属性表</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="content_6.html">战士属性表</a></li>
+                            <li><a class="dropdown-item" href="content_7.html">法师属性表</a></li>
+                            <li><a class="dropdown-item" href="content_8.html">道士属性表</a></li>
+                        </ul>
+                    </li>
+                    <li><a class="dropdown-item" href="content.html">界面</a></li>
+                    <li><a class="dropdown-item" href="content_2.html">热键</a></li>
+                    <li><a class="dropdown-item" href="content_3.html">命令</a></li>
+                    <li><a class="dropdown-item" href="content_5.html">属性中英对照</a></li>
+                    <li><a class="dropdown-item" href="content_4.html">经验列表</a></li>
+                      <li><a class="dropdown-item" href="shijian.html">刷怪间隔</a></li>
+                    <li><a class="dropdown-item" href="buding.html">补丁资源</a></li>
+                    <li><a class="dropdown-item" href="jineng.html">技能代码</a></li>
+                </ul>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown">地图</a>
+                <ul class="dropdown-menu">
+                    <li class="dropdown-submenu">
+                        <a class="dropdown-item dropdown-toggle" href="#">比奇地区</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="Map_1.html">比奇省</a></li>
+                            <li><a class="dropdown-item" href="MapList.html">兽人古墓</a></li>
+                            <li><a class="dropdown-item" href="MapList_2.html">天然洞穴</a></li>
+                            <li><a class="dropdown-item" href="MapList_3.html">比奇矿区</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown-submenu">
+                        <a class="dropdown-item dropdown-toggle" href="#">沃玛地区</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="Map_2.html">沃玛森林</a></li>
+                            <li><a class="dropdown-item" href="MapList_4.html">沃玛自然洞穴</a></li>
+                            <li><a class="dropdown-item" href="MapList_5.html">沃玛寺庙</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown-submenu">
+                        <a class="dropdown-item dropdown-toggle" href="#">毒蛇地区</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="Map_3.html">毒蛇山谷</a></li>
+                            <li><a class="dropdown-item" href="MapList_6.html">毒蛇矿区</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown-submenu">
+                        <a class="dropdown-item dropdown-toggle" href="#">盟重地区</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="Map_4.html">盟重省</a></li>
+                            <li><a class="dropdown-item" href="MapList_7.html">蜈蚣洞</a></li>
+                            <li><a class="dropdown-item" href="MapList_8.html">未知暗殿</a></li>
+                            <li><a class="dropdown-item" href="MapList_9.html">石墓</a></li>
+                            <li><a class="dropdown-item" href="MapList_10.html">香石古墓</a></li>
+                            <li><a class="dropdown-item" href="MapList_11.html">祖玛寺庙</a></li>
+                            <li><a class="dropdown-item" href="Map_5.html">沙巴克密道</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown-submenu">
+                        <a class="dropdown-item dropdown-toggle" href="#">白日门区</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="Map_6.html">白日门</a></li>
+                            <li><a class="dropdown-item" href="Map_7.html">丛林迷宫</a></li>
+                            <li><a class="dropdown-item" href="MapList_12.html">赤月峡谷</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown-submenu">
+                        <a class="dropdown-item dropdown-toggle" href="#">封魔谷区</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="Map_9.html">封魔谷</a></li>
+                            <li><a class="dropdown-item" href="MapList_13.html">封魔殿</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown-submenu">
+                        <a class="dropdown-item dropdown-toggle" href="#">苍月地区</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="Map_8.html">苍月岛</a></li>
+                            <li><a class="dropdown-item" href="MapList_14.html">尸魔洞</a></li>
+                            <li><a class="dropdown-item" href="MapList_15.html">骨魔洞</a></li>
+                            <li><a class="dropdown-item" href="MapList_16.html">牛魔寺庙</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown-submenu">
+                        <a class="dropdown-item dropdown-toggle" href="#">其他地区</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="MapList_17.html">六件新衣</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown">怪物</a>
+                <ul class="dropdown-menu">
+                    <li class="dropdown-submenu">
+                        <a class="dropdown-item dropdown-toggle" href="#">比奇地区</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="Monster.html">比奇省</a></li>
+                            <li><a class="dropdown-item" href="Monster_2.html">兽人古墓</a></li>
+                            <li><a class="dropdown-item" href="Monster_4.html">天然洞穴</a></li>
+                            <li><a class="dropdown-item" href="Monster_3.html">比奇矿区</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown-submenu">
+                        <a class="dropdown-item dropdown-toggle" href="#">沃玛地区</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="Monster_5.html">沃玛森林</a></li>
+                            <li><a class="dropdown-item" href="Monster_6.html">沃玛自然洞穴</a></li>
+                            <li><a class="dropdown-item" href="Monster_7.html">沃玛寺庙</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown-submenu">
+                        <a class="dropdown-item dropdown-toggle" href="#">毒蛇地区</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="Monster_8.html">毒蛇山谷</a></li>
+                            <li><a class="dropdown-item" href="Monster_9.html">毒蛇矿区</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown-submenu">
+                        <a class="dropdown-item dropdown-toggle" href="#">盟重地区</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="Monster_12.html">盟重省</a></li>
+                            <li><a class="dropdown-item" href="Monster_10.html">蜈蚣洞</a></li>
+                            <li><a class="dropdown-item" href="Monster_11.html">未知暗殿</a></li>
+                            <li><a class="dropdown-item" href="Monster_13.html">石墓</a></li>
+                            <li><a class="dropdown-item" href="Monster_14.html">香石古墓</a></li>
+                            <li><a class="dropdown-item" href="Monster_15.html">祖玛寺庙</a></li>
+                            <li><a class="dropdown-item" href="Monster_16.html">沙巴克密道</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown-submenu">
+                        <a class="dropdown-item dropdown-toggle" href="#">白日门区</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="Monster_17.html">白日门</a></li>
+                            <li><a class="dropdown-item" href="Monster_18.html">丛林迷宫</a></li>
+                            <li><a class="dropdown-item" href="Monster_19.html">赤月峡谷</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown-submenu">
+                        <a class="dropdown-item dropdown-toggle" href="#">封魔地区</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="Monster_20.html">封魔谷</a></li>
+                            <li><a class="dropdown-item" href="Monster_21.html">封魔殿</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown-submenu">
+                        <a class="dropdown-item dropdown-toggle" href="#">苍月地区</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="Monster_22.html">苍月岛</a></li>
+                            <li><a class="dropdown-item" href="Monster_23.html">尸魔洞</a></li>
+                            <li><a class="dropdown-item" href="Monster_24.html">骨魔洞</a></li>
+                            <li><a class="dropdown-item" href="Monster_25.html">牛魔寺庙</a></li>
+                        </ul>
+                    </li>
+                    <li><a class="dropdown-item" href="Monster_26.html">BOSS</a></li>
+                    <li><a class="dropdown-item" href="Monster_27.html">生物系</a></li>
+                    <li><a class="dropdown-item" href="Monster_28.html">不死系</a></li>
+                </ul>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown">物品</a>
+                <ul class="dropdown-menu">
+                    <li class="dropdown-submenu">
+                        <a class="dropdown-item dropdown-toggle" href="#">武器</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="Item.html">通用</a></li>
+                            <li><a class="dropdown-item" href="Item_2.html">战士</a></li>
+                            <li><a class="dropdown-item" href="Item_3.html">法师</a></li>
+                            <li><a class="dropdown-item" href="Item_4.html">道士</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown-submenu">
+                        <a class="dropdown-item dropdown-toggle" href="#">盔甲</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="Item_5.html">通用</a></li>
+                            <li><a class="dropdown-item" href="Item_6.html">战士</a></li>
+                            <li><a class="dropdown-item" href="Item_7.html">法师</a></li>
+                            <li><a class="dropdown-item" href="Item_8.html">道士</a></li>
+                        </ul>
+                    </li>
+                    <li><a class="dropdown-item" href="Item_9.html">头盔</a></li>
+                    <li class="dropdown-submenu">
+                        <a class="dropdown-item dropdown-toggle" href="#">项链</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="Item_10.html">通用</a></li>
+                            <li><a class="dropdown-item" href="Item_11.html">战士</a></li>
+                            <li><a class="dropdown-item" href="Item_12.html">法师</a></li>
+                            <li><a class="dropdown-item" href="Item_13.html">道士</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown-submenu">
+                        <a class="dropdown-item dropdown-toggle" href="#">手镯</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="Item_14.html">通用</a></li>
+                            <li><a class="dropdown-item" href="Item_15.html">战士</a></li>
+                            <li><a class="dropdown-item" href="Item_16.html">法师</a></li>
+                            <li><a class="dropdown-item" href="Item_17.html">道士</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown-submenu">
+                        <a class="dropdown-item dropdown-toggle" href="#">戒指</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="Item_18.html">通用</a></li>
+                            <li><a class="dropdown-item" href="Item_19.html">战士</a></li>
+                            <li><a class="dropdown-item" href="Item_20.html">法师</a></li>
+                            <li><a class="dropdown-item" href="Item_21.html">道士</a></li>
+                        </ul>
+                    </li>
+                    <li><a class="dropdown-item" href="Suit.html">套装</a></li>
+                    <li class="dropdown-submenu">
+                        <a class="dropdown-item dropdown-toggle" href="#">消耗品</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="Item_22.html">恢复消耗品</a></li>
+                            <li><a class="dropdown-item" href="Item_24.html">增强消耗品</a></li>
+                            <li><a class="dropdown-item" href="Item_23.html">特殊消耗品</a></li>
+                            <li><a class="dropdown-item" href="Item_25.html">矿石</a></li>
+                        </ul>
+                    </li>
+                               <li class="dropdown-submenu">
+                        <a class="dropdown-item dropdown-toggle" href="#">技能书</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="Item_26.html">战士</a></li>
+                            <li><a class="dropdown-item" href="Item_27.html">法师</a></li>
+                            <li><a class="dropdown-item" href="Item_28.html">道士</a></li>
+                        </ul>
+                    </li>
+                    <li><a class="dropdown-item" href="Item_99.html">勋章</a></li>
+                </ul>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown">合成</a>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="Merge.html">材料&amp;消耗品</a></li>
+                </ul>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown">技能</a>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="Magic.html">战士技能</a></li>
+                    <li><a class="dropdown-item" href="Magic_2.html">法师技能</a></li>
+                    <li><a class="dropdown-item" href="Magic_3.html">道士技能</a></li>
+                </ul>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown">任务</a>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="content_9.html">祈福项链任务</a></li>
+                    <li><a class="dropdown-item" href="content_10.html">初级装备任务</a></li>
+                    <li><a class="dropdown-item" href="content_11.html">传说中的罗刹任务</a></li>
+                    <li><a class="dropdown-item" href="content_12.html">技巧项链任务</a></li>
+                    <li><a class="dropdown-item" href="content_13.html">特殊戒指与手套</a></li>
+                    <li><a class="dropdown-item" href="content_14.html">神秘商店任务</a></li>
+                    <li><a class="dropdown-item" href="content_15.html">攻击神水金砖</a></li>
+                    <li><a class="dropdown-item" href="content_16.html">命运之刃任务</a></li>
+                    <li><a class="dropdown-item" href="content_17.html">破馆珍剑任务</a></li>
+                </ul>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown">爆率</a>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="stditem.html">物品查询</a></li>
+                    <li><a class="dropdown-item" href="guaiwu.html">怪物查询</a></li>
+                    <li><a class="dropdown-item" href="map.html">地图查询</a></li>
+                    <li><a class="dropdown-item" href="npc.html">NPC查询</a></li>
+                </ul>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown">资料</a>
+                <ul class="dropdown-menu">
+	       	<li><a class="dropdown-item" href="https://pdfyl.ertongbook.com/68/33840937.pdf" target="_blank">原版热血传奇全攻略.pdf</a></li>
+                    <li><a class="dropdown-item" href="content_18.html">蜈蚣洞走法传送图</a></li>
+                    <li><a class="dropdown-item" href="content_19.html">祖玛阁怎么走图解</a></li>
+                    <li><a class="dropdown-item" href="content_20.html">石墓阵走法图解</a></li>
+                    <li><a class="dropdown-item" href="content_21.html">幻境迷宫走法图解</a></li>
+                    <li><a class="dropdown-item" href="content_22.html">圣域走法图解</a></li>
+                    <li><a class="dropdown-item" href="content_23.html">赤月走法传送图</a></li>
+                    <li><a class="dropdown-item" href="content_25.html">沙巴克秘密通道走法</a></li>
+                    <li><a class="dropdown-item" href="content_24.html">道士3、4级毒伤害</a></li>
+                    <li><a class="dropdown-item" href="content_26.html">技能等级对照表</a></li>
+                    <li><a class="dropdown-item" href="content_27.html">法师宝宝属性表</a></li>
+                    <li><a class="dropdown-item" href="content_28.html">道士骷髅神兽属性</a></li>
+                    <li><a class="dropdown-item" href="content_29.html">传奇怪物属性表</a></li>
+                </ul>
+            </li>  
+    <li>
+                <a class="nav-link" href="jsq.html">计时器</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+<div style="width: 100%; display: flex; justify-content: center; align-items: center; padding: 10px 0;">
+    <a href="./daohang.html" target="_blank" class="text-decoration-none ad-link">
+        <img src="files/dh.gif" alt="�������" style="
+            display: block;
+            max-width: 100%;
+            height: auto;
+            object-fit: cover; /* ƽ����ʾ�����ֱ������������� */
+            border-radius: 12px; /* Բ�Ǵ�С�������е��� */
+            width: 100%; /* ƽ��ռ������������ */
+            max-height: 100%;
+        ">
+    </a>
+</div>
+
+
+<div id=fpb-c60 class="container-fluid">
+  <div id=fpb-c60 class="row flex-nowra pt-2"> <div id=fpb-c60 class="col-lg-2 col-xl-1 d-none d-lg-block text-nowrap left" style="border: 2px solid #decdcd;border-radius: 10px;background-color: rgb(255 246 250);" style="border: 2px solid #decdcd;border-radius: 10px;background-color: rgb(255 246 250);" style="border: 2px solid #decdcd;border-radius: 10px;background-color: rgb(255 246 250);">
+  <div id=fpb-c30 class="container text-center text-nowrap p-0">
+    <div id=fpb-c30 class="row">
+      <div id=fpb-c30 class="col-lg-12">武器</div>
+    </div>
+    <div id=fpb-c30 class="row">
+      <div id=fpb-c30 class="col-lg-6"><a id=fpb-c30 href="Item.html">通用</a></div>
+      <div id=fpb-c30 class="col-lg-6"><span id=fpb-c30 class="text-warrior"><a id=fpb-c30 href="Item_2.html">战士</a></span></div>
+    </div>
+    <div id=fpb-c30 class="row border-bottom">
+      <div id=fpb-c30 class="col-lg-6"><span id=fpb-c30 class="text-wizard"><a id=fpb-c30 href="Item_3.html">法师</a></span></div>
+      <div id=fpb-c30 class="col-lg-6"><span id=fpb-c30 class="text-taoist"><a id=fpb-c30 href="Item_4.html">道士</a></span></div>
+    </div>
+    <div id=fpb-c30 class="row">
+      <div id=fpb-c30 class="col-lg-12"><span id=fpb-c30>盔甲</span></div>
+    </div>
+    <div id=fpb-c30 class="row">
+      <div id=fpb-c30 class="col-lg-6"><a id=fpb-c30 href="Item_5.html">通用</a></div>
+      <div id=fpb-c30 class="col-lg-6"><span id=fpb-c30 class="text-warrior"><a id=fpb-c30 href="Item_6.html">战士</a></span></div>
+    </div>
+    <div id=fpb-c30 class="row border-bottom">
+      <div id=fpb-c30 class="col-lg-6"><span id=fpb-c30 class="text-wizard"><a id=fpb-c30 href="Item_7.html">法师</a></span></div>
+      <div id=fpb-c30 class="col-lg-6"><span id=fpb-c30 class="text-taoist"><a id=fpb-c30 href="Item_8.html">道士</a></span></div>
+    </div>
+    <div id=fpb-c30 class="row">
+      <div id=fpb-c30 class="col-lg-12"><span id=fpb-c30>项链</span></div>
+    </div>
+    <div id=fpb-c30 class="row">
+      <div id=fpb-c30 class="col-lg-6"><a id=fpb-c30 href="Item_10.html">通用</a></div>
+      <div id=fpb-c30 class="col-lg-6"><span id=fpb-c30 class="text-warrior"><a id=fpb-c30 href="Item_11.html">战士</a></span></div>
+    </div>
+    <div id=fpb-c30 class="row border-bottom">
+      <div id=fpb-c30 class="col-lg-6"><span id=fpb-c30 class="text-wizard"><a id=fpb-c30 href="Item_12.html">法师</a></span></div>
+      <div id=fpb-c30 class="col-lg-6"><span id=fpb-c30 class="text-taoist"><a id=fpb-c30 href="Item_13.html">道士</a></span></div>
+    </div>
+    <div id=fpb-c30 class="row">
+      <div id=fpb-c30 class="col-lg-12"><span id=fpb-c30>手镯&amp;手套</span></div>
+    </div>
+    <div id=fpb-c30 class="row">
+      <div id=fpb-c30 class="col-lg-6"><a id=fpb-c30 href="Item_14.html">通用</a></div>
+      <div id=fpb-c30 class="col-lg-6"><span id=fpb-c30 class="text-warrior"><a id=fpb-c30 href="Item_15.html">战士</a></span></div>
+    </div>
+    <div id=fpb-c30 class="row border-bottom">
+      <div id=fpb-c30 class="col-lg-6"><span id=fpb-c30 class="text-wizard"><a id=fpb-c30 href="Item_16.html">法师</a></span></div>
+      <div id=fpb-c30 class="col-lg-6"><span id=fpb-c30 class="text-taoist"><a id=fpb-c30 href="Item_17.html">道士</a></span></div>
+    </div>
+    <div id=fpb-c30 class="row">
+      <div id=fpb-c30 class="col-lg-12"><span id=fpb-c30>戒指</span></div>
+    </div>
+    <div id=fpb-c30 class="row">
+      <div id=fpb-c30 class="col-lg-6"><a id=fpb-c30 href="Item_18.html">通用</a></div>
+      <div id=fpb-c30 class="col-lg-6"><span id=fpb-c30 class="text-warrior"><a id=fpb-c30 href="Item_19.html">战士</a></span></div>
+    </div>
+    <div id=fpb-c30 class="row border-bottom">
+      <div id=fpb-c30 class="col-lg-6"><span id=fpb-c30 class="text-wizard"><a id=fpb-c30 href="Item_20.html">法师</a></span></div>
+      <div id=fpb-c30 class="col-lg-6"><span id=fpb-c30 class="text-taoist"><a id=fpb-c30 href="Item_21.html">道士</a></span></div>
+    </div>
+    <div id=fpb-c30 class="row">
+      <div id=fpb-c30 class="col-lg-12"><span id=fpb-c30>其他</span></div>
+    </div>
+    <div id=fpb-c30 class="row">
+      <div id=fpb-c30 class="col-lg-6"><a id=fpb-c30 href="Item_9.html">头盔</a></div>
+      <div id=fpb-c30 class="col-lg-6"><a id=fpb-c30 href="Item_29.html">勋章</a></div>
+    </div>
+    <div id=fpb-c30 class="row">
+      <div id=fpb-c30 class="col-lg-6"><a id=fpb-c30 href="Item_30.html">毒符</a></div>
+      <div id=fpb-c30 class="col-lg-6"><a id=fpb-c30 href="Item_31.html">书籍</a></div>
+    </div>
+    <div id=fpb-c30 class="row">
+      <div id=fpb-c30 class="col-lg-6"><a id=fpb-c30 href="Item_32.html">消耗品</a></div>
+      <div id=fpb-c30 class="col-lg-6"><a id=fpb-c30 href="Item_22.html">矿石</a></div>
+    </div>
+    <div id=fpb-c30 class="row border-bottom">
+      <div id=fpb-c30 class="col-lg-6"><a id=fpb-c30 href="Item_33.html">制药</a></div>
+      <div id=fpb-c30 class="col-lg-6"><a id=fpb-c30 href="Item_34.html">杂物</a></div>
+    </div>
+    <div id=fpb-c30 class="row">
+      <div id=fpb-c30 class="col-lg-12"><span id=fpb-c30>技能</span></div>
+    </div>
+    <div id=fpb-c30 class="row">
+      <div id=fpb-c30 class="col-lg-6"><span id=fpb-c30 class="text-warrior"><a id=fpb-c30 href="Magic.html">战士</a></span></div>
+      <div id=fpb-c30 class="col-lg-6"><span id=fpb-c30 class="text-wizard"><a id=fpb-c30 href="Magic_2.html">法师</a></span></div>
+    </div>
+    <div id=fpb-c30 class="row">
+      <div id=fpb-c30 class="col-lg-6"><span id=fpb-c30 class="text-taoist"><a id=fpb-c30 href="Magic_3.html">道士</a></span></div>
+      <div id=fpb-c30 class="col-lg-6"><span id=fpb-c30><a id=fpb-c30 href="Item_31.html">书籍</a></span></div>
+    </div>
+  </div>
+</div>
+    <div class="col-12 col-lg-10 col-xl-9 bg-grey main">
+      <div>
+        <div class="title">
+              <h2>Legend of Mir 2 资源参考手册</h2>
+              <p class="text-muted">WZL 补丁文件与人物动作帧数详解</p>
+            </div>
+
+        <div class="card mb-4 shadow-sm border-primary">
+          <div class="card-header bg-primary text-white d-flex justify-content-between align-items-center">
+            <h5 class="mb-0">✨ 核心补丁与魔法效果</h5>
+            <span class="badge badge-light">Core & Magic</span>
+          </div>
+          <div class="card-body">
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item"><strong>Magic.wzl</strong>：基础魔法技能效果图</li>
+              <li class="list-group-item"><strong>Magic2.wzl</strong>：补充魔法效果图（召唤神兽时符和雷电等）</li>
+              <li class="list-group-item"><strong>Magic3~10.wzl</strong>：后期版本扩展技能特效（开天、逐日、火雨等）</li>
+              <li class="list-group-item"><strong>MagIcon.wzl</strong>：基础技能栏魔法缩略图</li>
+              <li class="list-group-item"><strong>MagIcon2.wzl</strong>：扩展技能图标资源</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="card mb-4 shadow-sm border-danger">
+          <div class="card-header bg-danger text-white d-flex justify-content-between align-items-center">
+            <h5 class="mb-0">👾 怪物资源图库 (Mon)</h5>
+            <span class="badge badge-light">Monsters</span>
+          </div>
+          <div class="card-body">
+            <div class="row">
+              <div class="col-md-6">
+                <ul class="list-unstyled custom-list">
+                  <li><span class="text-danger">●</span> <strong>Mon1</strong>：(守卫,森林雪人,待刀护卫,足球)</li>
+                  <li><span class="text-danger">●</span> <strong>Mon2</strong>：(食人花)</li>
+                  <li><span class="text-danger">●</span> <strong>Mon3</strong>：(骷髅,猫,草人,暗黑战士,粪虫)</li>
+                  <li><span class="text-danger">●</span> <strong>Mon4</strong>：(沃玛系,红蛇,虎蛇,契蛾,变异骷髅)</li>
+                  <li><span class="text-danger">●</span> <strong>Mon5</strong>：(闪电僵尸,角蝇,羊,大老鼠,祖玛弓箭手)</li>
+                  <li><span class="text-danger">●</span> <strong>Mon6</strong>：(各类行走/爬行僵尸)</li>
+                  <li><span class="text-danger">●</span> <strong>Mon7</strong>：(祖玛雕像,祖玛卫士,祖玛教主)</li>
+                  <li><span class="text-danger">●</span> <strong>Mon8</strong>：(狼,弓箭手,虎卫,蜈蚣,黑色恶蛆)</li>
+                  <li><span class="text-danger">●</span> <strong>Mon9</strong>：(蝙蝠,跳跳蜂,巨型蠕虫,蝎子)</li>
+                  <li><span class="text-danger">●</span> <strong>Mon10</strong>：(多角虫,双头血魔,邪恶巨人)</li>
+                </ul>
+              </div>
+              <div class="col-md-6 border-left">
+                <ul class="list-unstyled custom-list">
+                  <li><span class="text-danger">●</span> <strong>Mon11</strong>：(半兽人,半兽战士,半兽勇士)</li>
+                  <li><span class="text-danger">●</span> <strong>Mon12</strong>：(猪卫,白野猪,赤月各类蜘蛛,巨人,金刚)</li>
+                  <li><span class="text-danger">●</span> <strong>Mon13</strong>：(钳虫,邪恶钳虫)</li>
+                  <li><span class="text-danger">●</span> <strong>Mon14</strong>：(蝎蛇,赤月恶魔,幻影/爆裂蜘蛛)</li>
+                  <li><span class="text-danger">●</span> <strong>Mon15</strong>：(邪恶蜈蚣,妖之树)</li>
+                  <li><span class="text-danger">●</span> <strong>Mon16</strong>：(骷髅精灵,沃玛卫士,尸王)</li>
+                  <li><span class="text-danger">●</span> <strong>Mon17</strong>：(鸡,鹿,蛤蟆,毒蜘蛛)</li>
+                  <li><span class="text-danger">●</span> <strong>Mon18</strong>：(神兽/麒麟)</li>
+                  <li><span class="text-danger">●</span> <strong>Mon19~60</strong>：后期BOSS（牛魔、魔龙、狐月等）</li>
+                  <li><span class="text-danger">●</span> <strong>Dragon/horse</strong>：火龙BOSS / 坐骑、狼、神兽外观</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="card mb-4 shadow-sm border-success">
+          <div class="card-header bg-success text-white d-flex justify-content-between align-items-center">
+            <h5 class="mb-0">🏠 地图、建筑与环境</h5>
+            <span class="badge badge-light">Maps & Environment</span>
+          </div>
+          <div class="card-body">
+            <div class="row">
+              <div class="col-md-4">
+                <h6>🗺️ 地图基础</h6>
+                <ul class="list-unstyled">
+                  <li><strong>mmap.wzl</strong>：小地图(MiniMap)</li>
+                  <li><strong>Tiles.wzl</strong>：标准地砖图</li>
+                  <li><strong>SmTiles.wzl</strong>：中层地砖/波纹图</li>
+                  <li><strong>cTiles.wzl</strong>：扩展地砖(高清)</li>
+                </ul>
+              </div>
+              <div class="col-md-4 border-left">
+                <h6>🏗️ 建筑障碍</h6>
+                <ul class="list-unstyled">
+                  <li><strong>Objects1~25.wzl</strong>：建筑、土地、围墙等障碍物图集</li>
+                </ul>
+              </div>
+              <div class="col-md-4 border-left">
+                <h6>🌿 装饰特效</h6>
+                <ul class="list-unstyled">
+                  <li><strong>Deco.wzl</strong>：地图装饰(花草、墓碑)</li>
+                  <li><strong>Effect1~10.wzl</strong>：通用特效(门碎、火柱等)</li>
+                  <li><strong>Effect_EX.wzl</strong>：天气(雪、雨、沙)</li>
+                  <li><strong>Effect_SE.wzl</strong>：环境(风沙、雾)</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="card mb-4 shadow-sm border-warning">
+          <div class="card-header bg-warning text-dark d-flex justify-content-between align-items-center">
+            <h5 class="mb-0">🛡️ 装备、人物与 UI</h5>
+            <span class="badge badge-dark">Items & Interface</span>
+          </div>
+          <div class="card-body">
+            <div class="row">
+              <div class="col-md-6">
+                <h6 class="border-bottom pb-2 font-weight-bold">🧥 外观与装备</h6>
+                <ul class="list-unstyled">
+                  <li><strong>Hum1~50.wzl</strong>：人物衣服/盔甲外观图集</li>
+                  <li><strong>Weapon1~50.wzl</strong>：武器/神兵外观图集</li>
+                  <li><strong>Hair.wzl</strong>：人物发型资源</li>
+                  <li><strong>HumEffect1~20.wzl</strong>：翅膀、足迹、斗笠特效</li>
+                  <li><strong>Items/2/3.wzl</strong>：包裹内物品图标</li>
+                  <li><strong>DnItems/2.wzl</strong>：地面掉落物品图标</li>
+                </ul>
+              </div>
+              <div class="col-md-6 border-left">
+                <h6 class="border-bottom pb-2 font-weight-bold">🖥️ 系统 UI 界面</h6>
+                <ul class="list-unstyled">
+                  <li><strong>Prguse/2/3.wzl</strong>：主控制面板/选服/系统UI</li>
+                  <li><strong>NewopUI.wzl</strong>：现代版 UI（血条、功能按键）</li>
+                  <li><strong>StateItem.wzl</strong>：F10 角色属性面板图</li>
+                  <li><strong>ChrSel.wzl</strong>：创建/选择角色界面图</li>
+                  <li><strong>Loading.wzl</strong>：地图切换加载背景</li>
+                  <li><strong>MsgBox.wzl</strong>：系统对话框/提示框皮肤</li>
+                  <li><strong>Icon.wzl</strong>：游戏内各类状态/功能图标</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="card mb-4 shadow-sm border-secondary">
+          <div class="card-header bg-secondary text-white d-flex justify-content-between align-items-center">
+            <h5 class="mb-0">🎵 声音与多媒体资源</h5>
+            <span class="badge badge-light">Sound & Media</span>
+          </div>
+          <div class="card-body">
+            <ul class="list-unstyled row text-center">
+              <li class="col-md-4"><strong>Sound.wzl</strong>：基础音效 (技能/受击)</li>
+              <li class="col-md-4"><strong>Wav.wzl</strong>：背景音乐/环境音扩展</li>
+              <li class="col-md-4"><strong>Background.wzl</strong>：登录界面背景图</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="card mb-4 shadow-sm">
+          <div class="card-header bg-info text-white">
+            <h5 class="mb-0">🏃 人物动作帧数参考</h5>
+          </div>
+          <div class="card-body p-0">
+            <table class="table table-hover table-striped mb-0 text-center">
+              <thead class="thead-dark">
+                <tr>
+                  <th>人物动作</th>
+                  <th>单方向帧数</th>
+                  <th>八方向总帧数</th>
+                  <th>占比</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>站立 (Idle)</td>
+                  <td>4 帧</td>
+                  <td>32 张</td>
+                  <td>14.3%</td>
+                </tr>
+                <tr>
+                  <td>行走 (Walk)</td>
+                  <td>6 帧</td>
+                  <td>48 张</td>
+                  <td>21.4%</td>
+                </tr>
+                <tr>
+                  <td>攻击 (Attack)</td>
+                  <td>6 帧</td>
+                  <td>48 张</td>
+                  <td>21.4%</td>
+                </tr>
+                <tr>
+                  <td>挨打 / 受击 (Struck)</td>
+                  <td>2 帧</td>
+                  <td>16 张</td>
+                  <td>7.1%</td>
+                </tr>
+                <tr>
+                  <td>死亡 (Death / 尸体)</td>
+                  <td>10 帧</td>
+                  <td>80 张</td>
+                  <td>35.7%</td>
+                </tr>
+              </tbody>
+              <tfoot class="font-weight-bold bg-light">
+                <tr>
+                  <td>总计</td>
+                  <td>-</td>
+                  <td>224 张</td>
+                  <td>100%</td>
+                </tr>
+              </tfoot>
+            </table>
+          </div>
+        </div>
+
+
+
+
+      </div>
+    </div>
+  </div>
+</div>
+<div class="text-secondary font-weight-lighter text-center py-1 border-top">
+	致力于追忆2003年1.76热血传奇
+	 <ul>
+        <br>友情链接<br>
+				<li class="list-inline-item"><a href="https://www.176170.xyz/" target="_blank">传奇补丁导航</a></li>
+<li class="list-inline-item"><a href="https://blog.176170.xyz/" target="_blank">如初的博客</a></li>
+		<li class="list-inline-item"><a href="http://ruchu888.ysepan.com" target="_blank">传奇补丁下载</a></li>
+              <li class="list-inline-item"><a href="http://ruchu888.ysepan.com/" target="_blank">如初的网盘</a></li>
+        </ul>
+</div>
+<script charset="UTF-8" id="LA_COLLECT" src="//sdk.51.la/js-sdk-pro.min.js"></script>
+<script type="text/javascript" id="myhk" src="https://myhkw.cn/api/player/171819249893" key="171819249893" m="1"></script>
+<script>LA.init({id:"3JsROvHYidvkpN9A",ck:"3JsROvHYidvkpN9A"})</script>
+<script src="./static/ruchu/js/ruchu.js"></script> 
+<script src="./static/ruchu/js/jquery.min.js"></script> 
+<script src="./static/ruchu/js/bootstrap.bundle.min.js"></script>
+	<script>
+	$(document).ready(function () {
+		$('.dropdown-submenu a.dropdown-toggle').on("click", function(e) {
+			var $el = $(this);
+			var $submenu = $el.next(".dropdown-menu");
+
+			if (!$submenu.hasClass('show')) {
+				$submenu.parent().siblings().find(".dropdown-menu").removeClass("show");
+				$submenu.toggleClass('show');
+			}
+
+			e.preventDefault();
+			e.stopPropagation();
+		});
+
+		$(document).on("click", function() {
+			$('.dropdown-menu.show').removeClass("show");
+		});
+	});
+	</script>
+
+
+</body>
+</html>
